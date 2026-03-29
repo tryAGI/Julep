@@ -1,6 +1,9 @@
 # Microsoft.Extensions.AI Integration
 
-The Julep SDK provides `AIFunction` tools that integrate with any `IChatClient` via the [Microsoft.Extensions.AI](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai) abstractions.
+!!! tip "Cross-SDK comparison"
+    See the [centralized MEAI documentation](https://tryagi.github.io/docs/meai/) for feature matrices and comparisons across all tryAGI SDKs.
+
+The Julep SDK provides `AIFunction` tool wrappers compatible with [Microsoft.Extensions.AI](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai). These tools can be used with any `IChatClient` to give AI models access to Julep's stateful AI agent workflows, session management, and task execution.
 
 ## Available Tools
 
