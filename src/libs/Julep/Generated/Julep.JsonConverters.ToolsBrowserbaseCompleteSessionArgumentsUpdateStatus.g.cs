@@ -1,0 +1,53 @@
+#nullable enable
+
+namespace Julep.JsonConverters
+{
+    /// <inheritdoc />
+    public sealed class ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus>
+    {
+        /// <inheritdoc />
+        public override global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus Read(
+            ref global::System.Text.Json.Utf8JsonReader reader,
+            global::System.Type typeToConvert,
+            global::System.Text.Json.JsonSerializerOptions options)
+        {
+            switch (reader.TokenType)
+            {
+                case global::System.Text.Json.JsonTokenType.String:
+                {
+                    var stringValue = reader.GetString();
+                    if (stringValue != null)
+                    {
+                        return global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusExtensions.ToEnum(stringValue) ?? default;
+                    }
+                    
+                    break;
+                }
+                case global::System.Text.Json.JsonTokenType.Number:
+                {
+                    var numValue = reader.GetInt32();
+                    return (global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus)numValue;
+                }
+                case global::System.Text.Json.JsonTokenType.Null:
+                {
+                    return default(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus);
+                }
+                default:
+                    throw new global::System.ArgumentOutOfRangeException(nameof(reader));
+            }
+
+            return default;
+        }
+
+        /// <inheritdoc />
+        public override void Write(
+            global::System.Text.Json.Utf8JsonWriter writer,
+            global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus value,
+            global::System.Text.Json.JsonSerializerOptions options)
+        {
+            writer = writer ?? throw new global::System.ArgumentNullException(nameof(writer));
+
+            writer.WriteStringValue(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusExtensions.ToValueString(value));
+        }
+    }
+}

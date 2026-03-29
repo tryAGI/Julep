@@ -1,0 +1,68 @@
+
+#nullable enable
+
+namespace Julep
+{
+    /// <summary>
+    /// 
+    /// </summary>
+    public sealed partial class ResponsesComputerScreenshotImage
+    {
+        /// <summary>
+        /// Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+        /// </summary>
+        [global::System.Text.Json.Serialization.JsonPropertyName("type")]
+        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter))]
+        public global::Julep.ResponsesComputerScreenshotImageType Type { get; set; }
+
+        /// <summary>
+        /// The URL of the screenshot image.
+        /// </summary>
+        [global::System.Text.Json.Serialization.JsonPropertyName("image_url")]
+        public string? ImageUrl { get; set; }
+
+        /// <summary>
+        /// The identifier of an uploaded file that contains the screenshot.
+        /// </summary>
+        [global::System.Text.Json.Serialization.JsonPropertyName("file_id")]
+        public string? FileId { get; set; }
+
+        /// <summary>
+        /// Additional properties that are not explicitly defined in the schema
+        /// </summary>
+        [global::System.Text.Json.Serialization.JsonExtensionData]
+        public global::System.Collections.Generic.IDictionary<string, object> AdditionalProperties { get; set; } = new global::System.Collections.Generic.Dictionary<string, object>();
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ResponsesComputerScreenshotImage" /> class.
+        /// </summary>
+        /// <param name="type">
+        /// Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+        /// </param>
+        /// <param name="imageUrl">
+        /// The URL of the screenshot image.
+        /// </param>
+        /// <param name="fileId">
+        /// The identifier of an uploaded file that contains the screenshot.
+        /// </param>
+#if NET7_0_OR_GREATER
+        [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
+#endif
+        public ResponsesComputerScreenshotImage(
+            global::Julep.ResponsesComputerScreenshotImageType type,
+            string? imageUrl,
+            string? fileId)
+        {
+            this.Type = type;
+            this.ImageUrl = imageUrl;
+            this.FileId = fileId;
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ResponsesComputerScreenshotImage" /> class.
+        /// </summary>
+        public ResponsesComputerScreenshotImage()
+        {
+        }
+    }
+}

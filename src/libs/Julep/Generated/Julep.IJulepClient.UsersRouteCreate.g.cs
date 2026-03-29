@@ -1,0 +1,39 @@
+#nullable enable
+
+namespace Julep
+{
+    public partial interface IJulepClient
+    {
+        /// <summary>
+        /// Create a new user
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Julep.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Julep.UsersUser> UsersRouteCreateAsync(
+
+            global::Julep.UsersCreateUserRequest request,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Create a new user
+        /// </summary>
+        /// <param name="metadata"></param>
+        /// <param name="name">
+        /// Name of the user
+        /// </param>
+        /// <param name="about">
+        /// About the user
+        /// </param>
+        /// <param name="project">
+        /// Project canonical name of the user
+        /// </param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::System.InvalidOperationException"></exception>
+        global::System.Threading.Tasks.Task<global::Julep.UsersUser> UsersRouteCreateAsync(
+            string name,
+            string about,
+            object? metadata = default,
+            string? project = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+    }
+}

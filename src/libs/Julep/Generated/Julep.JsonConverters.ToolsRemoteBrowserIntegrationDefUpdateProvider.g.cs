@@ -1,0 +1,53 @@
+#nullable enable
+
+namespace Julep.JsonConverters
+{
+    /// <inheritdoc />
+    public sealed class ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider>
+    {
+        /// <inheritdoc />
+        public override global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider Read(
+            ref global::System.Text.Json.Utf8JsonReader reader,
+            global::System.Type typeToConvert,
+            global::System.Text.Json.JsonSerializerOptions options)
+        {
+            switch (reader.TokenType)
+            {
+                case global::System.Text.Json.JsonTokenType.String:
+                {
+                    var stringValue = reader.GetString();
+                    if (stringValue != null)
+                    {
+                        return global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProviderExtensions.ToEnum(stringValue) ?? default;
+                    }
+                    
+                    break;
+                }
+                case global::System.Text.Json.JsonTokenType.Number:
+                {
+                    var numValue = reader.GetInt32();
+                    return (global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider)numValue;
+                }
+                case global::System.Text.Json.JsonTokenType.Null:
+                {
+                    return default(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider);
+                }
+                default:
+                    throw new global::System.ArgumentOutOfRangeException(nameof(reader));
+            }
+
+            return default;
+        }
+
+        /// <inheritdoc />
+        public override void Write(
+            global::System.Text.Json.Utf8JsonWriter writer,
+            global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider value,
+            global::System.Text.Json.JsonSerializerOptions options)
+        {
+            writer = writer ?? throw new global::System.ArgumentNullException(nameof(writer));
+
+            writer.WriteStringValue(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProviderExtensions.ToValueString(value));
+        }
+    }
+}
