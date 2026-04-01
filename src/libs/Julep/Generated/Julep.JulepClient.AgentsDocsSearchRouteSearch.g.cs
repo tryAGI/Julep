@@ -197,7 +197,6 @@ namespace Julep
             global::Julep.AnyOf<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest> body,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Julep.AgentsDocsSearchRouteSearchRequest
             {
                 Body = body,

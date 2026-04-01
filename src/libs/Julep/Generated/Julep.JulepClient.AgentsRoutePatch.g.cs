@@ -230,7 +230,6 @@ namespace Julep
             string? defaultSystemTemplate = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Julep.AgentsPatchAgentRequest
             {
                 Metadata = metadata,

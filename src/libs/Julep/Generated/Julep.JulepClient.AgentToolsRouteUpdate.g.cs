@@ -235,7 +235,6 @@ namespace Julep
             global::Julep.ToolsBash20241022Def? bash20241022 = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Julep.ToolsUpdateToolRequest
             {
                 Name = name,
