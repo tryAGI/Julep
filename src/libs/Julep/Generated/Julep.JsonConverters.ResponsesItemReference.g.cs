@@ -346,49 +346,49 @@ namespace Julep.JsonConverters
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesInputMessageResource), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesInputMessageResource?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesInputMessageResource).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.InputMessageResource, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.InputMessageResource!, typeInfo);
             }
             else if (value.IsOutputMessage)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesOutputMessage), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesOutputMessage?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesOutputMessage).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.OutputMessage, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.OutputMessage!, typeInfo);
             }
             else if (value.IsFileSearchToolCall)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFileSearchToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFileSearchToolCall?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFileSearchToolCall).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FileSearchToolCall, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FileSearchToolCall!, typeInfo);
             }
             else if (value.IsComputerToolCall)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesComputerToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesComputerToolCall?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesComputerToolCall).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.ComputerToolCall, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.ComputerToolCall!, typeInfo);
             }
             else if (value.IsComputerToolCallOutputResource)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesComputerToolCallOutputResource), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesComputerToolCallOutputResource?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesComputerToolCallOutputResource).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.ComputerToolCallOutputResource, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.ComputerToolCallOutputResource!, typeInfo);
             }
             else if (value.IsWebSearchToolCall)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesWebSearchToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesWebSearchToolCall?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesWebSearchToolCall).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.WebSearchToolCall, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.WebSearchToolCall!, typeInfo);
             }
             else if (value.IsFunctionToolCall)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFunctionToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFunctionToolCall?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFunctionToolCall).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FunctionToolCall, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FunctionToolCall!, typeInfo);
             }
             else if (value.IsFunctionToolCallOutputResource)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFunctionToolCallOutputResource), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFunctionToolCallOutputResource?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFunctionToolCallOutputResource).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FunctionToolCallOutputResource, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FunctionToolCallOutputResource!, typeInfo);
             }
         }
     }
