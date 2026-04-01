@@ -209,7 +209,6 @@ namespace Julep
             string? project = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-
             var __request = new global::Julep.UsersUpdateUserRequest
             {
                 Metadata = metadata,
