@@ -189,6 +189,7 @@ namespace Julep
             global::Julep.AnyOf<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest> body,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
+
             var __request = new global::Julep.EmbedRouteEmbedRequest
             {
                 Body = body,

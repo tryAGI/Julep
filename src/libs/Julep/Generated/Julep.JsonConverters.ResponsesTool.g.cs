@@ -204,25 +204,25 @@ namespace Julep.JsonConverters
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFunctionTool), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFunctionTool?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFunctionTool).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.Function, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.Function!, typeInfo);
             }
             else if (value.IsWebSearch)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesWebSearchTool), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesWebSearchTool?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesWebSearchTool).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.WebSearch, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.WebSearch!, typeInfo);
             }
             else if (value.IsFileSearch)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFileSearchTool), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFileSearchTool?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFileSearchTool).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FileSearch, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.FileSearch!, typeInfo);
             }
             else if (value.IsComputer)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesComputerTool), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesComputerTool?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesComputerTool).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.Computer, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.Computer!, typeInfo);
             }
         }
     }
