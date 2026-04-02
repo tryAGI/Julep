@@ -154,7 +154,7 @@ namespace Julep
                     __response.EnsureSuccessStatusCode();
 
                     return
-                        global::Julep.AgentToolsRouteListResponse.FromJson(__content, JsonSerializerContext) ??
+                        global::Julep.AgentToolsRouteListResponse.FromJson(__content, JsonSerializerOptions) ??
                         throw new global::System.InvalidOperationException($"Response deserialization failed for \"{__content}\" ");
                 }
                 catch (global::System.Exception __ex)
@@ -185,7 +185,7 @@ namespace Julep
                     ).ConfigureAwait(false);
 
                     return
-                        await global::Julep.AgentToolsRouteListResponse.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
+                        await global::Julep.AgentToolsRouteListResponse.FromJsonStreamAsync(__content, JsonSerializerOptions).ConfigureAwait(false) ??
                         throw new global::System.InvalidOperationException("Response deserialization failed.");
                 }
                 catch (global::System.Exception __ex)
