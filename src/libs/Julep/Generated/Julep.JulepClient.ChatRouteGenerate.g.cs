@@ -106,7 +106,7 @@ namespace Julep
                 __httpRequest.Headers.TryAddWithoutValidation("x-custom-api-key", xCustomApiKey.ToString());
             }
 
-            var __httpRequestContentBody = request.ToJson(JsonSerializerOptions);
+            var __httpRequestContentBody = request.ToJson(JsonSerializerContext);
             var __httpRequestContent = new global::System.Net.Http.StringContent(
                 content: __httpRequestContentBody,
                 encoding: global::System.Text.Encoding.UTF8,
@@ -157,7 +157,7 @@ namespace Julep
                     __response.EnsureSuccessStatusCode();
 
                     return
-                        global::Julep.AnyOf<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>.FromJson(__content, JsonSerializerOptions) ??
+                        global::Julep.AnyOf<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>.FromJson(__content, JsonSerializerContext) ??
                         throw new global::System.InvalidOperationException($"Response deserialization failed for \"{__content}\" ");
                 }
                 catch (global::System.Exception __ex)
@@ -187,7 +187,7 @@ namespace Julep
                     ).ConfigureAwait(false);
 
                     return
-                        await global::Julep.AnyOf<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>.FromJsonStreamAsync(__content, JsonSerializerOptions).ConfigureAwait(false) ??
+                        await global::Julep.AnyOf<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
                         throw new global::System.InvalidOperationException("Response deserialization failed.");
                 }
                 catch (global::System.Exception __ex)
