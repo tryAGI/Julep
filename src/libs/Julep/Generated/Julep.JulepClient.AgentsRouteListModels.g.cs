@@ -5,6 +5,25 @@ namespace Julep
 {
     public partial class JulepClient
     {
+
+
+        private static readonly global::Julep.EndPointSecurityRequirement s_AgentsRouteListModelsSecurityRequirement0 =
+            new global::Julep.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
+                {                    new global::Julep.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Julep.EndPointSecurityRequirement[] s_AgentsRouteListModelsSecurityRequirements =
+            new global::Julep.EndPointSecurityRequirement[]
+            {                s_AgentsRouteListModelsSecurityRequirement0,
+            };
         partial void PrepareAgentsRouteListModelsArguments(
             global::System.Net.Http.HttpClient httpClient);
         partial void PrepareAgentsRouteListModelsRequest(
@@ -32,9 +51,15 @@ namespace Julep
             PrepareAgentsRouteListModelsArguments(
                 httpClient: HttpClient);
 
+
+            var __authorizations = global::Julep.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_AgentsRouteListModelsSecurityRequirements,
+                operationName: "AgentsRouteListModelsAsync");
+
             var __pathBuilder = new global::Julep.PathBuilder(
                 path: "/agents/models",
-                baseUri: HttpClient.BaseAddress); 
+                baseUri: HttpClient.BaseAddress);
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Get,
@@ -44,7 +69,7 @@ namespace Julep
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

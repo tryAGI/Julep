@@ -5,6 +5,25 @@ namespace Julep
 {
     public partial class JulepClient
     {
+
+
+        private static readonly global::Julep.EndPointSecurityRequirement s_UsersRouteDeleteSecurityRequirement0 =
+            new global::Julep.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
+                {                    new global::Julep.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Julep.EndPointSecurityRequirement[] s_UsersRouteDeleteSecurityRequirements =
+            new global::Julep.EndPointSecurityRequirement[]
+            {                s_UsersRouteDeleteSecurityRequirement0,
+            };
         partial void PrepareUsersRouteDeleteArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref global::System.Guid id);
@@ -37,9 +56,15 @@ namespace Julep
                 httpClient: HttpClient,
                 id: ref id);
 
+
+            var __authorizations = global::Julep.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_UsersRouteDeleteSecurityRequirements,
+                operationName: "UsersRouteDeleteAsync");
+
             var __pathBuilder = new global::Julep.PathBuilder(
                 path: $"/users/{id}",
-                baseUri: HttpClient.BaseAddress); 
+                baseUri: HttpClient.BaseAddress);
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Delete,
@@ -49,7 +74,7 @@ namespace Julep
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

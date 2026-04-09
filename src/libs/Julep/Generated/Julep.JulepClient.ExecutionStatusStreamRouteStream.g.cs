@@ -5,6 +5,25 @@ namespace Julep
 {
     public partial class JulepClient
     {
+
+
+        private static readonly global::Julep.EndPointSecurityRequirement s_ExecutionStatusStreamRouteStreamSecurityRequirement0 =
+            new global::Julep.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
+                {                    new global::Julep.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Julep.EndPointSecurityRequirement[] s_ExecutionStatusStreamRouteStreamSecurityRequirements =
+            new global::Julep.EndPointSecurityRequirement[]
+            {                s_ExecutionStatusStreamRouteStreamSecurityRequirement0,
+            };
         partial void PrepareExecutionStatusStreamRouteStreamArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref global::System.Guid id,
@@ -39,12 +58,18 @@ namespace Julep
                 id: ref id,
                 nextToken: ref nextToken);
 
+
+            var __authorizations = global::Julep.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_ExecutionStatusStreamRouteStreamSecurityRequirements,
+                operationName: "ExecutionStatusStreamRouteStreamAsync");
+
             var __pathBuilder = new global::Julep.PathBuilder(
                 path: $"/executions/{id}/status.stream",
                 baseUri: HttpClient.BaseAddress); 
             __pathBuilder
                 .AddOptionalParameter("next_token", nextToken) 
-                ; 
+                ;
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Get,
@@ -54,7 +79,7 @@ namespace Julep
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

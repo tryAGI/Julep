@@ -5,6 +5,25 @@ namespace Julep
 {
     public partial class JulepClient
     {
+
+
+        private static readonly global::Julep.EndPointSecurityRequirement s_TaskExecutionsRouteListSecurityRequirement0 =
+            new global::Julep.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
+                {                    new global::Julep.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Julep.EndPointSecurityRequirement[] s_TaskExecutionsRouteListSecurityRequirements =
+            new global::Julep.EndPointSecurityRequirement[]
+            {                s_TaskExecutionsRouteListSecurityRequirement0,
+            };
         partial void PrepareTaskExecutionsRouteListArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref global::System.Guid id,
@@ -72,6 +91,12 @@ namespace Julep
                 direction: ref direction,
                 metadataFilter: metadataFilter);
 
+
+            var __authorizations = global::Julep.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_TaskExecutionsRouteListSecurityRequirements,
+                operationName: "TaskExecutionsRouteListAsync");
+
             var __pathBuilder = new global::Julep.PathBuilder(
                 path: $"/tasks/{id}/executions",
                 baseUri: HttpClient.BaseAddress); 
@@ -81,7 +106,7 @@ namespace Julep
                 .AddRequiredParameter("sort_by", sortBy.ToValueString())
                 .AddRequiredParameter("direction", direction.ToValueString())
                 .AddRequiredParameter("metadata_filter", metadataFilter.ToString()!) 
-                ; 
+                ;
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Get,
@@ -91,7 +116,7 @@ namespace Julep
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

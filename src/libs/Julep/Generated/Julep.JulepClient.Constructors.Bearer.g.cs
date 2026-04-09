@@ -6,6 +6,7 @@ namespace Julep
     public sealed partial class JulepClient
     {
         /// <inheritdoc cref="JulepClient(global::System.Net.Http.HttpClient?, global::System.Uri?, global::System.Collections.Generic.List{global::Julep.EndPointAuthorization}?, bool)"/>
+
         public JulepClient(
             string apiKey,
             global::System.Net.Http.HttpClient? httpClient = null,
