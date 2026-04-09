@@ -5,6 +5,25 @@ namespace Julep
 {
     public partial class JulepClient
     {
+
+
+        private static readonly global::Julep.EndPointSecurityRequirement s_ChatRouteGenerateAsStreamSecurityRequirement0 =
+            new global::Julep.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
+                {                    new global::Julep.EndPointAuthorizationRequirement
+                    {
+                        Type = "Http",
+                        Location = "Header",
+                        Name = "Bearer",
+                        FriendlyName = "Bearer",
+                    },
+                },
+            };
+        private static readonly global::Julep.EndPointSecurityRequirement[] s_ChatRouteGenerateAsStreamSecurityRequirements =
+            new global::Julep.EndPointSecurityRequirement[]
+            {                s_ChatRouteGenerateAsStreamSecurityRequirement0,
+            };
         partial void PrepareChatRouteGenerateAsStreamArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref global::System.Guid id,
@@ -68,9 +87,15 @@ namespace Julep
                 xCustomApiKey: ref xCustomApiKey,
                 request: request);
 
+
+            var __authorizations = global::Julep.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_ChatRouteGenerateAsStreamSecurityRequirements,
+                operationName: "ChatRouteGenerateAsStreamAsync");
+
             var __pathBuilder = new global::Julep.PathBuilder(
                 path: $"/sessions/{id}/chat",
-                baseUri: HttpClient.BaseAddress); 
+                baseUri: HttpClient.BaseAddress);
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Post,
@@ -80,7 +105,7 @@ namespace Julep
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
 
-            foreach (var __authorization in Authorizations)
+            foreach (var __authorization in __authorizations)
             {
                 if (__authorization.Type == "Http" ||
                     __authorization.Type == "OAuth2")

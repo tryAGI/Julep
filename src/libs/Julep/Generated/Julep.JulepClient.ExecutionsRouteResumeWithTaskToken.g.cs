@@ -5,6 +5,19 @@ namespace Julep
 {
     public partial class JulepClient
     {
+
+
+        private static readonly global::Julep.EndPointSecurityRequirement s_ExecutionsRouteResumeWithTaskTokenSecurityRequirement0 =
+            new global::Julep.EndPointSecurityRequirement
+            {
+                Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
+                { 
+                },
+            };
+        private static readonly global::Julep.EndPointSecurityRequirement[] s_ExecutionsRouteResumeWithTaskTokenSecurityRequirements =
+            new global::Julep.EndPointSecurityRequirement[]
+            {                s_ExecutionsRouteResumeWithTaskTokenSecurityRequirement0,
+            };
         partial void PrepareExecutionsRouteResumeWithTaskTokenArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref string taskToken,
@@ -45,12 +58,18 @@ namespace Julep
                 taskToken: ref taskToken,
                 request: request);
 
+
+            var __authorizations = global::Julep.EndPointSecurityResolver.ResolveAuthorizations(
+                availableAuthorizations: Authorizations,
+                securityRequirements: s_ExecutionsRouteResumeWithTaskTokenSecurityRequirements,
+                operationName: "ExecutionsRouteResumeWithTaskTokenAsync");
+
             var __pathBuilder = new global::Julep.PathBuilder(
                 path: "/executions",
                 baseUri: HttpClient.BaseAddress); 
             __pathBuilder
                 .AddRequiredParameter("task_token", taskToken) 
-                ; 
+                ;
             var __path = __pathBuilder.ToString();
             using var __httpRequest = new global::System.Net.Http.HttpRequestMessage(
                 method: global::System.Net.Http.HttpMethod.Post,
@@ -59,22 +78,6 @@ namespace Julep
             __httpRequest.Version = global::System.Net.HttpVersion.Version11;
             __httpRequest.VersionPolicy = global::System.Net.Http.HttpVersionPolicy.RequestVersionOrHigher;
 #endif
-
-            foreach (var __authorization in Authorizations)
-            {
-                if (__authorization.Type == "Http" ||
-                    __authorization.Type == "OAuth2")
-                {
-                    __httpRequest.Headers.Authorization = new global::System.Net.Http.Headers.AuthenticationHeaderValue(
-                        scheme: __authorization.Name,
-                        parameter: __authorization.Value);
-                }
-                else if (__authorization.Type == "ApiKey" &&
-                         __authorization.Location == "Header")
-                {
-                    __httpRequest.Headers.Add(__authorization.Name, __authorization.Value);
-                }
-            }
             var __httpRequestContentBody = request.ToJson(JsonSerializerContext);
             var __httpRequestContent = new global::System.Net.Http.StringContent(
                 content: __httpRequestContentBody,
