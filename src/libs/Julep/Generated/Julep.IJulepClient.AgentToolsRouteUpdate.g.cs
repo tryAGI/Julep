@@ -10,6 +10,7 @@ namespace Julep
         /// <param name="id"></param>
         /// <param name="childId"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<string> AgentToolsRouteUpdateAsync(
@@ -17,6 +18,7 @@ namespace Julep
             global::System.Guid childId,
 
             global::Julep.ToolsUpdateToolRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Update a resource owned by the given parent using its id
@@ -49,6 +51,7 @@ namespace Julep
         /// </param>
         /// <param name="textEditor20241022"></param>
         /// <param name="bash20241022"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<string> AgentToolsRouteUpdateAsync(
@@ -64,6 +67,7 @@ namespace Julep
             global::Julep.ToolsComputer20241022Def? computer20241022 = default,
             global::Julep.ToolsTextEditor20241022Def? textEditor20241022 = default,
             global::Julep.ToolsBash20241022Def? bash20241022 = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

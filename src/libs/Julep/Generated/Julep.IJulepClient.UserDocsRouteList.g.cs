@@ -26,6 +26,7 @@ namespace Julep
         /// <param name="includeEmbeddings">
         /// Default Value: true
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.UserDocsRouteListResponse> UserDocsRouteListAsync(
@@ -36,6 +37,7 @@ namespace Julep
             global::Julep.UserDocsRouteListSortBy sortBy = global::Julep.UserDocsRouteListSortBy.CreatedAt,
             global::Julep.UserDocsRouteListDirection direction = global::Julep.UserDocsRouteListDirection.Asc,
             bool? includeEmbeddings = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

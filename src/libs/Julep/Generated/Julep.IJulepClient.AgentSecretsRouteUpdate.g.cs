@@ -10,6 +10,7 @@ namespace Julep
         /// <param name="id"></param>
         /// <param name="childId"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.SecretsSecret> AgentSecretsRouteUpdateAsync(
@@ -17,6 +18,7 @@ namespace Julep
             global::System.Guid childId,
 
             global::Julep.SecretsUpdateSecretRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Update an existing secret by id (overwrites existing values)
@@ -33,6 +35,7 @@ namespace Julep
         /// <param name="value">
         /// The decrypted secret value
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.SecretsSecret> AgentSecretsRouteUpdateAsync(
@@ -42,6 +45,7 @@ namespace Julep
             string value,
             object? metadata = default,
             string? description = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

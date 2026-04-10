@@ -8,11 +8,13 @@ namespace Julep
         /// Creates a model response. Provide text or image inputs to generate text or JSON outputs.
         /// </summary>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.ResponsesResponse> ResponsesRouteCreateResponseAsync(
 
             global::Julep.ResponsesCreateResponse request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Creates a model response. Provide text or image inputs to generate text or JSON outputs.
@@ -52,6 +54,7 @@ namespace Julep
         /// <param name="tools"></param>
         /// <param name="truncation"></param>
         /// <param name="metadata"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.ResponsesResponse> ResponsesRouteCreateResponseAsync(
@@ -78,6 +81,7 @@ namespace Julep
             global::System.Collections.Generic.IList<global::Julep.ResponsesTool>? tools = default,
             global::Julep.ResponsesCreateResponseTruncation? truncation = default,
             object? metadata = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

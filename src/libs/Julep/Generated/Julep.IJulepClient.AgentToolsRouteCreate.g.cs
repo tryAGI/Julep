@@ -9,12 +9,14 @@ namespace Julep
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<string> AgentToolsRouteCreateAsync(
             global::System.Guid id,
 
             global::Julep.AgentsCreateAgentRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Create a new resource owned by the given parent
@@ -46,6 +48,7 @@ namespace Julep
         /// <param name="defaultSystemTemplate">
         /// Default system template for all sessions created by this agent
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<string> AgentToolsRouteCreateAsync(
@@ -59,6 +62,7 @@ namespace Julep
             string? project = default,
             string? canonicalName = default,
             object? defaultSettings = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

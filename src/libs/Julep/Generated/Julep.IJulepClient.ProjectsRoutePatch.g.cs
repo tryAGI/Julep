@@ -9,12 +9,14 @@ namespace Julep
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.ProjectsProject> ProjectsRoutePatchAsync(
             global::System.Guid id,
 
             global::Julep.ProjectsPatchProjectRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Update an existing Project by id (merges with existing values)
@@ -27,6 +29,7 @@ namespace Julep
         /// <param name="name">
         /// Display name of the project
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.ProjectsProject> ProjectsRoutePatchAsync(
@@ -34,6 +37,7 @@ namespace Julep
             object? metadata = default,
             string? canonicalName = default,
             string? name = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }
