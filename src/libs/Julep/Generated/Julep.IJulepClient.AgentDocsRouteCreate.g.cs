@@ -9,12 +9,14 @@ namespace Julep
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.DocsDoc> AgentDocsRouteCreateAsync(
             global::System.Guid id,
 
             global::Julep.DocsCreateDocRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Create a Doc for this Agent
@@ -31,6 +33,7 @@ namespace Julep
         /// Instruction for the embedding model.<br/>
         /// Default Value: openapi-json-null-sentinel-value-2BF93600-0FE4-4250-987A-E5DDB203E464
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.DocsDoc> AgentDocsRouteCreateAsync(
@@ -39,6 +42,7 @@ namespace Julep
             global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>> content,
             object? metadata = default,
             string? embedInstruction = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

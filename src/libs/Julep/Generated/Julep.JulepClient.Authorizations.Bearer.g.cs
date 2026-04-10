@@ -25,6 +25,7 @@ namespace Julep
             Authorizations.Add(new global::Julep.EndPointAuthorization
             {
                 Type = "Http",
+                SchemeId = "BearerAuth",
                 Location = "Header",
                 Name = "Bearer",
                 Value = apiKey,

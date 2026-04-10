@@ -9,12 +9,14 @@ namespace Julep
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.SessionsSession> SessionsRouteCreateOrUpdateAsync(
             global::System.Guid id,
 
             global::Julep.SessionsCreateSessionRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Create or update a session
@@ -63,6 +65,7 @@ namespace Julep
         /// Default Value: openapi-json-null-sentinel-value-2BF93600-0FE4-4250-987A-E5DDB203E464
         /// </param>
         /// <param name="metadata"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.SessionsSession> SessionsRouteCreateOrUpdateAsync(
@@ -80,6 +83,7 @@ namespace Julep
             global::Julep.SessionsContextOverflowType? contextOverflow = default,
             global::Julep.AnyOf<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>? recallOptions = default,
             object? metadata = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

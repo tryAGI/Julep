@@ -23,6 +23,7 @@ namespace Julep
         /// <param name="metadataFilter">
         /// Default Value: {}
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.AgentSecretsRouteListResponse> AgentSecretsRouteListAsync(
@@ -32,6 +33,7 @@ namespace Julep
             object metadataFilter,
             global::Julep.AgentSecretsRouteListSortBy sortBy = global::Julep.AgentSecretsRouteListSortBy.CreatedAt,
             global::Julep.AgentSecretsRouteListDirection direction = global::Julep.AgentSecretsRouteListDirection.Asc,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }

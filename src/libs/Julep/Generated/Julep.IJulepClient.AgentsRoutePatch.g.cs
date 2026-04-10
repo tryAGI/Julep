@@ -9,12 +9,14 @@ namespace Julep
         /// </summary>
         /// <param name="id"></param>
         /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.AgentsAgent> AgentsRoutePatchAsync(
             global::System.Guid id,
 
             global::Julep.AgentsPatchAgentRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
         /// Update an existing Agent by id (merges with existing values)
@@ -46,6 +48,7 @@ namespace Julep
         /// <param name="defaultSystemTemplate">
         /// Default system template for all sessions created by this agent
         /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.AgentsAgent> AgentsRoutePatchAsync(
@@ -59,6 +62,7 @@ namespace Julep
             global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>>? instructions = default,
             object? defaultSettings = default,
             string? defaultSystemTemplate = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
 }
