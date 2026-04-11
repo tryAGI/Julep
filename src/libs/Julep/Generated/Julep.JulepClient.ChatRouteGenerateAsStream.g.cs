@@ -145,10 +145,10 @@ namespace Julep
                 } 
             }
 
-                if (xCustomApiKey != default)
-                {
-                    __httpRequest.Headers.TryAddWithoutValidation("x-custom-api-key", xCustomApiKey.ToString());
-                }
+            if (xCustomApiKey != default)
+            {
+                __httpRequest.Headers.TryAddWithoutValidation("x-custom-api-key", xCustomApiKey.ToString());
+            }
 
                             var __httpRequestContentBody = request.ToJson(JsonSerializerContext);
                             var __httpRequestContent = new global::System.Net.Http.StringContent(
