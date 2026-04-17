@@ -23,6 +23,14 @@ namespace Julep.JsonConverters
                 foreach (var __jsonProp in __jsonDocument.RootElement.EnumerateObject())
                 {
                     __jsonProps.Add(__jsonProp.Name);
+                    if (__jsonProp.Value.ValueKind == global::System.Text.Json.JsonValueKind.Object)
+                    {
+                        foreach (var __nestedJsonProp in __jsonProp.Value.EnumerateObject())
+                        {
+                            __jsonProps.Add(__jsonProp.Name + "." + __nestedJsonProp.Name);
+                        }
+                    }
+
                 }
             }
 
@@ -37,10 +45,17 @@ namespace Julep.JsonConverters
             if (__jsonProps.Contains("search_context_size")) __score1++;
             if (__jsonProps.Contains("type")) __score1++;
             if (__jsonProps.Contains("user_location")) __score1++;
+            if (__jsonProps.Contains("user_location.city")) __score1++;
+            if (__jsonProps.Contains("user_location.country")) __score1++;
+            if (__jsonProps.Contains("user_location.region")) __score1++;
+            if (__jsonProps.Contains("user_location.timezone")) __score1++;
+            if (__jsonProps.Contains("user_location.type")) __score1++;
             var __score2 = 0;
             if (__jsonProps.Contains("filters")) __score2++;
             if (__jsonProps.Contains("max_num_results")) __score2++;
             if (__jsonProps.Contains("ranking_options")) __score2++;
+            if (__jsonProps.Contains("ranking_options.ranker")) __score2++;
+            if (__jsonProps.Contains("ranking_options.score_threshold")) __score2++;
             if (__jsonProps.Contains("type")) __score2++;
             if (__jsonProps.Contains("vector_store_ids")) __score2++;
             var __score3 = 0;
