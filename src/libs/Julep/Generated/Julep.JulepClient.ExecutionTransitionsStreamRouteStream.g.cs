@@ -129,7 +129,7 @@ namespace Julep
                 PrepareExecutionTransitionsStreamRouteStreamRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     nextToken: nextToken);
 
                 return __httpRequest;

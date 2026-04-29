@@ -143,8 +143,8 @@ namespace Julep
                 PrepareTasksCreateOrUpdateRouteCreateOrUpdateRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    parentId: parentId,
-                    id: id,
+                    parentId: parentId!,
+                    id: id!,
                     request: request);
 
                 return __httpRequest;

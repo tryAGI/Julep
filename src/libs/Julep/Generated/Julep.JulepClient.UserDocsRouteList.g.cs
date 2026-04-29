@@ -174,12 +174,12 @@ namespace Julep
                 PrepareUserDocsRouteListRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
-                    limit: limit,
-                    offset: offset,
-                    sortBy: sortBy,
-                    direction: direction,
-                    metadataFilter: metadataFilter,
+                    id: id!,
+                    limit: limit!,
+                    offset: offset!,
+                    sortBy: sortBy!,
+                    direction: direction!,
+                    metadataFilter: metadataFilter!,
                     includeEmbeddings: includeEmbeddings);
 
                 return __httpRequest;

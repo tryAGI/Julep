@@ -143,8 +143,8 @@ namespace Julep
                 PrepareDeveloperSecretsRouteUpdateRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
-                    childId: childId,
+                    id: id!,
+                    childId: childId!,
                     request: request);
 
                 return __httpRequest;

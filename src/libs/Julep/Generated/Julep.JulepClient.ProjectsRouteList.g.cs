@@ -161,11 +161,11 @@ namespace Julep
                 PrepareProjectsRouteListRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    limit: limit,
-                    offset: offset,
-                    sortBy: sortBy,
-                    direction: direction,
-                    metadataFilter: metadataFilter);
+                    limit: limit!,
+                    offset: offset!,
+                    sortBy: sortBy!,
+                    direction: direction!,
+                    metadataFilter: metadataFilter!);
 
                 return __httpRequest;
             }
