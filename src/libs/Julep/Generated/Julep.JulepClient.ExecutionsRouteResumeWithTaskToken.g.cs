@@ -117,7 +117,7 @@ namespace Julep
                 PrepareExecutionsRouteResumeWithTaskTokenRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    taskToken: taskToken,
+                    taskToken: taskToken!,
                     request: request);
 
                 return __httpRequest;

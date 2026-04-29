@@ -167,7 +167,7 @@ namespace Julep
                 PrepareChatRouteGenerateAsStreamRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     xCustomApiKey: xCustomApiKey,
                     request: request);
 

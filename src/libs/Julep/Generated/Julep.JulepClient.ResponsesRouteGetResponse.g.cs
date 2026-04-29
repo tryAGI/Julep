@@ -132,7 +132,7 @@ namespace Julep
                 PrepareResponsesRouteGetResponseRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     include: include);
 
                 return __httpRequest;

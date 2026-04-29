@@ -129,8 +129,8 @@ namespace Julep
                 PrepareAgentSecretsRouteDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
-                    childId: childId);
+                    id: id!,
+                    childId: childId!);
 
                 return __httpRequest;
             }

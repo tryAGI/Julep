@@ -134,7 +134,7 @@ namespace Julep
                 PrepareIndividualDocsRouteGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     includeEmbeddings: includeEmbeddings);
 
                 return __httpRequest;
