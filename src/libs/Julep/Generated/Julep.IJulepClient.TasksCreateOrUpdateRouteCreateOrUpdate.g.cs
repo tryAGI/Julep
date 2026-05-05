@@ -25,6 +25,22 @@ namespace Julep
         /// </summary>
         /// <param name="parentId"></param>
         /// <param name="id"></param>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Julep.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Julep.AutoSDKHttpResponse<global::Julep.TasksTask>> TasksCreateOrUpdateRouteCreateOrUpdateAsResponseAsync(
+            global::System.Guid parentId,
+            global::System.Guid id,
+
+            global::Julep.TasksCreateTaskRequest request,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Create or update a task
+        /// </summary>
+        /// <param name="parentId"></param>
+        /// <param name="id"></param>
         /// <param name="name">
         /// The name of the task.
         /// </param>
