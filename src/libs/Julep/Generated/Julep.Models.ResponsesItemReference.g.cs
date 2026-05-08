@@ -29,6 +29,19 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickInputMessageResource(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesInputMessageResource? value)
+        {
+            value = InputMessageResource;
+            return IsInputMessageResource;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesOutputMessage? OutputMessage { get; init; }
 #else
@@ -42,6 +55,19 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(OutputMessage))]
 #endif
         public bool IsOutputMessage => OutputMessage != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickOutputMessage(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesOutputMessage? value)
+        {
+            value = OutputMessage;
+            return IsOutputMessage;
+        }
 
         /// <summary>
         /// 
@@ -63,6 +89,19 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickFileSearchToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFileSearchToolCall? value)
+        {
+            value = FileSearchToolCall;
+            return IsFileSearchToolCall;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerToolCall? ComputerToolCall { get; init; }
 #else
@@ -76,6 +115,19 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(ComputerToolCall))]
 #endif
         public bool IsComputerToolCall => ComputerToolCall != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickComputerToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesComputerToolCall? value)
+        {
+            value = ComputerToolCall;
+            return IsComputerToolCall;
+        }
 
         /// <summary>
         /// 
@@ -97,6 +149,19 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickComputerToolCallOutputResource(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesComputerToolCallOutputResource? value)
+        {
+            value = ComputerToolCallOutputResource;
+            return IsComputerToolCallOutputResource;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesWebSearchToolCall? WebSearchToolCall { get; init; }
 #else
@@ -110,6 +175,19 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(WebSearchToolCall))]
 #endif
         public bool IsWebSearchToolCall => WebSearchToolCall != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickWebSearchToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesWebSearchToolCall? value)
+        {
+            value = WebSearchToolCall;
+            return IsWebSearchToolCall;
+        }
 
         /// <summary>
         /// 
@@ -131,6 +209,19 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickFunctionToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFunctionToolCall? value)
+        {
+            value = FunctionToolCall;
+            return IsFunctionToolCall;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesFunctionToolCallOutputResource? FunctionToolCallOutputResource { get; init; }
 #else
@@ -144,6 +235,19 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(FunctionToolCallOutputResource))]
 #endif
         public bool IsFunctionToolCallOutputResource => FunctionToolCallOutputResource != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickFunctionToolCallOutputResource(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFunctionToolCallOutputResource? value)
+        {
+            value = FunctionToolCallOutputResource;
+            return IsFunctionToolCallOutputResource;
+        }
         /// <summary>
         /// 
         /// </summary>
@@ -352,14 +456,14 @@ namespace Julep
         /// 
         /// </summary>
         public TResult? Match<TResult>(
-            global::System.Func<global::Julep.ResponsesInputMessageResource?, TResult>? inputMessageResource = null,
-            global::System.Func<global::Julep.ResponsesOutputMessage?, TResult>? outputMessage = null,
-            global::System.Func<global::Julep.ResponsesFileSearchToolCall?, TResult>? fileSearchToolCall = null,
-            global::System.Func<global::Julep.ResponsesComputerToolCall?, TResult>? computerToolCall = null,
-            global::System.Func<global::Julep.ResponsesComputerToolCallOutputResource?, TResult>? computerToolCallOutputResource = null,
-            global::System.Func<global::Julep.ResponsesWebSearchToolCall?, TResult>? webSearchToolCall = null,
-            global::System.Func<global::Julep.ResponsesFunctionToolCall?, TResult>? functionToolCall = null,
-            global::System.Func<global::Julep.ResponsesFunctionToolCallOutputResource?, TResult>? functionToolCallOutputResource = null,
+            global::System.Func<global::Julep.ResponsesInputMessageResource, TResult>? inputMessageResource = null,
+            global::System.Func<global::Julep.ResponsesOutputMessage, TResult>? outputMessage = null,
+            global::System.Func<global::Julep.ResponsesFileSearchToolCall, TResult>? fileSearchToolCall = null,
+            global::System.Func<global::Julep.ResponsesComputerToolCall, TResult>? computerToolCall = null,
+            global::System.Func<global::Julep.ResponsesComputerToolCallOutputResource, TResult>? computerToolCallOutputResource = null,
+            global::System.Func<global::Julep.ResponsesWebSearchToolCall, TResult>? webSearchToolCall = null,
+            global::System.Func<global::Julep.ResponsesFunctionToolCall, TResult>? functionToolCall = null,
+            global::System.Func<global::Julep.ResponsesFunctionToolCallOutputResource, TResult>? functionToolCallOutputResource = null,
             bool validate = true)
         {
             if (validate)
@@ -407,14 +511,74 @@ namespace Julep
         /// 
         /// </summary>
         public void Match(
-            global::System.Action<global::Julep.ResponsesInputMessageResource?>? inputMessageResource = null,
-            global::System.Action<global::Julep.ResponsesOutputMessage?>? outputMessage = null,
-            global::System.Action<global::Julep.ResponsesFileSearchToolCall?>? fileSearchToolCall = null,
-            global::System.Action<global::Julep.ResponsesComputerToolCall?>? computerToolCall = null,
-            global::System.Action<global::Julep.ResponsesComputerToolCallOutputResource?>? computerToolCallOutputResource = null,
-            global::System.Action<global::Julep.ResponsesWebSearchToolCall?>? webSearchToolCall = null,
-            global::System.Action<global::Julep.ResponsesFunctionToolCall?>? functionToolCall = null,
-            global::System.Action<global::Julep.ResponsesFunctionToolCallOutputResource?>? functionToolCallOutputResource = null,
+            global::System.Action<global::Julep.ResponsesInputMessageResource>? inputMessageResource = null,
+
+            global::System.Action<global::Julep.ResponsesOutputMessage>? outputMessage = null,
+
+            global::System.Action<global::Julep.ResponsesFileSearchToolCall>? fileSearchToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesComputerToolCall>? computerToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesComputerToolCallOutputResource>? computerToolCallOutputResource = null,
+
+            global::System.Action<global::Julep.ResponsesWebSearchToolCall>? webSearchToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesFunctionToolCall>? functionToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesFunctionToolCallOutputResource>? functionToolCallOutputResource = null,
+            bool validate = true)
+        {
+            if (validate)
+            {
+                Validate();
+            }
+
+            if (IsInputMessageResource)
+            {
+                inputMessageResource?.Invoke(InputMessageResource!);
+            }
+            else if (IsOutputMessage)
+            {
+                outputMessage?.Invoke(OutputMessage!);
+            }
+            else if (IsFileSearchToolCall)
+            {
+                fileSearchToolCall?.Invoke(FileSearchToolCall!);
+            }
+            else if (IsComputerToolCall)
+            {
+                computerToolCall?.Invoke(ComputerToolCall!);
+            }
+            else if (IsComputerToolCallOutputResource)
+            {
+                computerToolCallOutputResource?.Invoke(ComputerToolCallOutputResource!);
+            }
+            else if (IsWebSearchToolCall)
+            {
+                webSearchToolCall?.Invoke(WebSearchToolCall!);
+            }
+            else if (IsFunctionToolCall)
+            {
+                functionToolCall?.Invoke(FunctionToolCall!);
+            }
+            else if (IsFunctionToolCallOutputResource)
+            {
+                functionToolCallOutputResource?.Invoke(FunctionToolCallOutputResource!);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Switch(
+            global::System.Action<global::Julep.ResponsesInputMessageResource>? inputMessageResource = null,
+            global::System.Action<global::Julep.ResponsesOutputMessage>? outputMessage = null,
+            global::System.Action<global::Julep.ResponsesFileSearchToolCall>? fileSearchToolCall = null,
+            global::System.Action<global::Julep.ResponsesComputerToolCall>? computerToolCall = null,
+            global::System.Action<global::Julep.ResponsesComputerToolCallOutputResource>? computerToolCallOutputResource = null,
+            global::System.Action<global::Julep.ResponsesWebSearchToolCall>? webSearchToolCall = null,
+            global::System.Action<global::Julep.ResponsesFunctionToolCall>? functionToolCall = null,
+            global::System.Action<global::Julep.ResponsesFunctionToolCallOutputResource>? functionToolCallOutputResource = null,
             bool validate = true)
         {
             if (validate)

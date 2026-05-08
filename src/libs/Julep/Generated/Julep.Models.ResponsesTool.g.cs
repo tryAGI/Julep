@@ -29,6 +29,19 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickFunction(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFunctionTool? value)
+        {
+            value = Function;
+            return IsFunction;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesWebSearchTool? WebSearch { get; init; }
 #else
@@ -42,6 +55,19 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(WebSearch))]
 #endif
         public bool IsWebSearch => WebSearch != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickWebSearch(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesWebSearchTool? value)
+        {
+            value = WebSearch;
+            return IsWebSearch;
+        }
 
         /// <summary>
         /// 
@@ -63,6 +89,19 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickFileSearch(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFileSearchTool? value)
+        {
+            value = FileSearch;
+            return IsFileSearch;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerTool? Computer { get; init; }
 #else
@@ -76,6 +115,19 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(Computer))]
 #endif
         public bool IsComputer => Computer != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickComputer(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesComputerTool? value)
+        {
+            value = Computer;
+            return IsComputer;
+        }
         /// <summary>
         /// 
         /// </summary>
@@ -196,10 +248,10 @@ namespace Julep
         /// 
         /// </summary>
         public TResult? Match<TResult>(
-            global::System.Func<global::Julep.ResponsesFunctionTool?, TResult>? function = null,
-            global::System.Func<global::Julep.ResponsesWebSearchTool?, TResult>? webSearch = null,
-            global::System.Func<global::Julep.ResponsesFileSearchTool?, TResult>? fileSearch = null,
-            global::System.Func<global::Julep.ResponsesComputerTool?, TResult>? computer = null,
+            global::System.Func<global::Julep.ResponsesFunctionTool, TResult>? function = null,
+            global::System.Func<global::Julep.ResponsesWebSearchTool, TResult>? webSearch = null,
+            global::System.Func<global::Julep.ResponsesFileSearchTool, TResult>? fileSearch = null,
+            global::System.Func<global::Julep.ResponsesComputerTool, TResult>? computer = null,
             bool validate = true)
         {
             if (validate)
@@ -231,10 +283,46 @@ namespace Julep
         /// 
         /// </summary>
         public void Match(
-            global::System.Action<global::Julep.ResponsesFunctionTool?>? function = null,
-            global::System.Action<global::Julep.ResponsesWebSearchTool?>? webSearch = null,
-            global::System.Action<global::Julep.ResponsesFileSearchTool?>? fileSearch = null,
-            global::System.Action<global::Julep.ResponsesComputerTool?>? computer = null,
+            global::System.Action<global::Julep.ResponsesFunctionTool>? function = null,
+
+            global::System.Action<global::Julep.ResponsesWebSearchTool>? webSearch = null,
+
+            global::System.Action<global::Julep.ResponsesFileSearchTool>? fileSearch = null,
+
+            global::System.Action<global::Julep.ResponsesComputerTool>? computer = null,
+            bool validate = true)
+        {
+            if (validate)
+            {
+                Validate();
+            }
+
+            if (IsFunction)
+            {
+                function?.Invoke(Function!);
+            }
+            else if (IsWebSearch)
+            {
+                webSearch?.Invoke(WebSearch!);
+            }
+            else if (IsFileSearch)
+            {
+                fileSearch?.Invoke(FileSearch!);
+            }
+            else if (IsComputer)
+            {
+                computer?.Invoke(Computer!);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Switch(
+            global::System.Action<global::Julep.ResponsesFunctionTool>? function = null,
+            global::System.Action<global::Julep.ResponsesWebSearchTool>? webSearch = null,
+            global::System.Action<global::Julep.ResponsesFileSearchTool>? fileSearch = null,
+            global::System.Action<global::Julep.ResponsesComputerTool>? computer = null,
             bool validate = true)
         {
             if (validate)
