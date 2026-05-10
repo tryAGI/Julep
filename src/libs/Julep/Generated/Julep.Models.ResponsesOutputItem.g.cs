@@ -209,6 +209,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesOutputItem FromMessage(global::Julep.ResponsesOutputMessage? value) => new ResponsesOutputItem(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesOutputItem(global::Julep.ResponsesFileSearchToolCall value) => new ResponsesOutputItem((global::Julep.ResponsesFileSearchToolCall?)value);
 
         /// <summary>
@@ -223,6 +228,11 @@ namespace Julep
         {
             FileSearchToolCall = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesOutputItem FromFileSearchToolCall(global::Julep.ResponsesFileSearchToolCall? value) => new ResponsesOutputItem(value);
 
         /// <summary>
         /// 
@@ -245,6 +255,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesOutputItem FromFunctionToolCall(global::Julep.ResponsesFunctionToolCall? value) => new ResponsesOutputItem(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesOutputItem(global::Julep.ResponsesWebSearchToolCall value) => new ResponsesOutputItem((global::Julep.ResponsesWebSearchToolCall?)value);
 
         /// <summary>
@@ -259,6 +274,11 @@ namespace Julep
         {
             WebSearchToolCall = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesOutputItem FromWebSearchToolCall(global::Julep.ResponsesWebSearchToolCall? value) => new ResponsesOutputItem(value);
 
         /// <summary>
         /// 
@@ -281,6 +301,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesOutputItem FromComputerToolCall(global::Julep.ResponsesComputerToolCall? value) => new ResponsesOutputItem(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesOutputItem(global::Julep.ResponsesReasoningItem value) => new ResponsesOutputItem((global::Julep.ResponsesReasoningItem?)value);
 
         /// <summary>
@@ -295,6 +320,11 @@ namespace Julep
         {
             Reasoning = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesOutputItem FromReasoning(global::Julep.ResponsesReasoningItem? value) => new ResponsesOutputItem(value);
 
         /// <summary>
         /// 

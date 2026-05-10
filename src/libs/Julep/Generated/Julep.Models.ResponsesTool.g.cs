@@ -149,6 +149,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesTool FromFunction(global::Julep.ResponsesFunctionTool? value) => new ResponsesTool(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesTool(global::Julep.ResponsesWebSearchTool value) => new ResponsesTool((global::Julep.ResponsesWebSearchTool?)value);
 
         /// <summary>
@@ -163,6 +168,11 @@ namespace Julep
         {
             WebSearch = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesTool FromWebSearch(global::Julep.ResponsesWebSearchTool? value) => new ResponsesTool(value);
 
         /// <summary>
         /// 
@@ -185,6 +195,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesTool FromFileSearch(global::Julep.ResponsesFileSearchTool? value) => new ResponsesTool(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesTool(global::Julep.ResponsesComputerTool value) => new ResponsesTool((global::Julep.ResponsesComputerTool?)value);
 
         /// <summary>
@@ -199,6 +214,11 @@ namespace Julep
         {
             Computer = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesTool FromComputer(global::Julep.ResponsesComputerTool? value) => new ResponsesTool(value);
 
         /// <summary>
         /// 
