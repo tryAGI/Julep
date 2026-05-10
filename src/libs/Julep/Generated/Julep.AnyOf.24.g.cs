@@ -748,6 +748,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue1(T1? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T2 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T2?)value);
 
         /// <summary>
@@ -762,6 +767,11 @@ namespace Julep
         {
             Value2 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue2(T2? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -784,6 +794,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue3(T3? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T4 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T4?)value);
 
         /// <summary>
@@ -798,6 +813,11 @@ namespace Julep
         {
             Value4 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue4(T4? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -820,6 +840,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue5(T5? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T6 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T6?)value);
 
         /// <summary>
@@ -834,6 +859,11 @@ namespace Julep
         {
             Value6 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue6(T6? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -856,6 +886,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue7(T7? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T8 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T8?)value);
 
         /// <summary>
@@ -870,6 +905,11 @@ namespace Julep
         {
             Value8 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue8(T8? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -892,6 +932,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue9(T9? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T10 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T10?)value);
 
         /// <summary>
@@ -906,6 +951,11 @@ namespace Julep
         {
             Value10 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue10(T10? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -928,6 +978,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue11(T11? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T12 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T12?)value);
 
         /// <summary>
@@ -942,6 +997,11 @@ namespace Julep
         {
             Value12 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue12(T12? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -964,6 +1024,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue13(T13? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T14 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T14?)value);
 
         /// <summary>
@@ -978,6 +1043,11 @@ namespace Julep
         {
             Value14 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue14(T14? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -1000,6 +1070,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue15(T15? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T16 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T16?)value);
 
         /// <summary>
@@ -1014,6 +1089,11 @@ namespace Julep
         {
             Value16 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue16(T16? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -1036,6 +1116,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue17(T17? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T18 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T18?)value);
 
         /// <summary>
@@ -1050,6 +1135,11 @@ namespace Julep
         {
             Value18 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue18(T18? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -1072,6 +1162,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue19(T19? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T20 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T20?)value);
 
         /// <summary>
@@ -1086,6 +1181,11 @@ namespace Julep
         {
             Value20 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue20(T20? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -1108,6 +1208,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue21(T21? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T22 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T22?)value);
 
         /// <summary>
@@ -1122,6 +1227,11 @@ namespace Julep
         {
             Value22 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue22(T22? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 
@@ -1144,6 +1254,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue23(T23? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(T24 value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>((T24?)value);
 
         /// <summary>
@@ -1158,6 +1273,11 @@ namespace Julep
         {
             Value24 = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24> FromValue24(T24? value) => new AnyOf<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24>(value);
 
         /// <summary>
         /// 

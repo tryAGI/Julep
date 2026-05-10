@@ -269,6 +269,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromInputMessageResource(global::Julep.ResponsesInputMessageResource? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesOutputMessage value) => new ResponsesItemReference((global::Julep.ResponsesOutputMessage?)value);
 
         /// <summary>
@@ -283,6 +288,11 @@ namespace Julep
         {
             OutputMessage = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromOutputMessage(global::Julep.ResponsesOutputMessage? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -305,6 +315,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromFileSearchToolCall(global::Julep.ResponsesFileSearchToolCall? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesComputerToolCall value) => new ResponsesItemReference((global::Julep.ResponsesComputerToolCall?)value);
 
         /// <summary>
@@ -319,6 +334,11 @@ namespace Julep
         {
             ComputerToolCall = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromComputerToolCall(global::Julep.ResponsesComputerToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -341,6 +361,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromComputerToolCallOutputResource(global::Julep.ResponsesComputerToolCallOutputResource? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesWebSearchToolCall value) => new ResponsesItemReference((global::Julep.ResponsesWebSearchToolCall?)value);
 
         /// <summary>
@@ -355,6 +380,11 @@ namespace Julep
         {
             WebSearchToolCall = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromWebSearchToolCall(global::Julep.ResponsesWebSearchToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -377,6 +407,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromFunctionToolCall(global::Julep.ResponsesFunctionToolCall? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFunctionToolCallOutputResource value) => new ResponsesItemReference((global::Julep.ResponsesFunctionToolCallOutputResource?)value);
 
         /// <summary>
@@ -391,6 +426,11 @@ namespace Julep
         {
             FunctionToolCallOutputResource = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromFunctionToolCallOutputResource(global::Julep.ResponsesFunctionToolCallOutputResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 

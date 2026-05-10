@@ -119,6 +119,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesInputItem FromEasyMessage(global::Julep.ResponsesEasyInputMessage? value) => new ResponsesInputItem(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesInputItem(global::Julep.ResponsesItem value) => new ResponsesInputItem((global::Julep.ResponsesItem?)value);
 
         /// <summary>
@@ -137,6 +142,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesInputItem FromResponsesItem(global::Julep.ResponsesItem? value) => new ResponsesInputItem(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesInputItem(global::Julep.ResponsesItemReference value) => new ResponsesInputItem((global::Julep.ResponsesItemReference?)value);
 
         /// <summary>
@@ -151,6 +161,11 @@ namespace Julep
         {
             Reference = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesInputItem FromReference(global::Julep.ResponsesItemReference? value) => new ResponsesInputItem(value);
 
         /// <summary>
         /// 
