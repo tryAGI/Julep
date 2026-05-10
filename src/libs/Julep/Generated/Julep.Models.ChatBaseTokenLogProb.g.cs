@@ -61,5 +61,6 @@ namespace Julep
         public ChatBaseTokenLogProb()
         {
         }
+
     }
 }

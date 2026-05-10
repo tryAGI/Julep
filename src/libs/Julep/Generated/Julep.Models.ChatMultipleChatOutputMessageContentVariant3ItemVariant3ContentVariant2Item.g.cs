@@ -53,5 +53,18 @@ namespace Julep
         public ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item FromSource(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSource source)
+        {
+            return new ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item
+            {
+                Source = source,
+            };
+        }
+
     }
 }

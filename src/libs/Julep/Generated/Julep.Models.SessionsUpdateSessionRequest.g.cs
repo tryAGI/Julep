@@ -152,5 +152,6 @@ namespace Julep
         public SessionsUpdateSessionRequest()
         {
         }
+
     }
 }

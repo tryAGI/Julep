@@ -69,5 +69,6 @@ namespace Julep
         public ResponsesDoubleClick()
         {
         }
+
     }
 }

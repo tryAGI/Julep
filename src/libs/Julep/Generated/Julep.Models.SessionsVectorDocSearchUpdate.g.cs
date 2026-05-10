@@ -70,5 +70,6 @@ namespace Julep
         public SessionsVectorDocSearchUpdate()
         {
         }
+
     }
 }

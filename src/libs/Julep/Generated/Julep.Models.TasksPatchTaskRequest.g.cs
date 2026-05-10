@@ -122,5 +122,6 @@ namespace Julep
         public TasksPatchTaskRequest()
         {
         }
+
     }
 }

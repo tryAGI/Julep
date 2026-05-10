@@ -60,5 +60,6 @@ namespace Julep
         public EntriesRelation()
         {
         }
+
     }
 }

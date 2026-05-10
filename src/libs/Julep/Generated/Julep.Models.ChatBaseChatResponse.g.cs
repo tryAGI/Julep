@@ -99,5 +99,6 @@ namespace Julep
         public ChatBaseChatResponse()
         {
         }
+
     }
 }

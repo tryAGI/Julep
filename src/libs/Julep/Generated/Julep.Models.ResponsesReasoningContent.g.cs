@@ -54,5 +54,6 @@ namespace Julep
         public ResponsesReasoningContent()
         {
         }
+
     }
 }

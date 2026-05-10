@@ -55,5 +55,18 @@ namespace Julep
         public ChatChatOutputChunkDeltaContentVariant3ItemVariant1()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ChatChatOutputChunkDeltaContentVariant3ItemVariant1"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ChatChatOutputChunkDeltaContentVariant3ItemVariant1 FromText(string text)
+        {
+            return new ChatChatOutputChunkDeltaContentVariant3ItemVariant1
+            {
+                Text = text,
+            };
+        }
+
     }
 }

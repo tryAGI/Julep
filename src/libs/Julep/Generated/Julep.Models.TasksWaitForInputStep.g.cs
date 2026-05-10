@@ -57,5 +57,18 @@ namespace Julep
         public TasksWaitForInputStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksWaitForInputStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksWaitForInputStep FromWaitForInput(global::Julep.TasksWaitForInputInfo waitForInput)
+        {
+            return new TasksWaitForInputStep
+            {
+                WaitForInput = waitForInput,
+            };
+        }
+
     }
 }

@@ -192,5 +192,6 @@ namespace Julep
         public SessionsCreateSessionRequest()
         {
         }
+
     }
 }

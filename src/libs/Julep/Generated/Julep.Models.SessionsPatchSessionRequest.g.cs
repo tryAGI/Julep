@@ -149,5 +149,6 @@ namespace Julep
         public SessionsPatchSessionRequest()
         {
         }
+
     }
 }

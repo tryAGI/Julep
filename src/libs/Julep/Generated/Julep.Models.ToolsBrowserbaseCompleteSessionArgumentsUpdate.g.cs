@@ -51,5 +51,6 @@ namespace Julep
         public ToolsBrowserbaseCompleteSessionArgumentsUpdate()
         {
         }
+
     }
 }

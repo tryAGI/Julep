@@ -57,5 +57,18 @@ namespace Julep
         public TasksReturnStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksReturnStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksReturnStep FromReturn(object @return)
+        {
+            return new TasksReturnStep
+            {
+                Return = @return,
+            };
+        }
+
     }
 }

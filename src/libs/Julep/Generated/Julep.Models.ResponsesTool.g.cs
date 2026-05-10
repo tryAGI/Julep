@@ -42,6 +42,13 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public global::Julep.ResponsesFunctionTool PickFunction() => IsFunction
+            ? Function!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'Function' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesWebSearchTool? WebSearch { get; init; }
 #else
@@ -68,6 +75,13 @@ namespace Julep
             value = WebSearch;
             return IsWebSearch;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesWebSearchTool PickWebSearch() => IsWebSearch
+            ? WebSearch!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'WebSearch' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -102,6 +116,13 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public global::Julep.ResponsesFileSearchTool PickFileSearch() => IsFileSearch
+            ? FileSearch!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FileSearch' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerTool? Computer { get; init; }
 #else
@@ -128,6 +149,13 @@ namespace Julep
             value = Computer;
             return IsComputer;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesComputerTool PickComputer() => IsComputer
+            ? Computer!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'Computer' but the value was {ToString()}.");
         /// <summary>
         /// 
         /// </summary>
