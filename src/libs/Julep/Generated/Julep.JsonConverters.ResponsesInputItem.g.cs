@@ -96,6 +96,7 @@ namespace Julep.JsonConverters
             {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesEasyInputMessage), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesEasyInputMessage> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesEasyInputMessage).Name}");
                     easyMessage = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -106,9 +107,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (easyMessage == null && responsesItem == null && reference == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesItem), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesItem> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesItem).Name}");
                     responsesItem = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -119,9 +124,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (easyMessage == null && responsesItem == null && reference == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesItemReference), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesItemReference> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesItemReference).Name}");
                     reference = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);

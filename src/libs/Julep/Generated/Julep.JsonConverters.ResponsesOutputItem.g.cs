@@ -175,6 +175,7 @@ namespace Julep.JsonConverters
             {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesOutputMessage), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesOutputMessage> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesOutputMessage).Name}");
                     message = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -185,9 +186,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (message == null && fileSearchToolCall == null && functionToolCall == null && webSearchToolCall == null && computerToolCall == null && reasoning == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFileSearchToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFileSearchToolCall> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFileSearchToolCall).Name}");
                     fileSearchToolCall = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -198,9 +203,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (message == null && fileSearchToolCall == null && functionToolCall == null && webSearchToolCall == null && computerToolCall == null && reasoning == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesFunctionToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesFunctionToolCall> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesFunctionToolCall).Name}");
                     functionToolCall = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -211,9 +220,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (message == null && fileSearchToolCall == null && functionToolCall == null && webSearchToolCall == null && computerToolCall == null && reasoning == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesWebSearchToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesWebSearchToolCall> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesWebSearchToolCall).Name}");
                     webSearchToolCall = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -224,9 +237,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (message == null && fileSearchToolCall == null && functionToolCall == null && webSearchToolCall == null && computerToolCall == null && reasoning == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesComputerToolCall), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesComputerToolCall> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesComputerToolCall).Name}");
                     computerToolCall = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
@@ -237,9 +254,13 @@ namespace Julep.JsonConverters
                 catch (global::System.InvalidOperationException)
                 {
                 }
+            }
 
+            if (message == null && fileSearchToolCall == null && functionToolCall == null && webSearchToolCall == null && computerToolCall == null && reasoning == null)
+            {
                 try
                 {
+
                     var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesReasoningItem), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesReasoningItem> ??
                                    throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesReasoningItem).Name}");
                     reasoning = global::System.Text.Json.JsonSerializer.Deserialize(__rawJson, typeInfo);
