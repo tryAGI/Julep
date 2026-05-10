@@ -42,5 +42,6 @@ namespace Julep
         public AgentsListModelsResponse()
         {
         }
+
     }
 }

@@ -57,5 +57,18 @@ namespace Julep
         public TasksForeachStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksForeachStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksForeachStep FromForeach(global::Julep.TasksForeachDo @foreach)
+        {
+            return new TasksForeachStep
+            {
+                Foreach = @foreach,
+            };
+        }
+
     }
 }

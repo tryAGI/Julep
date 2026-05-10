@@ -58,5 +58,6 @@ namespace Julep
         public TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2ImageUrl()
         {
         }
+
     }
 }

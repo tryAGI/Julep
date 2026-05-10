@@ -40,5 +40,6 @@ namespace Julep
         public ChatSingleChatOutput()
         {
         }
+
     }
 }

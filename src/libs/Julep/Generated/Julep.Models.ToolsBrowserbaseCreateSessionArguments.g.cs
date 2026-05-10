@@ -105,5 +105,6 @@ namespace Julep
         public ToolsBrowserbaseCreateSessionArguments()
         {
         }
+
     }
 }

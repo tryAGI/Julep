@@ -72,5 +72,6 @@ namespace Julep
         public UsersPatchUserRequest()
         {
         }
+
     }
 }

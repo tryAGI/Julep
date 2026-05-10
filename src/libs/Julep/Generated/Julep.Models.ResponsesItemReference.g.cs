@@ -42,6 +42,13 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public global::Julep.ResponsesInputMessageResource PickInputMessageResource() => IsInputMessageResource
+            ? InputMessageResource!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'InputMessageResource' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesOutputMessage? OutputMessage { get; init; }
 #else
@@ -68,6 +75,13 @@ namespace Julep
             value = OutputMessage;
             return IsOutputMessage;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesOutputMessage PickOutputMessage() => IsOutputMessage
+            ? OutputMessage!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'OutputMessage' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -102,6 +116,13 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public global::Julep.ResponsesFileSearchToolCall PickFileSearchToolCall() => IsFileSearchToolCall
+            ? FileSearchToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FileSearchToolCall' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerToolCall? ComputerToolCall { get; init; }
 #else
@@ -128,6 +149,13 @@ namespace Julep
             value = ComputerToolCall;
             return IsComputerToolCall;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesComputerToolCall PickComputerToolCall() => IsComputerToolCall
+            ? ComputerToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCall' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -162,6 +190,13 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public global::Julep.ResponsesComputerToolCallOutputResource PickComputerToolCallOutputResource() => IsComputerToolCallOutputResource
+            ? ComputerToolCallOutputResource!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCallOutputResource' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesWebSearchToolCall? WebSearchToolCall { get; init; }
 #else
@@ -188,6 +223,13 @@ namespace Julep
             value = WebSearchToolCall;
             return IsWebSearchToolCall;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesWebSearchToolCall PickWebSearchToolCall() => IsWebSearchToolCall
+            ? WebSearchToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'WebSearchToolCall' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -222,6 +264,13 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public global::Julep.ResponsesFunctionToolCall PickFunctionToolCall() => IsFunctionToolCall
+            ? FunctionToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCall' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesFunctionToolCallOutputResource? FunctionToolCallOutputResource { get; init; }
 #else
@@ -248,6 +297,13 @@ namespace Julep
             value = FunctionToolCallOutputResource;
             return IsFunctionToolCallOutputResource;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesFunctionToolCallOutputResource PickFunctionToolCallOutputResource() => IsFunctionToolCallOutputResource
+            ? FunctionToolCallOutputResource!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCallOutputResource' but the value was {ToString()}.");
         /// <summary>
         /// 
         /// </summary>

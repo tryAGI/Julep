@@ -153,5 +153,18 @@ namespace Julep
         public ExecutionsExecution()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ExecutionsExecution"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ExecutionsExecution FromInput(object input)
+        {
+            return new ExecutionsExecution
+            {
+                Input = input,
+            };
+        }
+
     }
 }

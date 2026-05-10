@@ -94,5 +94,6 @@ namespace Julep
         public TasksPatchTaskRequestItem2()
         {
         }
+
     }
 }

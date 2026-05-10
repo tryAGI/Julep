@@ -72,5 +72,18 @@ namespace Julep
         public CommonResourceDeletedResponse()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="CommonResourceDeletedResponse"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static CommonResourceDeletedResponse FromId(global::System.Guid id)
+        {
+            return new CommonResourceDeletedResponse
+            {
+                Id = id,
+            };
+        }
+
     }
 }

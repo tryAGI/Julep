@@ -179,5 +179,6 @@ namespace Julep
         public DocsHybridDocSearchRequest()
         {
         }
+
     }
 }

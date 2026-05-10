@@ -80,5 +80,6 @@ namespace Julep
         public ResponsesResponseUsage()
         {
         }
+
     }
 }
