@@ -39,5 +39,6 @@ namespace Julep
         public ToolsBrowserbaseGetSessionLiveUrlsArgumentsUpdate()
         {
         }
+
     }
 }

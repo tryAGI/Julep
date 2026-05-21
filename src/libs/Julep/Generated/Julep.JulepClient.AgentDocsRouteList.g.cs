@@ -89,6 +89,56 @@ namespace Julep
             global::Julep.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
+            var __response = await AgentDocsRouteListAsResponseAsync(
+                id: id,
+                limit: limit,
+                offset: offset,
+                metadataFilter: metadataFilter,
+                sortBy: sortBy,
+                direction: direction,
+                includeEmbeddings: includeEmbeddings,
+                requestOptions: requestOptions,
+                cancellationToken: cancellationToken
+            ).ConfigureAwait(false);
+
+            return __response.Body;
+        }
+        /// <summary>
+        /// List Docs owned by an Agent
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="limit">
+        /// Limit the number of results
+        /// </param>
+        /// <param name="offset">
+        /// Offset to apply to the results
+        /// </param>
+        /// <param name="sortBy">
+        /// Default Value: created_at
+        /// </param>
+        /// <param name="direction">
+        /// Default Value: asc
+        /// </param>
+        /// <param name="metadataFilter">
+        /// Default Value: {}
+        /// </param>
+        /// <param name="includeEmbeddings">
+        /// Default Value: true
+        /// </param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Julep.ApiException"></exception>
+        public async global::System.Threading.Tasks.Task<global::Julep.AutoSDKHttpResponse<global::Julep.AgentDocsRouteListResponse>> AgentDocsRouteListAsResponseAsync(
+            global::System.Guid id,
+            int limit,
+            int offset,
+            object metadataFilter,
+            global::Julep.AgentDocsRouteListSortBy sortBy = global::Julep.AgentDocsRouteListSortBy.CreatedAt,
+            global::Julep.AgentDocsRouteListDirection direction = global::Julep.AgentDocsRouteListDirection.Asc,
+            bool? includeEmbeddings = default,
+            global::Julep.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default)
+        {
             PrepareArguments(
                 client: HttpClient);
             PrepareAgentDocsRouteListArguments(
@@ -123,16 +173,17 @@ namespace Julep
 
             global::System.Net.Http.HttpRequestMessage __CreateHttpRequest()
             {
+
                             var __pathBuilder = new global::Julep.PathBuilder(
                                 path: $"/agents/{id}/docs",
-                                baseUri: HttpClient.BaseAddress); 
+                                baseUri: HttpClient.BaseAddress);
                             __pathBuilder
                                 .AddRequiredParameter("limit", limit.ToString()!)
                                 .AddRequiredParameter("offset", offset.ToString()!)
                                 .AddRequiredParameter("sort_by", sortBy.ToValueString())
                                 .AddRequiredParameter("direction", direction.ToValueString())
                                 .AddRequiredParameter("metadata_filter", metadataFilter.ToString()!)
-                                .AddOptionalParameter("include_embeddings", includeEmbeddings?.ToString().ToLowerInvariant()) 
+                                .AddOptionalParameter("include_embeddings", includeEmbeddings?.ToString().ToLowerInvariant())
                                 ;
                             var __path = __pathBuilder.ToString();
                 __path = global::Julep.AutoSDKRequestOptionsSupport.AppendQueryParameters(
@@ -210,6 +261,8 @@ namespace Julep
                                 attempt: __attempt,
                                 maxAttempts: __maxAttempts,
                                 willRetry: false,
+                                retryDelay: null,
+                                retryReason: global::System.String.Empty,
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                     try
                     {
@@ -220,6 +273,11 @@ namespace Julep
                     }
                     catch (global::System.Net.Http.HttpRequestException __exception)
                     {
+                        var __retryDelay = global::Julep.AutoSDKRequestOptionsSupport.GetRetryDelay(
+                            clientOptions: Options,
+                            requestOptions: requestOptions,
+                            response: null,
+                            attempt: __attempt);
                         var __willRetry = __attempt < __maxAttempts && !__effectiveCancellationToken.IsCancellationRequested;
                         await global::Julep.AutoSDKRequestOptionsSupport.OnAfterErrorAsync(
                             clientOptions: Options,
@@ -237,6 +295,8 @@ namespace Julep
                                 attempt: __attempt,
                                 maxAttempts: __maxAttempts,
                                 willRetry: __willRetry,
+                                retryDelay: __willRetry ? __retryDelay : (global::System.TimeSpan?)null,
+                                retryReason: "exception",
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                         if (!__willRetry)
                         {
@@ -246,8 +306,7 @@ namespace Julep
                         __httpRequest.Dispose();
                         __httpRequest = null;
                         await global::Julep.AutoSDKRequestOptionsSupport.DelayBeforeRetryAsync(
-                            clientOptions: Options,
-                            requestOptions: requestOptions,
+                            retryDelay: __retryDelay,
                             cancellationToken: __effectiveCancellationToken).ConfigureAwait(false);
                         continue;
                     }
@@ -256,6 +315,11 @@ namespace Julep
                         __attempt < __maxAttempts &&
                         global::Julep.AutoSDKRequestOptionsSupport.ShouldRetryStatusCode(__response.StatusCode))
                     {
+                        var __retryDelay = global::Julep.AutoSDKRequestOptionsSupport.GetRetryDelay(
+                            clientOptions: Options,
+                            requestOptions: requestOptions,
+                            response: __response,
+                            attempt: __attempt);
                         await global::Julep.AutoSDKRequestOptionsSupport.OnAfterErrorAsync(
                             clientOptions: Options,
                             context: global::Julep.AutoSDKRequestOptionsSupport.CreateHookContext(
@@ -272,14 +336,15 @@ namespace Julep
                                 attempt: __attempt,
                                 maxAttempts: __maxAttempts,
                                 willRetry: true,
+                                retryDelay: __retryDelay,
+                                retryReason: "status:" + ((int)__response.StatusCode).ToString(global::System.Globalization.CultureInfo.InvariantCulture),
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                         __response.Dispose();
                         __response = null;
                         __httpRequest.Dispose();
                         __httpRequest = null;
                         await global::Julep.AutoSDKRequestOptionsSupport.DelayBeforeRetryAsync(
-                            clientOptions: Options,
-                            requestOptions: requestOptions,
+                            retryDelay: __retryDelay,
                             cancellationToken: __effectiveCancellationToken).ConfigureAwait(false);
                         continue;
                     }
@@ -319,6 +384,8 @@ namespace Julep
                                 attempt: __attemptNumber,
                                 maxAttempts: __maxAttempts,
                                 willRetry: false,
+                                retryDelay: null,
+                                retryReason: global::System.String.Empty,
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                 }
                 else
@@ -339,6 +406,8 @@ namespace Julep
                                 attempt: __attemptNumber,
                                 maxAttempts: __maxAttempts,
                                 willRetry: false,
+                                retryDelay: null,
+                                retryReason: global::System.String.Empty,
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                 }
 
@@ -363,9 +432,13 @@ namespace Julep
                                 {
                                     __response.EnsureSuccessStatusCode();
 
-                                    return
-                                        global::Julep.AgentDocsRouteListResponse.FromJson(__content, JsonSerializerContext) ??
+                                    var __value = global::Julep.AgentDocsRouteListResponse.FromJson(__content, JsonSerializerContext) ??
                                         throw new global::System.InvalidOperationException($"Response deserialization failed for \"{__content}\" ");
+                                    return new global::Julep.AutoSDKHttpResponse<global::Julep.AgentDocsRouteListResponse>(
+                                        statusCode: __response.StatusCode,
+                                        headers: global::Julep.AutoSDKHttpResponse.CreateHeaders(__response),
+                                        requestUri: __response.RequestMessage?.RequestUri,
+                                        body: __value);
                                 }
                                 catch (global::System.Exception __ex)
                                 {
@@ -393,9 +466,13 @@ namespace Julep
                 #endif
                                     ).ConfigureAwait(false);
 
-                                    return
-                                        await global::Julep.AgentDocsRouteListResponse.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
+                                    var __value = await global::Julep.AgentDocsRouteListResponse.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
                                         throw new global::System.InvalidOperationException("Response deserialization failed.");
+                                    return new global::Julep.AutoSDKHttpResponse<global::Julep.AgentDocsRouteListResponse>(
+                                        statusCode: __response.StatusCode,
+                                        headers: global::Julep.AutoSDKHttpResponse.CreateHeaders(__response),
+                                        requestUri: __response.RequestMessage?.RequestUri,
+                                        body: __value);
                                 }
                                 catch (global::System.Exception __ex)
                                 {

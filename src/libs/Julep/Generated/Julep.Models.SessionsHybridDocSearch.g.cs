@@ -113,5 +113,6 @@ namespace Julep
         public SessionsHybridDocSearch()
         {
         }
+
     }
 }

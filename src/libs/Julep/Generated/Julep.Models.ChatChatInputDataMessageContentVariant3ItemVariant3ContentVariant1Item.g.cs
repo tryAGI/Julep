@@ -55,5 +55,18 @@ namespace Julep
         public ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item FromText(string text)
+        {
+            return new ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item
+            {
+                Text = text,
+            };
+        }
+
     }
 }

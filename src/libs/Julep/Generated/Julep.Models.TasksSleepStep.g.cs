@@ -57,5 +57,18 @@ namespace Julep
         public TasksSleepStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksSleepStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksSleepStep FromSleep(global::Julep.TasksSleepFor sleep)
+        {
+            return new TasksSleepStep
+            {
+                Sleep = sleep,
+            };
+        }
+
     }
 }

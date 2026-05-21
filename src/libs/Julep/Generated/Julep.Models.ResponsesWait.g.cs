@@ -45,5 +45,6 @@ namespace Julep
         public ResponsesWait()
         {
         }
+
     }
 }

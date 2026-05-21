@@ -74,5 +74,6 @@ namespace Julep
         public SecretsUpdateSecretRequest()
         {
         }
+
     }
 }

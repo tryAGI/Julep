@@ -62,5 +62,6 @@ namespace Julep
         public ProjectsUpdateProjectRequest()
         {
         }
+
     }
 }

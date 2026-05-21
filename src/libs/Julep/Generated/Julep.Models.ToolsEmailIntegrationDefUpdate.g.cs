@@ -77,5 +77,6 @@ namespace Julep
         public ToolsEmailIntegrationDefUpdate()
         {
         }
+
     }
 }

@@ -115,5 +115,6 @@ namespace Julep
         public SessionsBaseDocSearch()
         {
         }
+
     }
 }

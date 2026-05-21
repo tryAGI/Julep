@@ -79,5 +79,18 @@ namespace Julep
         public ToolsRemoteBrowserIntegrationDef()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ToolsRemoteBrowserIntegrationDef"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ToolsRemoteBrowserIntegrationDef FromSetup(global::Julep.ToolsRemoteBrowserSetup setup)
+        {
+            return new ToolsRemoteBrowserIntegrationDef
+            {
+                Setup = setup,
+            };
+        }
+
     }
 }

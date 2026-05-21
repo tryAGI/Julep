@@ -89,5 +89,6 @@ namespace Julep
         public ResponsesTextResponseFormatJsonSchema()
         {
         }
+
     }
 }

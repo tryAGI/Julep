@@ -58,5 +58,6 @@ namespace Julep
         public ChatChatInputDataMessageContentVariant3ItemVariant2ImageUrl()
         {
         }
+
     }
 }

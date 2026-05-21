@@ -127,5 +127,6 @@ namespace Julep
         public TasksUpdateTaskRequest()
         {
         }
+
     }
 }

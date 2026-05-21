@@ -57,5 +57,18 @@ namespace Julep
         public ChatChatOutputChunkDeltaContentVariant3ItemVariant2()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ChatChatOutputChunkDeltaContentVariant3ItemVariant2"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ChatChatOutputChunkDeltaContentVariant3ItemVariant2 FromImageUrl(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2ImageUrl imageUrl)
+        {
+            return new ChatChatOutputChunkDeltaContentVariant3ItemVariant2
+            {
+                ImageUrl = imageUrl,
+            };
+        }
+
     }
 }

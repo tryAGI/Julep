@@ -57,5 +57,18 @@ namespace Julep
         public TasksSetStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksSetStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksSetStep FromSet(object set)
+        {
+            return new TasksSetStep
+            {
+                Set = set,
+            };
+        }
+
     }
 }

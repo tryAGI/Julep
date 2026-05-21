@@ -57,5 +57,18 @@ namespace Julep
         public EntriesBaseEntryContentVariant1ItemVariant2()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="EntriesBaseEntryContentVariant1ItemVariant2"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static EntriesBaseEntryContentVariant1ItemVariant2 FromImageUrl(global::Julep.EntriesBaseEntryContentVariant1ItemVariant2ImageUrl imageUrl)
+        {
+            return new EntriesBaseEntryContentVariant1ItemVariant2
+            {
+                ImageUrl = imageUrl,
+            };
+        }
+
     }
 }

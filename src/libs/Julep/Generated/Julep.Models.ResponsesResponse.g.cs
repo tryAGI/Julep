@@ -264,5 +264,6 @@ namespace Julep
         public ResponsesResponse()
         {
         }
+
     }
 }

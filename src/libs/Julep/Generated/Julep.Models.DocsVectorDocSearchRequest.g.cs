@@ -111,5 +111,6 @@ namespace Julep
         public DocsVectorDocSearchRequest()
         {
         }
+
     }
 }

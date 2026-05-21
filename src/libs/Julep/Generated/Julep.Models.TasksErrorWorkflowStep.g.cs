@@ -57,5 +57,18 @@ namespace Julep
         public TasksErrorWorkflowStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksErrorWorkflowStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksErrorWorkflowStep FromError(string error)
+        {
+            return new TasksErrorWorkflowStep
+            {
+                Error = error,
+            };
+        }
+
     }
 }

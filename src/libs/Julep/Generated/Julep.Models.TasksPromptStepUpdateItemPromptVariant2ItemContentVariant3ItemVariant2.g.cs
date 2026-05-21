@@ -57,5 +57,18 @@ namespace Julep
         public TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2 FromImageUrl(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2ImageUrl imageUrl)
+        {
+            return new TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2
+            {
+                ImageUrl = imageUrl,
+            };
+        }
+
     }
 }

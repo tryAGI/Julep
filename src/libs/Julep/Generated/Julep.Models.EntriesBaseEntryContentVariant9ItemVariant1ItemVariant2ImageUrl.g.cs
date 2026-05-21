@@ -58,5 +58,6 @@ namespace Julep
         public EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2ImageUrl()
         {
         }
+
     }
 }

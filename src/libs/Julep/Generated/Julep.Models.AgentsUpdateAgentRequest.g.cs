@@ -135,5 +135,6 @@ namespace Julep
         public AgentsUpdateAgentRequest()
         {
         }
+
     }
 }

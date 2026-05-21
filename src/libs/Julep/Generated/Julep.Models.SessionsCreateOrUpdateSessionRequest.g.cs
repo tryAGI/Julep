@@ -202,5 +202,6 @@ namespace Julep
         public SessionsCreateOrUpdateSessionRequest()
         {
         }
+
     }
 }

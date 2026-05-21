@@ -73,5 +73,6 @@ namespace Julep
         public ToolsBaseBrowserbaseIntegrationDef()
         {
         }
+
     }
 }

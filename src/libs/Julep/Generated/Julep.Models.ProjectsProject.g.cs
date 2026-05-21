@@ -102,5 +102,18 @@ namespace Julep
         public ProjectsProject()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ProjectsProject"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ProjectsProject FromName(string name)
+        {
+            return new ProjectsProject
+            {
+                Name = name,
+            };
+        }
+
     }
 }

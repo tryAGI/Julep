@@ -57,5 +57,18 @@ namespace Julep
         public TasksLogStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksLogStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksLogStep FromLog(string log)
+        {
+            return new TasksLogStep
+            {
+                Log = log,
+            };
+        }
+
     }
 }

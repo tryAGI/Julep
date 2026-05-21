@@ -56,5 +56,6 @@ namespace Julep
         public TasksUpdateTaskRequestItemEnum()
         {
         }
+
     }
 }

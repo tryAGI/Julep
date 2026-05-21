@@ -55,5 +55,18 @@ namespace Julep
         public EntriesBaseEntryContentVariant1ItemVariant1()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="EntriesBaseEntryContentVariant1ItemVariant1"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static EntriesBaseEntryContentVariant1ItemVariant1 FromText(string text)
+        {
+            return new EntriesBaseEntryContentVariant1ItemVariant1
+            {
+                Text = text,
+            };
+        }
+
     }
 }

@@ -57,5 +57,18 @@ namespace Julep
         public ResponsesType()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="ResponsesType"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static ResponsesType FromText(string text)
+        {
+            return new ResponsesType
+            {
+                Text = text,
+            };
+        }
+
     }
 }

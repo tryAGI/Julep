@@ -147,5 +147,6 @@ namespace Julep
         public EntriesBaseEntry()
         {
         }
+
     }
 }

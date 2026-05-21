@@ -57,5 +57,18 @@ namespace Julep
         public TasksEvaluateStep()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksEvaluateStep"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksEvaluateStep FromEvaluate(object evaluate)
+        {
+            return new TasksEvaluateStep
+            {
+                Evaluate = evaluate,
+            };
+        }
+
     }
 }

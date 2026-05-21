@@ -102,5 +102,6 @@ namespace Julep
         public ResponsesFunctionToolCall()
         {
         }
+
     }
 }

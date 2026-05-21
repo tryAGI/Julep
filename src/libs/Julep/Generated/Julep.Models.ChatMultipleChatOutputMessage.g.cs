@@ -112,5 +112,6 @@ namespace Julep
         public ChatMultipleChatOutputMessage()
         {
         }
+
     }
 }

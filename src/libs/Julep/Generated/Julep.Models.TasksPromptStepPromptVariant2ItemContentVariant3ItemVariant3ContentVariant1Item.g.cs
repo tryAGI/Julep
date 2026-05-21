@@ -57,5 +57,18 @@ namespace Julep
         public TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item()
         {
         }
+
+        /// <summary>
+        /// Creates a new <see cref="TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item"/> from its single non-const required field,
+        /// hardcoding any const discriminator fields.
+        /// </summary>
+        public static TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item FromText(string text)
+        {
+            return new TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item
+            {
+                Text = text,
+            };
+        }
+
     }
 }

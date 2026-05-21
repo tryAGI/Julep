@@ -64,5 +64,6 @@ namespace Julep
         public ChatChatOutputChunkDeltaContentVariant3ItemVariant3()
         {
         }
+
     }
 }

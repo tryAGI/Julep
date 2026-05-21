@@ -49,5 +49,6 @@ namespace Julep
         public ResponsesFileSearchToolRankingOptions()
         {
         }
+
     }
 }

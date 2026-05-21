@@ -29,6 +29,26 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickInputMessageResource(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesInputMessageResource? value)
+        {
+            value = InputMessageResource;
+            return IsInputMessageResource;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesInputMessageResource PickInputMessageResource() => IsInputMessageResource
+            ? InputMessageResource!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'InputMessageResource' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesOutputMessage? OutputMessage { get; init; }
 #else
@@ -42,6 +62,26 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(OutputMessage))]
 #endif
         public bool IsOutputMessage => OutputMessage != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickOutputMessage(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesOutputMessage? value)
+        {
+            value = OutputMessage;
+            return IsOutputMessage;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesOutputMessage PickOutputMessage() => IsOutputMessage
+            ? OutputMessage!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'OutputMessage' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -63,6 +103,26 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickFileSearchToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFileSearchToolCall? value)
+        {
+            value = FileSearchToolCall;
+            return IsFileSearchToolCall;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesFileSearchToolCall PickFileSearchToolCall() => IsFileSearchToolCall
+            ? FileSearchToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FileSearchToolCall' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerToolCall? ComputerToolCall { get; init; }
 #else
@@ -76,6 +136,26 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(ComputerToolCall))]
 #endif
         public bool IsComputerToolCall => ComputerToolCall != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickComputerToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesComputerToolCall? value)
+        {
+            value = ComputerToolCall;
+            return IsComputerToolCall;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesComputerToolCall PickComputerToolCall() => IsComputerToolCall
+            ? ComputerToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCall' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -97,6 +177,26 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickComputerToolCallOutputResource(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesComputerToolCallOutputResource? value)
+        {
+            value = ComputerToolCallOutputResource;
+            return IsComputerToolCallOutputResource;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesComputerToolCallOutputResource PickComputerToolCallOutputResource() => IsComputerToolCallOutputResource
+            ? ComputerToolCallOutputResource!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCallOutputResource' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesWebSearchToolCall? WebSearchToolCall { get; init; }
 #else
@@ -110,6 +210,26 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(WebSearchToolCall))]
 #endif
         public bool IsWebSearchToolCall => WebSearchToolCall != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickWebSearchToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesWebSearchToolCall? value)
+        {
+            value = WebSearchToolCall;
+            return IsWebSearchToolCall;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesWebSearchToolCall PickWebSearchToolCall() => IsWebSearchToolCall
+            ? WebSearchToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'WebSearchToolCall' but the value was {ToString()}.");
 
         /// <summary>
         /// 
@@ -131,6 +251,26 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public bool TryPickFunctionToolCall(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFunctionToolCall? value)
+        {
+            value = FunctionToolCall;
+            return IsFunctionToolCall;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesFunctionToolCall PickFunctionToolCall() => IsFunctionToolCall
+            ? FunctionToolCall!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCall' but the value was {ToString()}.");
+
+        /// <summary>
+        /// 
+        /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesFunctionToolCallOutputResource? FunctionToolCallOutputResource { get; init; }
 #else
@@ -144,6 +284,26 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(FunctionToolCallOutputResource))]
 #endif
         public bool IsFunctionToolCallOutputResource => FunctionToolCallOutputResource != null;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public bool TryPickFunctionToolCallOutputResource(
+#if NET6_0_OR_GREATER
+            [global::System.Diagnostics.CodeAnalysis.NotNullWhen(true)]
+#endif
+            out global::Julep.ResponsesFunctionToolCallOutputResource? value)
+        {
+            value = FunctionToolCallOutputResource;
+            return IsFunctionToolCallOutputResource;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public global::Julep.ResponsesFunctionToolCallOutputResource PickFunctionToolCallOutputResource() => IsFunctionToolCallOutputResource
+            ? FunctionToolCallOutputResource!
+            : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCallOutputResource' but the value was {ToString()}.");
         /// <summary>
         /// 
         /// </summary>
@@ -161,6 +321,11 @@ namespace Julep
         {
             InputMessageResource = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromInputMessageResource(global::Julep.ResponsesInputMessageResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -183,6 +348,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromOutputMessage(global::Julep.ResponsesOutputMessage? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFileSearchToolCall value) => new ResponsesItemReference((global::Julep.ResponsesFileSearchToolCall?)value);
 
         /// <summary>
@@ -197,6 +367,11 @@ namespace Julep
         {
             FileSearchToolCall = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromFileSearchToolCall(global::Julep.ResponsesFileSearchToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -219,6 +394,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromComputerToolCall(global::Julep.ResponsesComputerToolCall? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesComputerToolCallOutputResource value) => new ResponsesItemReference((global::Julep.ResponsesComputerToolCallOutputResource?)value);
 
         /// <summary>
@@ -233,6 +413,11 @@ namespace Julep
         {
             ComputerToolCallOutputResource = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromComputerToolCallOutputResource(global::Julep.ResponsesComputerToolCallOutputResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -255,6 +440,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromWebSearchToolCall(global::Julep.ResponsesWebSearchToolCall? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFunctionToolCall value) => new ResponsesItemReference((global::Julep.ResponsesFunctionToolCall?)value);
 
         /// <summary>
@@ -273,6 +463,11 @@ namespace Julep
         /// <summary>
         /// 
         /// </summary>
+        public static ResponsesItemReference FromFunctionToolCall(global::Julep.ResponsesFunctionToolCall? value) => new ResponsesItemReference(value);
+
+        /// <summary>
+        /// 
+        /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFunctionToolCallOutputResource value) => new ResponsesItemReference((global::Julep.ResponsesFunctionToolCallOutputResource?)value);
 
         /// <summary>
@@ -287,6 +482,11 @@ namespace Julep
         {
             FunctionToolCallOutputResource = value;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static ResponsesItemReference FromFunctionToolCallOutputResource(global::Julep.ResponsesFunctionToolCallOutputResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
         /// 
@@ -352,14 +552,14 @@ namespace Julep
         /// 
         /// </summary>
         public TResult? Match<TResult>(
-            global::System.Func<global::Julep.ResponsesInputMessageResource?, TResult>? inputMessageResource = null,
-            global::System.Func<global::Julep.ResponsesOutputMessage?, TResult>? outputMessage = null,
-            global::System.Func<global::Julep.ResponsesFileSearchToolCall?, TResult>? fileSearchToolCall = null,
-            global::System.Func<global::Julep.ResponsesComputerToolCall?, TResult>? computerToolCall = null,
-            global::System.Func<global::Julep.ResponsesComputerToolCallOutputResource?, TResult>? computerToolCallOutputResource = null,
-            global::System.Func<global::Julep.ResponsesWebSearchToolCall?, TResult>? webSearchToolCall = null,
-            global::System.Func<global::Julep.ResponsesFunctionToolCall?, TResult>? functionToolCall = null,
-            global::System.Func<global::Julep.ResponsesFunctionToolCallOutputResource?, TResult>? functionToolCallOutputResource = null,
+            global::System.Func<global::Julep.ResponsesInputMessageResource, TResult>? inputMessageResource = null,
+            global::System.Func<global::Julep.ResponsesOutputMessage, TResult>? outputMessage = null,
+            global::System.Func<global::Julep.ResponsesFileSearchToolCall, TResult>? fileSearchToolCall = null,
+            global::System.Func<global::Julep.ResponsesComputerToolCall, TResult>? computerToolCall = null,
+            global::System.Func<global::Julep.ResponsesComputerToolCallOutputResource, TResult>? computerToolCallOutputResource = null,
+            global::System.Func<global::Julep.ResponsesWebSearchToolCall, TResult>? webSearchToolCall = null,
+            global::System.Func<global::Julep.ResponsesFunctionToolCall, TResult>? functionToolCall = null,
+            global::System.Func<global::Julep.ResponsesFunctionToolCallOutputResource, TResult>? functionToolCallOutputResource = null,
             bool validate = true)
         {
             if (validate)
@@ -407,14 +607,74 @@ namespace Julep
         /// 
         /// </summary>
         public void Match(
-            global::System.Action<global::Julep.ResponsesInputMessageResource?>? inputMessageResource = null,
-            global::System.Action<global::Julep.ResponsesOutputMessage?>? outputMessage = null,
-            global::System.Action<global::Julep.ResponsesFileSearchToolCall?>? fileSearchToolCall = null,
-            global::System.Action<global::Julep.ResponsesComputerToolCall?>? computerToolCall = null,
-            global::System.Action<global::Julep.ResponsesComputerToolCallOutputResource?>? computerToolCallOutputResource = null,
-            global::System.Action<global::Julep.ResponsesWebSearchToolCall?>? webSearchToolCall = null,
-            global::System.Action<global::Julep.ResponsesFunctionToolCall?>? functionToolCall = null,
-            global::System.Action<global::Julep.ResponsesFunctionToolCallOutputResource?>? functionToolCallOutputResource = null,
+            global::System.Action<global::Julep.ResponsesInputMessageResource>? inputMessageResource = null,
+
+            global::System.Action<global::Julep.ResponsesOutputMessage>? outputMessage = null,
+
+            global::System.Action<global::Julep.ResponsesFileSearchToolCall>? fileSearchToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesComputerToolCall>? computerToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesComputerToolCallOutputResource>? computerToolCallOutputResource = null,
+
+            global::System.Action<global::Julep.ResponsesWebSearchToolCall>? webSearchToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesFunctionToolCall>? functionToolCall = null,
+
+            global::System.Action<global::Julep.ResponsesFunctionToolCallOutputResource>? functionToolCallOutputResource = null,
+            bool validate = true)
+        {
+            if (validate)
+            {
+                Validate();
+            }
+
+            if (IsInputMessageResource)
+            {
+                inputMessageResource?.Invoke(InputMessageResource!);
+            }
+            else if (IsOutputMessage)
+            {
+                outputMessage?.Invoke(OutputMessage!);
+            }
+            else if (IsFileSearchToolCall)
+            {
+                fileSearchToolCall?.Invoke(FileSearchToolCall!);
+            }
+            else if (IsComputerToolCall)
+            {
+                computerToolCall?.Invoke(ComputerToolCall!);
+            }
+            else if (IsComputerToolCallOutputResource)
+            {
+                computerToolCallOutputResource?.Invoke(ComputerToolCallOutputResource!);
+            }
+            else if (IsWebSearchToolCall)
+            {
+                webSearchToolCall?.Invoke(WebSearchToolCall!);
+            }
+            else if (IsFunctionToolCall)
+            {
+                functionToolCall?.Invoke(FunctionToolCall!);
+            }
+            else if (IsFunctionToolCallOutputResource)
+            {
+                functionToolCallOutputResource?.Invoke(FunctionToolCallOutputResource!);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public void Switch(
+            global::System.Action<global::Julep.ResponsesInputMessageResource>? inputMessageResource = null,
+            global::System.Action<global::Julep.ResponsesOutputMessage>? outputMessage = null,
+            global::System.Action<global::Julep.ResponsesFileSearchToolCall>? fileSearchToolCall = null,
+            global::System.Action<global::Julep.ResponsesComputerToolCall>? computerToolCall = null,
+            global::System.Action<global::Julep.ResponsesComputerToolCallOutputResource>? computerToolCallOutputResource = null,
+            global::System.Action<global::Julep.ResponsesWebSearchToolCall>? webSearchToolCall = null,
+            global::System.Action<global::Julep.ResponsesFunctionToolCall>? functionToolCall = null,
+            global::System.Action<global::Julep.ResponsesFunctionToolCallOutputResource>? functionToolCallOutputResource = null,
             bool validate = true)
         {
             if (validate)

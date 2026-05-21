@@ -90,5 +90,6 @@ namespace Julep
         public ResponsesFileSearchToolCallResult()
         {
         }
+
     }
 }

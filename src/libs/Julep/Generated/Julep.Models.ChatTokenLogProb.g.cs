@@ -44,5 +44,6 @@ namespace Julep
         public ChatTokenLogProb()
         {
         }
+
     }
 }
