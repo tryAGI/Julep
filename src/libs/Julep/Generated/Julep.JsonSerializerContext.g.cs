@@ -13,1609 +13,6 @@ namespace Julep
         DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
         Converters = new global::System.Type[]
         {
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesItemReferenceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesClick, global::Julep.ResponsesDoubleClick, global::Julep.ResponsesDrag, global::Julep.ResponsesKeyPress, global::Julep.ResponsesMove, global::Julep.ResponsesScreenshot, global::Julep.ResponsesScroll, global::Julep.ResponsesType, global::Julep.ResponsesWait>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesCreateResponseToolChoiceEnum?, global::Julep.ResponsesCreateResponseToolChoiceEnum2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesToolChoiceOptions?, global::Julep.ResponsesToolChoiceTypes, global::Julep.ResponsesToolChoiceFunction>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, bool?, double?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearchUpdate, global::Julep.SessionsTextOnlyDocSearchUpdate, global::Julep.SessionsHybridDocSearchUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenUpdateItemCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksToolCallStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksYieldStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<bool?, global::System.Collections.Generic.IList<object>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArguments, global::Julep.ToolsGoogleSheetsWriteArguments, global::Julep.ToolsGoogleSheetsAppendArguments, global::Julep.ToolsGoogleSheetsClearArguments, global::Julep.ToolsGoogleSheetsBatchReadArguments, global::Julep.ToolsGoogleSheetsBatchWriteArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsWriteArgumentsUpdate, global::Julep.ToolsGoogleSheetsAppendArgumentsUpdate, global::Julep.ToolsGoogleSheetsClearArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArguments, global::Julep.ToolsMcpListToolsArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArgumentsUpdate, global::Julep.ToolsMcpListToolsArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDefUpdate, global::Julep.ToolsBraveIntegrationDefUpdate, global::Julep.ToolsEmailIntegrationDefUpdate, global::Julep.ToolsSpiderIntegrationDefUpdate, global::Julep.ToolsWikipediaIntegrationDefUpdate, global::Julep.ToolsWeatherIntegrationDefUpdate, global::Julep.ToolsMailgunIntegrationDefUpdate, global::Julep.ToolsBrowserbaseContextIntegrationDefUpdate, global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdate, global::Julep.ToolsRemoteBrowserIntegrationDefUpdate, global::Julep.ToolsLlamaParseIntegrationDefUpdate, global::Julep.ToolsFfmpegIntegrationDefUpdate, global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate, global::Julep.ToolsCloudinaryEditIntegrationDefUpdate, global::Julep.ToolsArxivIntegrationDefUpdate, global::Julep.ToolsUnstructuredIntegrationDefUpdate, global::Julep.ToolsAlgoliaIntegrationDefUpdate, global::Julep.ToolsMcpIntegrationDefUpdate, global::Julep.ToolsGoogleSheetsIntegrationDefUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>),
-
-            typeof(global::Julep.JsonConverters.UnixTimestampJsonConverter),
         })]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
@@ -2128,1609 +525,6 @@ namespace Julep
         DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
         Converters = new global::System.Type[]
         {
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesItemReferenceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesClick, global::Julep.ResponsesDoubleClick, global::Julep.ResponsesDrag, global::Julep.ResponsesKeyPress, global::Julep.ResponsesMove, global::Julep.ResponsesScreenshot, global::Julep.ResponsesScroll, global::Julep.ResponsesType, global::Julep.ResponsesWait>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesCreateResponseToolChoiceEnum?, global::Julep.ResponsesCreateResponseToolChoiceEnum2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesToolChoiceOptions?, global::Julep.ResponsesToolChoiceTypes, global::Julep.ResponsesToolChoiceFunction>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, bool?, double?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearchUpdate, global::Julep.SessionsTextOnlyDocSearchUpdate, global::Julep.SessionsHybridDocSearchUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenUpdateItemCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksToolCallStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksYieldStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<bool?, global::System.Collections.Generic.IList<object>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArguments, global::Julep.ToolsGoogleSheetsWriteArguments, global::Julep.ToolsGoogleSheetsAppendArguments, global::Julep.ToolsGoogleSheetsClearArguments, global::Julep.ToolsGoogleSheetsBatchReadArguments, global::Julep.ToolsGoogleSheetsBatchWriteArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsWriteArgumentsUpdate, global::Julep.ToolsGoogleSheetsAppendArgumentsUpdate, global::Julep.ToolsGoogleSheetsClearArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArguments, global::Julep.ToolsMcpListToolsArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArgumentsUpdate, global::Julep.ToolsMcpListToolsArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDefUpdate, global::Julep.ToolsBraveIntegrationDefUpdate, global::Julep.ToolsEmailIntegrationDefUpdate, global::Julep.ToolsSpiderIntegrationDefUpdate, global::Julep.ToolsWikipediaIntegrationDefUpdate, global::Julep.ToolsWeatherIntegrationDefUpdate, global::Julep.ToolsMailgunIntegrationDefUpdate, global::Julep.ToolsBrowserbaseContextIntegrationDefUpdate, global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdate, global::Julep.ToolsRemoteBrowserIntegrationDefUpdate, global::Julep.ToolsLlamaParseIntegrationDefUpdate, global::Julep.ToolsFfmpegIntegrationDefUpdate, global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate, global::Julep.ToolsCloudinaryEditIntegrationDefUpdate, global::Julep.ToolsArxivIntegrationDefUpdate, global::Julep.ToolsUnstructuredIntegrationDefUpdate, global::Julep.ToolsAlgoliaIntegrationDefUpdate, global::Julep.ToolsMcpIntegrationDefUpdate, global::Julep.ToolsGoogleSheetsIntegrationDefUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>),
-
-            typeof(global::Julep.JsonConverters.UnixTimestampJsonConverter),
         })]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
@@ -4243,1609 +1037,6 @@ namespace Julep
         DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
         Converters = new global::System.Type[]
         {
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesItemReferenceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesClick, global::Julep.ResponsesDoubleClick, global::Julep.ResponsesDrag, global::Julep.ResponsesKeyPress, global::Julep.ResponsesMove, global::Julep.ResponsesScreenshot, global::Julep.ResponsesScroll, global::Julep.ResponsesType, global::Julep.ResponsesWait>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesCreateResponseToolChoiceEnum?, global::Julep.ResponsesCreateResponseToolChoiceEnum2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesToolChoiceOptions?, global::Julep.ResponsesToolChoiceTypes, global::Julep.ResponsesToolChoiceFunction>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, bool?, double?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearchUpdate, global::Julep.SessionsTextOnlyDocSearchUpdate, global::Julep.SessionsHybridDocSearchUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenUpdateItemCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksToolCallStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksYieldStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<bool?, global::System.Collections.Generic.IList<object>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArguments, global::Julep.ToolsGoogleSheetsWriteArguments, global::Julep.ToolsGoogleSheetsAppendArguments, global::Julep.ToolsGoogleSheetsClearArguments, global::Julep.ToolsGoogleSheetsBatchReadArguments, global::Julep.ToolsGoogleSheetsBatchWriteArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsWriteArgumentsUpdate, global::Julep.ToolsGoogleSheetsAppendArgumentsUpdate, global::Julep.ToolsGoogleSheetsClearArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArguments, global::Julep.ToolsMcpListToolsArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArgumentsUpdate, global::Julep.ToolsMcpListToolsArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDefUpdate, global::Julep.ToolsBraveIntegrationDefUpdate, global::Julep.ToolsEmailIntegrationDefUpdate, global::Julep.ToolsSpiderIntegrationDefUpdate, global::Julep.ToolsWikipediaIntegrationDefUpdate, global::Julep.ToolsWeatherIntegrationDefUpdate, global::Julep.ToolsMailgunIntegrationDefUpdate, global::Julep.ToolsBrowserbaseContextIntegrationDefUpdate, global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdate, global::Julep.ToolsRemoteBrowserIntegrationDefUpdate, global::Julep.ToolsLlamaParseIntegrationDefUpdate, global::Julep.ToolsFfmpegIntegrationDefUpdate, global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate, global::Julep.ToolsCloudinaryEditIntegrationDefUpdate, global::Julep.ToolsArxivIntegrationDefUpdate, global::Julep.ToolsUnstructuredIntegrationDefUpdate, global::Julep.ToolsAlgoliaIntegrationDefUpdate, global::Julep.ToolsMcpIntegrationDefUpdate, global::Julep.ToolsGoogleSheetsIntegrationDefUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>),
-
-            typeof(global::Julep.JsonConverters.UnixTimestampJsonConverter),
         })]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
@@ -6358,1609 +1549,6 @@ namespace Julep
         DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
         Converters = new global::System.Type[]
         {
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatInputDataToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatFinishReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DocsDocOwnerRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesChatMLRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.EntriesImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsExecutionStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsTransitionEventTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateJsonConverter),
-
-            typeof(global::Julep.JsonConverters.JobsJobStateNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesClickButtonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolEnvironmentNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesCreateResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDoubleClickTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesDragTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesEasyInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFilePathTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesIncludableNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputFileTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputImageDetailNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesKeyPressTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageRoleNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMessageStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesMoveTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputMessageTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningEffortNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesReasoningItemStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesRefusalTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseObjectNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseTruncationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseFormatTextTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesResponseStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScreenshotTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesScrollTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceOptionsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesTypeTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesUrlCitationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWaitTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsContextOverflowTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsSessionDiscriminatorKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksEvaluateStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksForeachStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksGetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksLogStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksParallelStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksReturnStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSetStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSleepStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksSwitchStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksTaskMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksToolCallStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksWaitForInputStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3JsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3NullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksYieldStepEnumKindNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenFunctionCallTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022ActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateResourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateOperationNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsToolTypeNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TasksRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AgentToolsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ProjectsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.SessionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.TaskExecutionsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UsersRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListSortByNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionJsonConverter),
-
-            typeof(global::Julep.JsonConverters.UserDocsRouteListDirectionNullableJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesInputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesItemReferenceJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesOutputItemJsonConverter),
-
-            typeof(global::Julep.JsonConverters.ResponsesToolJsonConverter),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatInputDataToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2, global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2, global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesClick, global::Julep.ResponsesDoubleClick, global::Julep.ResponsesDrag, global::Julep.ResponsesKeyPress, global::Julep.ResponsesMove, global::Julep.ResponsesScreenshot, global::Julep.ResponsesScroll, global::Julep.ResponsesType, global::Julep.ResponsesWait>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesCreateResponseToolChoiceEnum?, global::Julep.ResponsesCreateResponseToolChoiceEnum2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ResponsesToolChoiceOptions?, global::Julep.ResponsesToolChoiceTypes, global::Julep.ResponsesToolChoiceFunction>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, bool?, double?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearchUpdate, global::Julep.SessionsTextOnlyDocSearchUpdate, global::Julep.SessionsHybridDocSearchUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::Julep.TasksCaseThenUpdateItemCase?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksCreateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksIfElseWorkflowStepElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemThen>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksWaitForInputStep, global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksIfElseWorkflowStepUpdateItemElse>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStepUpdateItem, global::Julep.TasksSwitchStepUpdateItem, global::Julep.TasksForeachStepUpdateItem, global::Julep.TasksParallelStepUpdateItem, global::Julep.TasksPatchTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStepUpdateItem, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2, global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksPromptStepUpdateItemToolChoice?, global::Julep.ToolsNamedToolChoice>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksToolCallStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<object, global::Julep.TasksYieldStepArgumentsEnum3?>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, object>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<bool?, global::System.Collections.Generic.IList<object>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArguments, global::Julep.ToolsGoogleSheetsWriteArguments, global::Julep.ToolsGoogleSheetsAppendArguments, global::Julep.ToolsGoogleSheetsClearArguments, global::Julep.ToolsGoogleSheetsBatchReadArguments, global::Julep.ToolsGoogleSheetsBatchWriteArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsGoogleSheetsReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsWriteArgumentsUpdate, global::Julep.ToolsGoogleSheetsAppendArgumentsUpdate, global::Julep.ToolsGoogleSheetsClearArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdate, global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.IList<string>>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArguments, global::Julep.ToolsMcpListToolsArguments>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsMcpCallToolArgumentsUpdate, global::Julep.ToolsMcpListToolsArgumentsUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDefUpdate, global::Julep.ToolsBraveIntegrationDefUpdate, global::Julep.ToolsEmailIntegrationDefUpdate, global::Julep.ToolsSpiderIntegrationDefUpdate, global::Julep.ToolsWikipediaIntegrationDefUpdate, global::Julep.ToolsWeatherIntegrationDefUpdate, global::Julep.ToolsMailgunIntegrationDefUpdate, global::Julep.ToolsBrowserbaseContextIntegrationDefUpdate, global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdate, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdate, global::Julep.ToolsRemoteBrowserIntegrationDefUpdate, global::Julep.ToolsLlamaParseIntegrationDefUpdate, global::Julep.ToolsFfmpegIntegrationDefUpdate, global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate, global::Julep.ToolsCloudinaryEditIntegrationDefUpdate, global::Julep.ToolsArxivIntegrationDefUpdate, global::Julep.ToolsUnstructuredIntegrationDefUpdate, global::Julep.ToolsAlgoliaIntegrationDefUpdate, global::Julep.ToolsMcpIntegrationDefUpdate, global::Julep.ToolsGoogleSheetsIntegrationDefUpdate>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ToolsDummyIntegrationDef, global::Julep.ToolsBraveIntegrationDef, global::Julep.ToolsEmailIntegrationDef, global::Julep.ToolsSpiderIntegrationDef, global::Julep.ToolsWikipediaIntegrationDef, global::Julep.ToolsWeatherIntegrationDef, global::Julep.ToolsMailgunIntegrationDef, global::Julep.ToolsBrowserbaseContextIntegrationDef, global::Julep.ToolsBrowserbaseExtensionIntegrationDef, global::Julep.ToolsBrowserbaseListSessionsIntegrationDef, global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionIntegrationDef, global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef, global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef, global::Julep.ToolsRemoteBrowserIntegrationDef, global::Julep.ToolsLlamaParseIntegrationDef, global::Julep.ToolsFfmpegIntegrationDef, global::Julep.ToolsCloudinaryUploadIntegrationDef, global::Julep.ToolsCloudinaryEditIntegrationDef, global::Julep.ToolsArxivIntegrationDef, global::Julep.ToolsUnstructuredIntegrationDef, global::Julep.ToolsAlgoliaIntegrationDef, global::Julep.ToolsMcpIntegrationDef, global::Julep.ToolsGoogleSheetsIntegrationDef>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>),
-
-            typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>),
-
-            typeof(global::Julep.JsonConverters.UnixTimestampJsonConverter),
         })]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
@@ -8441,15 +2029,7 @@ namespace Julep
     /// </summary>
     public sealed partial class SourceGenerationContext : global::System.Text.Json.Serialization.JsonSerializerContext
     {
-        private static readonly global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver Resolver = global::System.Text.Json.Serialization.Metadata.JsonTypeInfoResolver.Combine(
-            SourceGenerationContextChunk0.Default,
-
-            SourceGenerationContextChunk1.Default,
-
-            SourceGenerationContextChunk2.Default,
-
-            SourceGenerationContextChunk3.Default
-            );
+        private static readonly global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver Resolver = new LazyChunkResolver();
 
         private static readonly global::System.Text.Json.JsonSerializerOptions DefaultOptions = CreateDefaultOptions();
 
@@ -8479,676 +2059,6 @@ namespace Julep
                 DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
                 TypeInfoResolver = Resolver,
             };
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataToolChoiceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatInputDataToolChoiceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatFinishReasonJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatFinishReasonNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.DocsDocOwnerRoleJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.DocsDocOwnerRoleNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesBaseEntrySourceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesChatMLRoleJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesChatMLRoleNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesImageDetailJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.EntriesImageDetailNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsExecutionStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsExecutionStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsTransitionEventTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsTransitionEventTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.JobsJobStateJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.JobsJobStateNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesClickTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesClickTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesClickButtonJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesClickButtonNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolEnvironmentJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolEnvironmentNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolCallTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolCallTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolCallStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolCallStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesCreateResponseTruncationJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesCreateResponseTruncationNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesDoubleClickTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesDoubleClickTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesDragTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesDragTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesEasyInputMessageTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesEasyInputMessageTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileCitationTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileCitationTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFilePathTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFilePathTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesIncludableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesIncludableNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputFileTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputFileTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputImageTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputImageTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputImageDetailJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputImageDetailNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputMessageTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputMessageTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputTextTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputTextTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesKeyPressTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesKeyPressTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesMessageRoleJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesMessageRoleNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesMessageStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesMessageStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesMoveTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesMoveTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesOutputMessageTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesOutputMessageTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesOutputTextTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesOutputTextTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningContentTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningContentTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningEffortJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningEffortNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningItemStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesReasoningItemStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesRefusalTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesRefusalTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseObjectJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseObjectNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseTruncationJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseTruncationNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseFormatTextTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseFormatTextTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesResponseStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesScreenshotTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesScreenshotTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesScrollTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesScrollTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesToolChoiceOptionsJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesToolChoiceOptionsNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesTypeTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesTypeTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesUrlCitationTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesUrlCitationTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWaitTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWaitTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsContextOverflowTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsContextOverflowTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsHybridDocSearchModeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsHybridDocSearchModeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsSessionDiscriminatorKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsSessionDiscriminatorKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsVectorDocSearchModeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsVectorDocSearchModeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCaseThenCaseJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCaseThenCaseNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestItemKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestItemKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksErrorWorkflowStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksErrorWorkflowStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksEvaluateStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksEvaluateStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksEvaluateStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksEvaluateStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksForeachStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksForeachStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksForeachStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksForeachStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksGetStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksGetStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksGetStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksGetStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksLogStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksLogStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksLogStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksLogStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksParallelStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksParallelStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksParallelStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksParallelStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepToolsJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepToolsNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepToolChoiceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepToolChoiceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksReturnStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksReturnStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksReturnStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksReturnStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSetStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSetStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSetStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSetStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSleepStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSleepStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSleepStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSleepStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSwitchStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSwitchStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSwitchStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksSwitchStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskItemKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskItemKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskItemEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskItemEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskMainItemKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskMainItemKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskMainItemEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksTaskMainItemEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksToolCallStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksToolCallStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3JsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3NullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksToolCallStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksToolCallStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksWaitForInputStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksWaitForInputStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksWaitForInputStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksWaitForInputStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksYieldStepKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksYieldStepKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3JsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3NullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksYieldStepEnumKindJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksYieldStepEnumKindNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsApiCallDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsApiCallDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBash20241022DefTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBash20241022DefTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsChosenFunctionCallTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsChosenFunctionCallTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsComputer20241022ActionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsComputer20241022ActionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsComputer20241022DefTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsComputer20241022DefTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpSetupTransportJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpSetupTransportNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefResourceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefResourceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefOperationJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefOperationNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefSubresourceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefSubresourceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefUpdateResourceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefUpdateResourceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefUpdateOperationJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefUpdateOperationNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsToolTypeJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsToolTypeNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentDocsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentDocsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentDocsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentDocsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentSecretsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentSecretsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentSecretsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentSecretsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TasksRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentToolsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentToolsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentToolsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.AgentToolsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ProjectsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ProjectsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ProjectsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.ProjectsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.DeveloperSecretsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.DeveloperSecretsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.SessionsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TaskExecutionsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TaskExecutionsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TaskExecutionsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.TaskExecutionsRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UsersRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UsersRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UsersRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UsersRouteListDirectionNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UserDocsRouteListSortByJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UserDocsRouteListSortByNullableJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UserDocsRouteListDirectionJsonConverter());
-            options.Converters.Add(new global::Julep.JsonConverters.UserDocsRouteListDirectionNullableJsonConverter());
             options.Converters.Add(new global::Julep.JsonConverters.ResponsesInputItemJsonConverter());
             options.Converters.Add(new global::Julep.JsonConverters.ResponsesItemReferenceJsonConverter());
             options.Converters.Add(new global::Julep.JsonConverters.ResponsesOutputItemJsonConverter());
@@ -9282,7 +2192,4764 @@ namespace Julep
             options.Converters.Add(new global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>());
             options.Converters.Add(new global::Julep.JsonConverters.UnixTimestampJsonConverter());
 
+            options.Converters.Add(new LazyEnumJsonConverterFactory());
+
             return options;
+        }
+
+
+        private sealed class LazyEnumJsonConverterFactory : global::System.Text.Json.Serialization.JsonConverterFactory
+        {
+            public override bool CanConvert(global::System.Type typeToConvert)
+            {
+                return
+                    typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataToolChoice)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatInputDataToolChoice?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatFinishReason)
+
+                    || typeToConvert == typeof(global::Julep.ChatFinishReason?)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSchemaCompletionResponseFormatType)
+
+                    || typeToConvert == typeof(global::Julep.ChatSchemaCompletionResponseFormatType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSimpleCompletionResponseFormatType)
+
+                    || typeToConvert == typeof(global::Julep.ChatSimpleCompletionResponseFormatType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.DocsDocOwnerRole)
+
+                    || typeToConvert == typeof(global::Julep.DocsDocOwnerRole?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntrySource)
+
+                    || typeToConvert == typeof(global::Julep.EntriesBaseEntrySource?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesChatMLRole)
+
+                    || typeToConvert == typeof(global::Julep.EntriesChatMLRole?)
+
+                    || typeToConvert == typeof(global::Julep.EntriesImageDetail)
+
+                    || typeToConvert == typeof(global::Julep.EntriesImageDetail?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsExecutionStatus)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsExecutionStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsResumeExecutionRequestStatus)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsResumeExecutionRequestStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsStopExecutionRequestStatus)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsStopExecutionRequestStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsTaskTokenResumeExecutionRequestStatus)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsTaskTokenResumeExecutionRequestStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsTransitionEventType)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsTransitionEventType?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestStatus)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestDiscriminatorStatus)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestDiscriminatorStatus?)
+
+                    || typeToConvert == typeof(global::Julep.JobsJobState)
+
+                    || typeToConvert == typeof(global::Julep.JobsJobState?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesClickType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesClickType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesClickButton)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesClickButton?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerScreenshotImageType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerScreenshotImageType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolEnvironment)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolEnvironment?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolCallType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolCallType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolCallStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolCallStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolCallOutputType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesComputerToolCallOutputType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnum)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnum?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnumType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnumType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesCreateResponseTruncation)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesCreateResponseTruncation?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesDoubleClickType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesDoubleClickType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesDragType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesDragType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesEasyInputMessageType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesEasyInputMessageType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileCitationType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileCitationType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFilePathType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFilePathType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolRankingOptionsRanker)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolRankingOptionsRanker?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesIncludable)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesIncludable?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputFileType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputFileType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputImageType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputImageType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputImageDetail)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputImageDetail?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputMessageType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputMessageType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputTextType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesInputTextType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesKeyPressType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesKeyPressType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesMessageRole)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesMessageRole?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesMessageStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesMessageStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesMoveType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesMoveType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesOutputMessageType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesOutputMessageType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesOutputTextType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesOutputTextType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningGenerateSummary)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningGenerateSummary?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningContentType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningContentType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningEffort)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningEffort?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningItemType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningItemType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningItemStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesReasoningItemStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesRefusalType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesRefusalType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseObject)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseObject?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseIncompleteDetailsReason)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseIncompleteDetailsReason?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseTruncation)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseTruncation?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseFormatJsonObjectType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseFormatJsonObjectType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseFormatTextType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseFormatTextType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesResponseStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesScreenshotType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesScreenshotType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesScrollType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesScrollType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesTextResponseFormatJsonSchemaType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesTextResponseFormatJsonSchemaType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesToolChoiceFunctionType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesToolChoiceFunctionType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesToolChoiceOptions)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesToolChoiceOptions?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesToolChoiceTypesType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesToolChoiceTypesType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesTypeType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesTypeType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesUrlCitationType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesUrlCitationType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWaitType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWaitType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchStatus)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolSearchContextSize)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolSearchContextSize?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolUserLocationType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolUserLocationType?)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolCallType)
+
+                    || typeToConvert == typeof(global::Julep.ResponsesWebSearchToolCallType?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsContextOverflowType)
+
+                    || typeToConvert == typeof(global::Julep.SessionsContextOverflowType?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsHybridDocSearchMode)
+
+                    || typeToConvert == typeof(global::Julep.SessionsHybridDocSearchMode?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsHybridDocSearchUpdateMode)
+
+                    || typeToConvert == typeof(global::Julep.SessionsHybridDocSearchUpdateMode?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsSessionDiscriminatorKind)
+
+                    || typeToConvert == typeof(global::Julep.SessionsSessionDiscriminatorKind?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchMode)
+
+                    || typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchMode?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchUpdateMode)
+
+                    || typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchUpdateMode?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsVectorDocSearchMode)
+
+                    || typeToConvert == typeof(global::Julep.SessionsVectorDocSearchMode?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsVectorDocSearchUpdateMode)
+
+                    || typeToConvert == typeof(global::Julep.SessionsVectorDocSearchUpdateMode?)
+
+                    || typeToConvert == typeof(global::Julep.TasksCaseThenCase)
+
+                    || typeToConvert == typeof(global::Julep.TasksCaseThenCase?)
+
+                    || typeToConvert == typeof(global::Julep.TasksCaseThenUpdateItemCase)
+
+                    || typeToConvert == typeof(global::Julep.TasksCaseThenUpdateItemCase?)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksEvaluateStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksEvaluateStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksEvaluateStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksEvaluateStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksForeachStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksForeachStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksForeachStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksForeachStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksGetStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksGetStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksGetStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksGetStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksLogStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksLogStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksLogStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksLogStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksParallelStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksParallelStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksParallelStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksParallelStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepTools)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepTools?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepToolChoice)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepToolChoice?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1Type)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1Type?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3Type)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3Type?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemTools)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemTools?)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemToolChoice)
+
+                    || typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemToolChoice?)
+
+                    || typeToConvert == typeof(global::Julep.TasksReturnStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksReturnStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksReturnStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksReturnStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksSetStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksSetStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksSetStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksSetStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksSleepStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksSleepStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksSleepStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksSleepStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksSwitchStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksSwitchStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksSwitchStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksSwitchStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskItemKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskItemKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskItemEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskItemEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskMainItemKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskMainItemKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskMainItemEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksTaskMainItemEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksToolCallStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksToolCallStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksToolCallStepArgumentsEnum3)
+
+                    || typeToConvert == typeof(global::Julep.TasksToolCallStepArgumentsEnum3?)
+
+                    || typeToConvert == typeof(global::Julep.TasksToolCallStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksToolCallStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksWaitForInputStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksWaitForInputStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksWaitForInputStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksWaitForInputStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksYieldStepKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksYieldStepKind?)
+
+                    || typeToConvert == typeof(global::Julep.TasksYieldStepArgumentsEnum3)
+
+                    || typeToConvert == typeof(global::Julep.TasksYieldStepArgumentsEnum3?)
+
+                    || typeToConvert == typeof(global::Julep.TasksYieldStepEnumKind)
+
+                    || typeToConvert == typeof(global::Julep.TasksYieldStepEnumKind?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsApiCallDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsApiCallDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsApiCallDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsApiCallDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortBy)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortOrder)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortOrder?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortBy)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortOrder)
+
+                    || typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortOrder?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefDiscriminatorProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefDiscriminatorProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateDiscriminatorProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateDiscriminatorProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBash20241022DefType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBash20241022DefType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBash20241022DefUpdateType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBash20241022DefUpdateType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsStatus)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsArgumentsStatus)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsArgumentsStatus?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsChosenFunctionCallType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsChosenFunctionCallType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsChosenTextEditor20241022Command)
+
+                    || typeToConvert == typeof(global::Julep.ToolsChosenTextEditor20241022Command?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsComputer20241022Action)
+
+                    || typeToConvert == typeof(global::Julep.ToolsComputer20241022Action?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsComputer20241022DefType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsComputer20241022DefType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsComputer20241022DefUpdateType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsComputer20241022DefUpdateType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsValueInputOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsValueInputOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsInsertDataOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsInsertDataOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsMajorDimension)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsMajorDimension?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsValueRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsValueRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsValueInputOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsValueInputOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsMajorDimension)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsMajorDimension?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsValueRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsValueRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsDateTimeRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsDateTimeRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateMajorDimension)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateMajorDimension?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsValueRangeMajorDimension)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsValueRangeMajorDimension?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsValueInputOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsValueInputOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsInsertDataOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsInsertDataOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOption)
+
+                    || typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOption?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpSetupTransport)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpSetupTransport?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpSetupUpdateTransport)
+
+                    || typeToConvert == typeof(global::Julep.ToolsMcpSetupUpdateTransport?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsAction)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsAction?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsUpdateAction)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsUpdateAction?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsContentType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsContentType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsUpdateContentType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsUpdateContentType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateMethod)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateMethod?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefResource)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefResource?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefOperation)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefOperation?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefSubresource)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefSubresource?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateResource)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateResource?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateOperation)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateOperation?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateSubresource)
+
+                    || typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateSubresource?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefUpdateType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefUpdateType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsToolType)
+
+                    || typeToConvert == typeof(global::Julep.ToolsToolType?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefProvider?)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefUpdateProvider)
+
+                    || typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefUpdateProvider?)
+
+                    || typeToConvert == typeof(global::Julep.AgentsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.AgentsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.AgentsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.AgentsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.AgentDocsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.AgentDocsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.AgentDocsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.AgentDocsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.AgentSecretsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.AgentSecretsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.AgentSecretsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.AgentSecretsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.TasksRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.TasksRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.TasksRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.TasksRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.AgentToolsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.AgentToolsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.AgentToolsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.AgentToolsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.ProjectsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.ProjectsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.ProjectsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.ProjectsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.SessionsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.SessionsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.SessionsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.TaskExecutionsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.TaskExecutionsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.TaskExecutionsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.TaskExecutionsRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.UsersRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.UsersRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.UsersRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.UsersRouteListDirection?)
+
+                    || typeToConvert == typeof(global::Julep.UserDocsRouteListSortBy)
+
+                    || typeToConvert == typeof(global::Julep.UserDocsRouteListSortBy?)
+
+                    || typeToConvert == typeof(global::Julep.UserDocsRouteListDirection)
+
+                    || typeToConvert == typeof(global::Julep.UserDocsRouteListDirection?);
+            }
+
+            public override global::System.Text.Json.Serialization.JsonConverter CreateConverter(
+                global::System.Type typeToConvert,
+                global::System.Text.Json.JsonSerializerOptions options)
+            {
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataToolChoice))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataToolChoiceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatInputDataToolChoice?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatInputDataToolChoiceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatFinishReason))
+                {
+                    return new global::Julep.JsonConverters.ChatFinishReasonJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatFinishReason?))
+                {
+                    return new global::Julep.JsonConverters.ChatFinishReasonNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSchemaCompletionResponseFormatType))
+                {
+                    return new global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSchemaCompletionResponseFormatType?))
+                {
+                    return new global::Julep.JsonConverters.ChatSchemaCompletionResponseFormatTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSimpleCompletionResponseFormatType))
+                {
+                    return new global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSimpleCompletionResponseFormatType?))
+                {
+                    return new global::Julep.JsonConverters.ChatSimpleCompletionResponseFormatTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.DocsDocOwnerRole))
+                {
+                    return new global::Julep.JsonConverters.DocsDocOwnerRoleJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.DocsDocOwnerRole?))
+                {
+                    return new global::Julep.JsonConverters.DocsDocOwnerRoleNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntrySource))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesBaseEntrySource?))
+                {
+                    return new global::Julep.JsonConverters.EntriesBaseEntrySourceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesChatMLRole))
+                {
+                    return new global::Julep.JsonConverters.EntriesChatMLRoleJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesChatMLRole?))
+                {
+                    return new global::Julep.JsonConverters.EntriesChatMLRoleNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesImageDetail))
+                {
+                    return new global::Julep.JsonConverters.EntriesImageDetailJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.EntriesImageDetail?))
+                {
+                    return new global::Julep.JsonConverters.EntriesImageDetailNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsExecutionStatus))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsExecutionStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsExecutionStatus?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsExecutionStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsResumeExecutionRequestStatus))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsResumeExecutionRequestStatus?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsResumeExecutionRequestStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsStopExecutionRequestStatus))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsStopExecutionRequestStatus?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsStopExecutionRequestStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsTaskTokenResumeExecutionRequestStatus))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsTaskTokenResumeExecutionRequestStatus?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsTaskTokenResumeExecutionRequestStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsTransitionEventType))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsTransitionEventTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsTransitionEventType?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsTransitionEventTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestStatus))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestStatus?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestDiscriminatorStatus))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionsUpdateExecutionRequestDiscriminatorStatus?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionsUpdateExecutionRequestDiscriminatorStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.JobsJobState))
+                {
+                    return new global::Julep.JsonConverters.JobsJobStateJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.JobsJobState?))
+                {
+                    return new global::Julep.JsonConverters.JobsJobStateNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesClickType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesClickTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesClickType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesClickTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesClickButton))
+                {
+                    return new global::Julep.JsonConverters.ResponsesClickButtonJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesClickButton?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesClickButtonNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerScreenshotImageType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerScreenshotImageType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerScreenshotImageTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolEnvironment))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolEnvironmentJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolEnvironment?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolEnvironmentNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolCallType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolCallTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolCallType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolCallTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolCallStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolCallStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolCallStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolCallStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolCallOutputType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesComputerToolCallOutputType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesComputerToolCallOutputTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnum))
+                {
+                    return new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnum?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnumType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesCreateResponseToolChoiceEnumType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesCreateResponseToolChoiceEnumTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesCreateResponseTruncation))
+                {
+                    return new global::Julep.JsonConverters.ResponsesCreateResponseTruncationJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesCreateResponseTruncation?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesCreateResponseTruncationNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesDoubleClickType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesDoubleClickTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesDoubleClickType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesDoubleClickTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesDragType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesDragTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesDragType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesDragTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesEasyInputMessageType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesEasyInputMessageTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesEasyInputMessageType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesEasyInputMessageTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileCitationType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileCitationTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileCitationType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileCitationTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFilePathType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFilePathTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFilePathType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFilePathTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolRankingOptionsRanker))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolRankingOptionsRanker?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolRankingOptionsRankerNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolCallTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFileSearchToolCallStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFileSearchToolCallStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesFunctionToolCallOutputStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesFunctionToolCallOutputStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesIncludable))
+                {
+                    return new global::Julep.JsonConverters.ResponsesIncludableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesIncludable?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesIncludableNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputFileType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputFileTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputFileType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputFileTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputImageType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputImageTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputImageType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputImageTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputImageDetail))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputImageDetailJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputImageDetail?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputImageDetailNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputMessageType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputMessageTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputMessageType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputMessageTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputTextType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputTextTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesInputTextType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesInputTextTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesKeyPressType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesKeyPressTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesKeyPressType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesKeyPressTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesMessageRole))
+                {
+                    return new global::Julep.JsonConverters.ResponsesMessageRoleJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesMessageRole?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesMessageRoleNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesMessageStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesMessageStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesMessageStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesMessageStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesMoveType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesMoveTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesMoveType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesMoveTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesOutputMessageType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesOutputMessageTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesOutputMessageType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesOutputMessageTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesOutputTextType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesOutputTextTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesOutputTextType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesOutputTextTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningGenerateSummary))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningGenerateSummary?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningGenerateSummaryNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningContentType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningContentTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningContentType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningContentTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningEffort))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningEffortJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningEffort?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningEffortNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningItemType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningItemType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningItemStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningItemStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesReasoningItemStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesReasoningItemStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesRefusalType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesRefusalTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesRefusalType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesRefusalTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseObject))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseObjectJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseObject?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseObjectNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseIncompleteDetailsReason))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseIncompleteDetailsReason?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseIncompleteDetailsReasonNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseTruncation))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseTruncationJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseTruncation?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseTruncationNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseFormatJsonObjectType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseFormatJsonObjectType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseFormatJsonObjectTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseFormatTextType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseFormatTextTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseFormatTextType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseFormatTextTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesResponseStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesResponseStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesScreenshotType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesScreenshotTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesScreenshotType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesScreenshotTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesScrollType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesScrollTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesScrollType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesScrollTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesTextResponseFormatJsonSchemaType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesTextResponseFormatJsonSchemaType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesTextResponseFormatJsonSchemaTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesToolChoiceFunctionType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesToolChoiceFunctionType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesToolChoiceFunctionTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesToolChoiceOptions))
+                {
+                    return new global::Julep.JsonConverters.ResponsesToolChoiceOptionsJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesToolChoiceOptions?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesToolChoiceOptionsNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesToolChoiceTypesType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesToolChoiceTypesType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesToolChoiceTypesTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesTypeType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesTypeTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesTypeType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesTypeTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesUrlCitationType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesUrlCitationTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesUrlCitationType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesUrlCitationTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWaitType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWaitTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWaitType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWaitTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchStatus))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchStatus?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolSearchContextSize))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolSearchContextSize?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolSearchContextSizeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolUserLocationType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolUserLocationType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolUserLocationTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolCallType))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ResponsesWebSearchToolCallType?))
+                {
+                    return new global::Julep.JsonConverters.ResponsesWebSearchToolCallTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsContextOverflowType))
+                {
+                    return new global::Julep.JsonConverters.SessionsContextOverflowTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsContextOverflowType?))
+                {
+                    return new global::Julep.JsonConverters.SessionsContextOverflowTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsHybridDocSearchMode))
+                {
+                    return new global::Julep.JsonConverters.SessionsHybridDocSearchModeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsHybridDocSearchMode?))
+                {
+                    return new global::Julep.JsonConverters.SessionsHybridDocSearchModeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsHybridDocSearchUpdateMode))
+                {
+                    return new global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsHybridDocSearchUpdateMode?))
+                {
+                    return new global::Julep.JsonConverters.SessionsHybridDocSearchUpdateModeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsSessionDiscriminatorKind))
+                {
+                    return new global::Julep.JsonConverters.SessionsSessionDiscriminatorKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsSessionDiscriminatorKind?))
+                {
+                    return new global::Julep.JsonConverters.SessionsSessionDiscriminatorKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchMode))
+                {
+                    return new global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchMode?))
+                {
+                    return new global::Julep.JsonConverters.SessionsTextOnlyDocSearchModeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchUpdateMode))
+                {
+                    return new global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsTextOnlyDocSearchUpdateMode?))
+                {
+                    return new global::Julep.JsonConverters.SessionsTextOnlyDocSearchUpdateModeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsVectorDocSearchMode))
+                {
+                    return new global::Julep.JsonConverters.SessionsVectorDocSearchModeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsVectorDocSearchMode?))
+                {
+                    return new global::Julep.JsonConverters.SessionsVectorDocSearchModeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsVectorDocSearchUpdateMode))
+                {
+                    return new global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsVectorDocSearchUpdateMode?))
+                {
+                    return new global::Julep.JsonConverters.SessionsVectorDocSearchUpdateModeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCaseThenCase))
+                {
+                    return new global::Julep.JsonConverters.TasksCaseThenCaseJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCaseThenCase?))
+                {
+                    return new global::Julep.JsonConverters.TasksCaseThenCaseNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCaseThenUpdateItemCase))
+                {
+                    return new global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCaseThenUpdateItemCase?))
+                {
+                    return new global::Julep.JsonConverters.TasksCaseThenUpdateItemCaseNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemKind))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestItemKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestItemKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestItemEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestItemEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemKind))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksCreateTaskRequestMainItemEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksCreateTaskRequestMainItemEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksErrorWorkflowStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksErrorWorkflowStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksErrorWorkflowStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksErrorWorkflowStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksEvaluateStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksEvaluateStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksEvaluateStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksEvaluateStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksEvaluateStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksEvaluateStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksEvaluateStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksEvaluateStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksForeachStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksForeachStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksForeachStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksForeachStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksForeachStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksForeachStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksForeachStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksForeachStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksGetStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksGetStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksGetStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksGetStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksGetStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksGetStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksGetStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksGetStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenKind))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepThenEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepThenEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseKind))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepElseEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepElseEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksIfElseWorkflowStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksIfElseWorkflowStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksLogStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksLogStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksLogStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksLogStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksLogStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksLogStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksLogStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksLogStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksParallelStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksParallelStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksParallelStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksParallelStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksParallelStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksParallelStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksParallelStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksParallelStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepTools))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepToolsJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepTools?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepToolsNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepToolChoice))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepToolChoiceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepToolChoice?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepToolChoiceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1Type))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1Type?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3Type))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3Type?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3TypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemTools))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemTools?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolsNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemToolChoice))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksPromptStepUpdateItemToolChoice?))
+                {
+                    return new global::Julep.JsonConverters.TasksPromptStepUpdateItemToolChoiceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksReturnStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksReturnStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksReturnStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksReturnStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksReturnStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksReturnStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksReturnStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksReturnStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSetStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksSetStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSetStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksSetStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSetStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksSetStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSetStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksSetStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSleepStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksSleepStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSleepStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksSleepStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSleepStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksSleepStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSleepStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksSleepStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSwitchStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksSwitchStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSwitchStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksSwitchStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSwitchStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksSwitchStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksSwitchStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksSwitchStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskItemKind))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskItemKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskItemKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskItemKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskItemEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskItemEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskItemEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskItemEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskMainItemKind))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskMainItemKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskMainItemKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskMainItemKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskMainItemEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskMainItemEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksTaskMainItemEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksTaskMainItemEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksToolCallStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksToolCallStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksToolCallStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksToolCallStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksToolCallStepArgumentsEnum3))
+                {
+                    return new global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3JsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksToolCallStepArgumentsEnum3?))
+                {
+                    return new global::Julep.JsonConverters.TasksToolCallStepArgumentsEnum3NullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksToolCallStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksToolCallStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksToolCallStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksToolCallStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemKind))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestItemKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestItemEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestItemEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemKind))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksUpdateTaskRequestMainItemEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksUpdateTaskRequestMainItemEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksWaitForInputStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksWaitForInputStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksWaitForInputStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksWaitForInputStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksWaitForInputStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksWaitForInputStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksWaitForInputStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksWaitForInputStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksYieldStepKind))
+                {
+                    return new global::Julep.JsonConverters.TasksYieldStepKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksYieldStepKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksYieldStepKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksYieldStepArgumentsEnum3))
+                {
+                    return new global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3JsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksYieldStepArgumentsEnum3?))
+                {
+                    return new global::Julep.JsonConverters.TasksYieldStepArgumentsEnum3NullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksYieldStepEnumKind))
+                {
+                    return new global::Julep.JsonConverters.TasksYieldStepEnumKindJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksYieldStepEnumKind?))
+                {
+                    return new global::Julep.JsonConverters.TasksYieldStepEnumKindNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsAlgoliaIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsAlgoliaIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsApiCallDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsApiCallDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsApiCallDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsApiCallDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsApiCallDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsApiCallDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsApiCallDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortBy))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortBy?))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortOrder))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsSortOrder?))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsSortOrderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortBy))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortBy?))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortOrder))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsArxivSearchArgumentsUpdateSortOrder?))
+                {
+                    return new global::Julep.JsonConverters.ToolsArxivSearchArgumentsUpdateSortOrderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefDiscriminatorProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefDiscriminatorProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefDiscriminatorProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateDiscriminatorProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBaseIntegrationDefUpdateDiscriminatorProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBaseIntegrationDefUpdateDiscriminatorProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBash20241022DefType))
+                {
+                    return new global::Julep.JsonConverters.ToolsBash20241022DefTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBash20241022DefType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBash20241022DefTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBash20241022DefUpdateType))
+                {
+                    return new global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBash20241022DefUpdateType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBash20241022DefUpdateTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBraveIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBraveIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBraveIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsStatus))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsStatus?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseContextIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseContextIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseExtensionIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsArgumentsStatus))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsArgumentsStatus?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsArgumentsStatusNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsChosenFunctionCallType))
+                {
+                    return new global::Julep.JsonConverters.ToolsChosenFunctionCallTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsChosenFunctionCallType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsChosenFunctionCallTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsChosenTextEditor20241022Command))
+                {
+                    return new global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsChosenTextEditor20241022Command?))
+                {
+                    return new global::Julep.JsonConverters.ToolsChosenTextEditor20241022CommandNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryEditIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryEditIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsCloudinaryUploadIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsComputer20241022Action))
+                {
+                    return new global::Julep.JsonConverters.ToolsComputer20241022ActionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsComputer20241022Action?))
+                {
+                    return new global::Julep.JsonConverters.ToolsComputer20241022ActionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsComputer20241022DefType))
+                {
+                    return new global::Julep.JsonConverters.ToolsComputer20241022DefTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsComputer20241022DefType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsComputer20241022DefTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsComputer20241022DefUpdateType))
+                {
+                    return new global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsComputer20241022DefUpdateType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsComputer20241022DefUpdateTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsDummyIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsDummyIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsDummyIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsEmailIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsEmailIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsEmailIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsFfmpegIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsFfmpegIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsValueInputOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsValueInputOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsValueInputOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsInsertDataOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsInsertDataOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsInsertDataOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsMajorDimension))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsMajorDimension?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsMajorDimensionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsValueRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsValueRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsValueRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimensionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsValueInputOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsValueInputOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsValueInputOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsMajorDimension))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsMajorDimension?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsMajorDimensionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsValueRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsValueRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsValueRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsDateTimeRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsDateTimeRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsDateTimeRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateMajorDimension))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateMajorDimension?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateMajorDimensionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsValueRangeMajorDimension))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsValueRangeMajorDimension?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsValueRangeMajorDimensionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsValueInputOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsValueInputOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsValueInputOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsInsertDataOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsInsertDataOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsInsertDataOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOption))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOption?))
+                {
+                    return new global::Julep.JsonConverters.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOptionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsLlamaParseIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsLlamaParseIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMailgunIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMailgunIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpSetupTransport))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpSetupTransportJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpSetupTransport?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpSetupTransportNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpSetupUpdateTransport))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsMcpSetupUpdateTransport?))
+                {
+                    return new global::Julep.JsonConverters.ToolsMcpSetupUpdateTransportNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsAction))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsAction?))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsActionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsUpdateAction))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserArgumentsUpdateAction?))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserArgumentsUpdateActionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsRemoteBrowserIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsRemoteBrowserIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsContentType))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsContentType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsContentTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsUpdateContentType))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderFetchArgumentsUpdateContentType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderFetchArgumentsUpdateContentTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateMethod))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSpiderIntegrationDefUpdateMethod?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSpiderIntegrationDefUpdateMethodNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefResource))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefResourceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefResource?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefResourceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefOperation))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefOperationJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefOperation?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefOperationNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefSubresource))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefSubresourceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefSubresource?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefSubresourceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateResource))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefUpdateResourceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateResource?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefUpdateResourceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateOperation))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefUpdateOperationJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateOperation?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefUpdateOperationNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateSubresource))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsSystemDefUpdateSubresource?))
+                {
+                    return new global::Julep.JsonConverters.ToolsSystemDefUpdateSubresourceNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefType))
+                {
+                    return new global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsTextEditor20241022DefTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefUpdateType))
+                {
+                    return new global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsTextEditor20241022DefUpdateType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsTextEditor20241022DefUpdateTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsToolType))
+                {
+                    return new global::Julep.JsonConverters.ToolsToolTypeJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsToolType?))
+                {
+                    return new global::Julep.JsonConverters.ToolsToolTypeNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsUnstructuredIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsUnstructuredIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsWeatherIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWeatherIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsWeatherIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefUpdateProvider))
+                {
+                    return new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ToolsWikipediaIntegrationDefUpdateProvider?))
+                {
+                    return new global::Julep.JsonConverters.ToolsWikipediaIntegrationDefUpdateProviderNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.AgentsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.AgentsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.AgentsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.AgentsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentDocsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.AgentDocsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentDocsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.AgentDocsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentDocsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.AgentDocsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentDocsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.AgentDocsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentSecretsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.AgentSecretsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentSecretsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.AgentSecretsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentSecretsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.AgentSecretsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentSecretsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.AgentSecretsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.TasksRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.TasksRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.TasksRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TasksRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.TasksRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentToolsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.AgentToolsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentToolsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.AgentToolsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentToolsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.AgentToolsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.AgentToolsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.AgentToolsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionTransitionsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ExecutionTransitionsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.ExecutionTransitionsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ProjectsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.ProjectsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ProjectsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.ProjectsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ProjectsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.ProjectsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.ProjectsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.ProjectsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.DeveloperSecretsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.DeveloperSecretsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.DeveloperSecretsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.DeveloperSecretsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.SessionsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.SessionsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.SessionsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.SessionsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.SessionsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TaskExecutionsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.TaskExecutionsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TaskExecutionsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.TaskExecutionsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TaskExecutionsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.TaskExecutionsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.TaskExecutionsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.TaskExecutionsRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UsersRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.UsersRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UsersRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.UsersRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UsersRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.UsersRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UsersRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.UsersRouteListDirectionNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UserDocsRouteListSortBy))
+                {
+                    return new global::Julep.JsonConverters.UserDocsRouteListSortByJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UserDocsRouteListSortBy?))
+                {
+                    return new global::Julep.JsonConverters.UserDocsRouteListSortByNullableJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UserDocsRouteListDirection))
+                {
+                    return new global::Julep.JsonConverters.UserDocsRouteListDirectionJsonConverter();
+                }
+
+                if (typeToConvert == typeof(global::Julep.UserDocsRouteListDirection?))
+                {
+                    return new global::Julep.JsonConverters.UserDocsRouteListDirectionNullableJsonConverter();
+                }
+                throw new global::System.NotSupportedException($"No generated enum converter is registered for '{typeToConvert}'.");
+            }
+        }
+
+        private sealed class LazyChunkResolver : global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver
+        {
+            private readonly object _gate = new();
+            private readonly global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver?[] _resolvers = new global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver?[4];
+
+            public global::System.Text.Json.Serialization.Metadata.JsonTypeInfo? GetTypeInfo(
+                global::System.Type type,
+                global::System.Text.Json.JsonSerializerOptions options)
+            {
+                for (var index = 0; index < _resolvers.Length; index++)
+                {
+                    var typeInfo = GetResolver(index).GetTypeInfo(type, options);
+                    if (typeInfo is not null)
+                    {
+                        return typeInfo;
+                    }
+                }
+
+                return null;
+            }
+
+            private global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver GetResolver(int index)
+            {
+                var resolver = global::System.Threading.Volatile.Read(ref _resolvers[index]);
+                if (resolver is not null)
+                {
+                    return resolver;
+                }
+
+                lock (_gate)
+                {
+                    return _resolvers[index] ??= CreateResolver(index);
+                }
+            }
+
+            private static global::System.Text.Json.Serialization.Metadata.IJsonTypeInfoResolver CreateResolver(int index)
+            {
+                return index switch
+                {
+                    0 => new SourceGenerationContextChunk0(new global::System.Text.Json.JsonSerializerOptions()),
+
+                    1 => new SourceGenerationContextChunk1(new global::System.Text.Json.JsonSerializerOptions()),
+
+                    2 => new SourceGenerationContextChunk2(new global::System.Text.Json.JsonSerializerOptions()),
+
+                    3 => new SourceGenerationContextChunk3(new global::System.Text.Json.JsonSerializerOptions()),
+                    _ => throw new global::System.ArgumentOutOfRangeException(nameof(index)),
+                };
+            }
         }
     }
 }
