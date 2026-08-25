@@ -151,7 +151,7 @@ namespace Julep
                             var __httpRequestContent = new global::System.Net.Http.StringContent(
                                 content: __httpRequestContentBody,
                                 encoding: global::System.Text.Encoding.UTF8,
-                                mediaType: "application/yaml");
+                                mediaType: "application/json");
                             __httpRequest.Content = __httpRequestContent;
                 global::Julep.AutoSDKRequestOptionsSupport.ApplyHeaders(
                     request: __httpRequest,
