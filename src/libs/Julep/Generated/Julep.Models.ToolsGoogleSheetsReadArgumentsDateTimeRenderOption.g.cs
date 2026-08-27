@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsReadArgumentsDateTimeRenderOption
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FormattedString,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SerialNumber,
     }

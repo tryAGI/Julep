@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksLogStepEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Log,
     }

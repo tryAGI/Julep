@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsMcpIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Mcp,
     }

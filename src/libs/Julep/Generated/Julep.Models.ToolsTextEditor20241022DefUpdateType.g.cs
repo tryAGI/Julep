@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsTextEditor20241022DefUpdateType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         TextEditor20241022,
     }

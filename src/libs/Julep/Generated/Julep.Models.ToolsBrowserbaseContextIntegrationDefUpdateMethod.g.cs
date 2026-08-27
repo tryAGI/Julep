@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsBrowserbaseContextIntegrationDefUpdateMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CreateContext,
     }

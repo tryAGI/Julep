@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesFileCitationType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FileCitation,
     }

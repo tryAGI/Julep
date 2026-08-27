@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ImageUrl,
     }

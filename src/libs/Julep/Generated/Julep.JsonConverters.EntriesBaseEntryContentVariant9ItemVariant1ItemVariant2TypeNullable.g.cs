@@ -20,7 +20,7 @@ namespace Julep.JsonConverters
                     {
                         return global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2TypeExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

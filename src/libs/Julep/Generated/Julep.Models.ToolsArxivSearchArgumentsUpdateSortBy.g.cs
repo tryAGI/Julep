@@ -10,15 +10,15 @@ namespace Julep
     public enum ToolsArxivSearchArgumentsUpdateSortBy
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         LastUpdatedDate,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Relevance,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SubmittedDate,
     }

@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ChatChatInputDataMessageContentVariant3ItemVariant2
     {

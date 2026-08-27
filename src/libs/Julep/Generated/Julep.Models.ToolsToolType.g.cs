@@ -4,36 +4,36 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ToolsToolType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ApiCall,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Bash20241022,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Computer20241022,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Function,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Integration,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         System,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         TextEditor20241022,
     }

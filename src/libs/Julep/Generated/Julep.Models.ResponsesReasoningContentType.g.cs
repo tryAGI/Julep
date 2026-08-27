@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesReasoningContentType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ReasoningSummary,
     }

@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksGetStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Get,
     }

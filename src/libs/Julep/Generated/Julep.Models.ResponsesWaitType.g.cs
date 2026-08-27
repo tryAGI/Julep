@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesWaitType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Wait,
     }

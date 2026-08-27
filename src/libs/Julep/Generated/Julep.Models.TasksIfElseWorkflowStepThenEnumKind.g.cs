@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksIfElseWorkflowStepThenEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MapReduce,
     }

@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsMailgunIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SendEmail,
     }

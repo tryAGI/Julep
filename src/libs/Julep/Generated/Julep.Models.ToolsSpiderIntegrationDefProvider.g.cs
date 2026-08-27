@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsSpiderIntegrationDefProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Spider,
     }

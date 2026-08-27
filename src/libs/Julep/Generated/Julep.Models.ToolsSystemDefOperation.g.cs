@@ -9,51 +9,51 @@ namespace Julep
     public enum ToolsSystemDefOperation
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ChangeStatus,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Chat,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Create,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CreateOrUpdate,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Delete,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Embed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Get,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         History,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         List,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Patch,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Search,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Update,
     }

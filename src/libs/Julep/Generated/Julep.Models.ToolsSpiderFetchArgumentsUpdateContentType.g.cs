@@ -10,19 +10,19 @@ namespace Julep
     public enum ToolsSpiderFetchArgumentsUpdateContentType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ApplicationJson,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ApplicationJsonl,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ApplicationXml,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         TextCsv,
     }

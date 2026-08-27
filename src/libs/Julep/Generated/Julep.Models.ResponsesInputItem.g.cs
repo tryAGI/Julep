@@ -5,12 +5,12 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public readonly partial struct ResponsesInputItem : global::System.IEquatable<ResponsesInputItem>
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesEasyInputMessage? EasyMessage { get; init; }
@@ -19,7 +19,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(EasyMessage))]
@@ -27,7 +27,7 @@ namespace Julep
         public bool IsEasyMessage => EasyMessage != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickEasyMessage(
 #if NET6_0_OR_GREATER
@@ -40,7 +40,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesEasyInputMessage PickEasyMessage() => IsEasyMessage
             ? EasyMessage!
@@ -56,7 +56,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(ResponsesItem))]
@@ -64,7 +64,7 @@ namespace Julep
         public bool IsResponsesItem => ResponsesItem != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickResponsesItem(
 #if NET6_0_OR_GREATER
@@ -77,7 +77,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesItem PickResponsesItem() => IsResponsesItem
             ? ResponsesItem!
@@ -93,7 +93,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(Reference))]
@@ -101,7 +101,7 @@ namespace Julep
         public bool IsReference => Reference != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickReference(
 #if NET6_0_OR_GREATER
@@ -114,23 +114,23 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesItemReference PickReference() => IsReference
             ? Reference!.Value
             : throw new global::System.InvalidOperationException($"Expected union variant 'Reference' but the value was {ToString()}.");
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesInputItem(global::Julep.ResponsesEasyInputMessage value) => new ResponsesInputItem((global::Julep.ResponsesEasyInputMessage?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesEasyInputMessage?(ResponsesInputItem @this) => @this.EasyMessage;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesInputItem(global::Julep.ResponsesEasyInputMessage? value)
         {
@@ -138,22 +138,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesInputItem FromEasyMessage(global::Julep.ResponsesEasyInputMessage? value) => new ResponsesInputItem(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesInputItem(global::Julep.ResponsesItem value) => new ResponsesInputItem((global::Julep.ResponsesItem?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesItem?(ResponsesInputItem @this) => @this.ResponsesItem;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesInputItem(global::Julep.ResponsesItem? value)
         {
@@ -161,22 +161,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesInputItem FromResponsesItem(global::Julep.ResponsesItem? value) => new ResponsesInputItem(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesInputItem(global::Julep.ResponsesItemReference value) => new ResponsesInputItem((global::Julep.ResponsesItemReference?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesItemReference?(ResponsesInputItem @this) => @this.Reference;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesInputItem(global::Julep.ResponsesItemReference? value)
         {
@@ -184,12 +184,12 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesInputItem FromReference(global::Julep.ResponsesItemReference? value) => new ResponsesInputItem(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesInputItem(
             global::Julep.ResponsesEasyInputMessage? easyMessage,
@@ -203,25 +203,25 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public object? Object =>
             Reference as object ??
             ResponsesItem as object ??
-            EasyMessage as object 
+            EasyMessage as object
             ;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public override string? ToString() =>
             EasyMessage?.ToString() ??
             ResponsesItem?.ToString() ??
-            Reference?.ToString() 
+            Reference?.ToString()
             ;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool Validate()
         {
@@ -229,7 +229,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TResult? Match<TResult>(
             global::System.Func<global::Julep.ResponsesEasyInputMessage, TResult>? easyMessage = null,
@@ -259,7 +259,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public void Match(
             global::System.Action<global::Julep.ResponsesEasyInputMessage>? easyMessage = null,
@@ -289,7 +289,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public void Switch(
             global::System.Action<global::Julep.ResponsesEasyInputMessage>? easyMessage = null,
@@ -317,7 +317,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public override int GetHashCode()
         {
@@ -340,19 +340,19 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool Equals(ResponsesInputItem other)
         {
             return
                 global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesEasyInputMessage?>.Default.Equals(EasyMessage, other.EasyMessage) &&
                 global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesItem?>.Default.Equals(ResponsesItem, other.ResponsesItem) &&
-                global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesItemReference?>.Default.Equals(Reference, other.Reference) 
+                global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesItemReference?>.Default.Equals(Reference, other.Reference)
                 ;
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static bool operator ==(ResponsesInputItem obj1, ResponsesInputItem obj2)
         {
@@ -360,7 +360,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static bool operator !=(ResponsesInputItem obj1, ResponsesInputItem obj2)
         {
@@ -368,7 +368,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public override bool Equals(object? obj)
         {

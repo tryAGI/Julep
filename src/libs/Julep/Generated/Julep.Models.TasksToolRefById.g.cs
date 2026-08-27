@@ -9,7 +9,7 @@ namespace Julep
     public sealed partial class TasksToolRefById
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("id")]
         public string? Id { get; set; }

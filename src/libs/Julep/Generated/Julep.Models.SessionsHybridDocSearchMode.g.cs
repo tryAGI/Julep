@@ -10,7 +10,7 @@ namespace Julep
     public enum SessionsHybridDocSearchMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Hybrid,
     }

@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsMailgunIntegrationDefProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Mailgun,
     }

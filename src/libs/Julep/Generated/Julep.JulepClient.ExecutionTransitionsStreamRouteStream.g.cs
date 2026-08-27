@@ -117,7 +117,7 @@ namespace Julep
                          __authorization.Location == "Header")
                 {
                     __httpRequest.Headers.Add(__authorization.Name, __authorization.Value);
-                } 
+                }
             }
                 global::Julep.AutoSDKRequestOptionsSupport.ApplyHeaders(
                     request: __httpRequest,

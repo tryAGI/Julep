@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetLiveUrls,
     }

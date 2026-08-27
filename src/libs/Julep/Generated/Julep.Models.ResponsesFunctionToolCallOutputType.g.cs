@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesFunctionToolCallOutputType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FunctionCallOutput,
     }

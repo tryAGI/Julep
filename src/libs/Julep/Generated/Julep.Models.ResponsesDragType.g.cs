@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesDragType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Drag,
     }

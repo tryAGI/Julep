@@ -9,19 +9,19 @@ namespace Julep
     public enum ToolsSystemDefSubresource
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Doc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Execution,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Tool,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Transition,
     }

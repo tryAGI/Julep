@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBash20241022DefType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Bash20241022,
     }

@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ExecutionsTransitionTarget
     {
@@ -18,14 +18,14 @@ namespace Julep
         public required string Workflow { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("step")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required int Step { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("scope_id")]
         [global::System.Text.Json.Serialization.JsonRequired]

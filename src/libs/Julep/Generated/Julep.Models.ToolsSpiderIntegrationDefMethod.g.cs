@@ -9,19 +9,19 @@ namespace Julep
     public enum ToolsSpiderIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Crawl,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Links,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Screenshot,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Search,
     }

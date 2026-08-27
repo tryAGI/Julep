@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsFfmpegIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ffmpeg,
     }

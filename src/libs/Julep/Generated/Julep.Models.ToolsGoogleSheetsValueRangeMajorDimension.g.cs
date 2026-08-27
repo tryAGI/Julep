@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsValueRangeMajorDimension
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Columns,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rows,
     }

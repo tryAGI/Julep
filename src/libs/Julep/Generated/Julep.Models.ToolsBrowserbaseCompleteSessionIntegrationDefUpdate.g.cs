@@ -16,7 +16,7 @@ namespace Julep
         public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod? Method { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("arguments")]
         public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdate? Arguments { get; set; }

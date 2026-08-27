@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item
     {
@@ -17,7 +17,7 @@ namespace Julep
         public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType Type { get; set; } = global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType.Image;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("source")]
         [global::System.Text.Json.Serialization.JsonRequired]

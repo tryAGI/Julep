@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesMoveType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Move,
     }

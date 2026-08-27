@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksPromptStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Prompt,
     }

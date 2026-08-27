@@ -10,7 +10,7 @@ namespace Julep
     public enum EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }

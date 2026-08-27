@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesTypeType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Type,
     }

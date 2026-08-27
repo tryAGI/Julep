@@ -9,7 +9,7 @@ namespace Julep
     public enum ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Base64,
     }

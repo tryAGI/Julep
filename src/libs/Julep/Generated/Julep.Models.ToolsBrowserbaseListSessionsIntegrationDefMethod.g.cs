@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsBrowserbaseListSessionsIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ListSessions,
     }

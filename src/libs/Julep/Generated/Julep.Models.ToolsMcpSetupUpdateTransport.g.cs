@@ -9,11 +9,11 @@ namespace Julep
     public enum ToolsMcpSetupUpdateTransport
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Http,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Sse,
     }

@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsRemoteBrowserIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         RemoteBrowser,
     }

@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1
     {

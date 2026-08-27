@@ -17,7 +17,7 @@ namespace Julep
         public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod Method { get; set; } = global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod.GetSession;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("arguments")]
         public global::Julep.ToolsBrowserbaseGetSessionArguments? Arguments { get; set; }

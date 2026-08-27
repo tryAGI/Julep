@@ -10,7 +10,7 @@ namespace Julep
     public readonly partial struct ResponsesItemReference : global::System.IEquatable<ResponsesItemReference>
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesInputMessageResource? InputMessageResource { get; init; }
@@ -19,7 +19,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(InputMessageResource))]
@@ -27,7 +27,7 @@ namespace Julep
         public bool IsInputMessageResource => InputMessageResource != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickInputMessageResource(
 #if NET6_0_OR_GREATER
@@ -40,14 +40,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesInputMessageResource PickInputMessageResource() => IsInputMessageResource
             ? InputMessageResource!
             : throw new global::System.InvalidOperationException($"Expected union variant 'InputMessageResource' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesOutputMessage? OutputMessage { get; init; }
@@ -56,7 +56,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(OutputMessage))]
@@ -64,7 +64,7 @@ namespace Julep
         public bool IsOutputMessage => OutputMessage != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickOutputMessage(
 #if NET6_0_OR_GREATER
@@ -77,14 +77,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesOutputMessage PickOutputMessage() => IsOutputMessage
             ? OutputMessage!
             : throw new global::System.InvalidOperationException($"Expected union variant 'OutputMessage' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesFileSearchToolCall? FileSearchToolCall { get; init; }
@@ -93,7 +93,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(FileSearchToolCall))]
@@ -101,7 +101,7 @@ namespace Julep
         public bool IsFileSearchToolCall => FileSearchToolCall != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickFileSearchToolCall(
 #if NET6_0_OR_GREATER
@@ -114,14 +114,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesFileSearchToolCall PickFileSearchToolCall() => IsFileSearchToolCall
             ? FileSearchToolCall!
             : throw new global::System.InvalidOperationException($"Expected union variant 'FileSearchToolCall' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerToolCall? ComputerToolCall { get; init; }
@@ -130,7 +130,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(ComputerToolCall))]
@@ -138,7 +138,7 @@ namespace Julep
         public bool IsComputerToolCall => ComputerToolCall != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickComputerToolCall(
 #if NET6_0_OR_GREATER
@@ -151,14 +151,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesComputerToolCall PickComputerToolCall() => IsComputerToolCall
             ? ComputerToolCall!
             : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCall' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesComputerToolCallOutputResource? ComputerToolCallOutputResource { get; init; }
@@ -167,7 +167,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(ComputerToolCallOutputResource))]
@@ -175,7 +175,7 @@ namespace Julep
         public bool IsComputerToolCallOutputResource => ComputerToolCallOutputResource != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickComputerToolCallOutputResource(
 #if NET6_0_OR_GREATER
@@ -188,14 +188,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesComputerToolCallOutputResource PickComputerToolCallOutputResource() => IsComputerToolCallOutputResource
             ? ComputerToolCallOutputResource!
             : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCallOutputResource' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesWebSearchToolCall? WebSearchToolCall { get; init; }
@@ -204,7 +204,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(WebSearchToolCall))]
@@ -212,7 +212,7 @@ namespace Julep
         public bool IsWebSearchToolCall => WebSearchToolCall != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickWebSearchToolCall(
 #if NET6_0_OR_GREATER
@@ -225,14 +225,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesWebSearchToolCall PickWebSearchToolCall() => IsWebSearchToolCall
             ? WebSearchToolCall!
             : throw new global::System.InvalidOperationException($"Expected union variant 'WebSearchToolCall' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesFunctionToolCall? FunctionToolCall { get; init; }
@@ -241,7 +241,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(FunctionToolCall))]
@@ -249,7 +249,7 @@ namespace Julep
         public bool IsFunctionToolCall => FunctionToolCall != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickFunctionToolCall(
 #if NET6_0_OR_GREATER
@@ -262,14 +262,14 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesFunctionToolCall PickFunctionToolCall() => IsFunctionToolCall
             ? FunctionToolCall!
             : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCall' but the value was {ToString()}.");
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         public global::Julep.ResponsesFunctionToolCallOutputResource? FunctionToolCallOutputResource { get; init; }
@@ -278,7 +278,7 @@ namespace Julep
 #endif
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
 #if NET6_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.MemberNotNullWhen(true, nameof(FunctionToolCallOutputResource))]
@@ -286,7 +286,7 @@ namespace Julep
         public bool IsFunctionToolCallOutputResource => FunctionToolCallOutputResource != null;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool TryPickFunctionToolCallOutputResource(
 #if NET6_0_OR_GREATER
@@ -299,23 +299,23 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::Julep.ResponsesFunctionToolCallOutputResource PickFunctionToolCallOutputResource() => IsFunctionToolCallOutputResource
             ? FunctionToolCallOutputResource!
             : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCallOutputResource' but the value was {ToString()}.");
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesInputMessageResource value) => new ResponsesItemReference((global::Julep.ResponsesInputMessageResource?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesInputMessageResource?(ResponsesItemReference @this) => @this.InputMessageResource;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesInputMessageResource? value)
         {
@@ -323,22 +323,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromInputMessageResource(global::Julep.ResponsesInputMessageResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesOutputMessage value) => new ResponsesItemReference((global::Julep.ResponsesOutputMessage?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesOutputMessage?(ResponsesItemReference @this) => @this.OutputMessage;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesOutputMessage? value)
         {
@@ -346,22 +346,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromOutputMessage(global::Julep.ResponsesOutputMessage? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFileSearchToolCall value) => new ResponsesItemReference((global::Julep.ResponsesFileSearchToolCall?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesFileSearchToolCall?(ResponsesItemReference @this) => @this.FileSearchToolCall;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesFileSearchToolCall? value)
         {
@@ -369,22 +369,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromFileSearchToolCall(global::Julep.ResponsesFileSearchToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesComputerToolCall value) => new ResponsesItemReference((global::Julep.ResponsesComputerToolCall?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesComputerToolCall?(ResponsesItemReference @this) => @this.ComputerToolCall;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesComputerToolCall? value)
         {
@@ -392,22 +392,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromComputerToolCall(global::Julep.ResponsesComputerToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesComputerToolCallOutputResource value) => new ResponsesItemReference((global::Julep.ResponsesComputerToolCallOutputResource?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesComputerToolCallOutputResource?(ResponsesItemReference @this) => @this.ComputerToolCallOutputResource;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesComputerToolCallOutputResource? value)
         {
@@ -415,22 +415,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromComputerToolCallOutputResource(global::Julep.ResponsesComputerToolCallOutputResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesWebSearchToolCall value) => new ResponsesItemReference((global::Julep.ResponsesWebSearchToolCall?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesWebSearchToolCall?(ResponsesItemReference @this) => @this.WebSearchToolCall;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesWebSearchToolCall? value)
         {
@@ -438,22 +438,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromWebSearchToolCall(global::Julep.ResponsesWebSearchToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFunctionToolCall value) => new ResponsesItemReference((global::Julep.ResponsesFunctionToolCall?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesFunctionToolCall?(ResponsesItemReference @this) => @this.FunctionToolCall;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesFunctionToolCall? value)
         {
@@ -461,22 +461,22 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromFunctionToolCall(global::Julep.ResponsesFunctionToolCall? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator ResponsesItemReference(global::Julep.ResponsesFunctionToolCallOutputResource value) => new ResponsesItemReference((global::Julep.ResponsesFunctionToolCallOutputResource?)value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static implicit operator global::Julep.ResponsesFunctionToolCallOutputResource?(ResponsesItemReference @this) => @this.FunctionToolCallOutputResource;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(global::Julep.ResponsesFunctionToolCallOutputResource? value)
         {
@@ -484,12 +484,12 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static ResponsesItemReference FromFunctionToolCallOutputResource(global::Julep.ResponsesFunctionToolCallOutputResource? value) => new ResponsesItemReference(value);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ResponsesItemReference(
             global::Julep.ResponsesInputMessageResource? inputMessageResource,
@@ -513,7 +513,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public object? Object =>
             FunctionToolCallOutputResource as object ??
@@ -523,11 +523,11 @@ namespace Julep
             ComputerToolCall as object ??
             FileSearchToolCall as object ??
             OutputMessage as object ??
-            InputMessageResource as object 
+            InputMessageResource as object
             ;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public override string? ToString() =>
             InputMessageResource?.ToString() ??
@@ -537,11 +537,11 @@ namespace Julep
             ComputerToolCallOutputResource?.ToString() ??
             WebSearchToolCall?.ToString() ??
             FunctionToolCall?.ToString() ??
-            FunctionToolCallOutputResource?.ToString() 
+            FunctionToolCallOutputResource?.ToString()
             ;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool Validate()
         {
@@ -549,7 +549,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TResult? Match<TResult>(
             global::System.Func<global::Julep.ResponsesInputMessageResource, TResult>? inputMessageResource = null,
@@ -604,7 +604,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public void Match(
             global::System.Action<global::Julep.ResponsesInputMessageResource>? inputMessageResource = null,
@@ -664,7 +664,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public void Switch(
             global::System.Action<global::Julep.ResponsesInputMessageResource>? inputMessageResource = null,
@@ -717,7 +717,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public override int GetHashCode()
         {
@@ -750,7 +750,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public bool Equals(ResponsesItemReference other)
         {
@@ -762,12 +762,12 @@ namespace Julep
                 global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesComputerToolCallOutputResource?>.Default.Equals(ComputerToolCallOutputResource, other.ComputerToolCallOutputResource) &&
                 global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesWebSearchToolCall?>.Default.Equals(WebSearchToolCall, other.WebSearchToolCall) &&
                 global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesFunctionToolCall?>.Default.Equals(FunctionToolCall, other.FunctionToolCall) &&
-                global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesFunctionToolCallOutputResource?>.Default.Equals(FunctionToolCallOutputResource, other.FunctionToolCallOutputResource) 
+                global::System.Collections.Generic.EqualityComparer<global::Julep.ResponsesFunctionToolCallOutputResource?>.Default.Equals(FunctionToolCallOutputResource, other.FunctionToolCallOutputResource)
                 ;
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static bool operator ==(ResponsesItemReference obj1, ResponsesItemReference obj2)
         {
@@ -775,7 +775,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public static bool operator !=(ResponsesItemReference obj1, ResponsesItemReference obj2)
         {
@@ -783,7 +783,7 @@ namespace Julep
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public override bool Equals(object? obj)
         {

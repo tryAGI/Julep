@@ -9,39 +9,39 @@ namespace Julep
     public enum ExecutionsTransitionEventType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Cancelled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Error,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Finish,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FinishBranch,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Init,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InitBranch,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Resume,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Step,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Wait,
     }

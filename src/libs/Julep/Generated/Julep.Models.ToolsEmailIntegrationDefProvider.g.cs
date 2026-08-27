@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsEmailIntegrationDefProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Email,
     }

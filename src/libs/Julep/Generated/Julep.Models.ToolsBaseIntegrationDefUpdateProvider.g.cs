@@ -9,71 +9,71 @@ namespace Julep
     public enum ToolsBaseIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Algolia,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Arxiv,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Brave,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Browserbase,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Cloudinary,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Dummy,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Email,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ffmpeg,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GoogleSheets,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         LlamaParse,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Mailgun,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Mcp,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         RemoteBrowser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Spider,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Unstructured,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Weather,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Wikipedia,
     }

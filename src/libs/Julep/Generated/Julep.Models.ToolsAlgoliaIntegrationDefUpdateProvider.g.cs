@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsAlgoliaIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Algolia,
     }

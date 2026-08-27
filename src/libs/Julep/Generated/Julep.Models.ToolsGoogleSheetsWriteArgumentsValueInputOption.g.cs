@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsWriteArgumentsValueInputOption
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Raw,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UserEntered,
     }

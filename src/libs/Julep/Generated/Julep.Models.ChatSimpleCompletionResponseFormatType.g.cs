@@ -10,11 +10,11 @@ namespace Julep
     public enum ChatSimpleCompletionResponseFormatType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         JsonObject,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }

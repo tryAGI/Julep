@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsGoogleSheetsIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GoogleSheets,
     }

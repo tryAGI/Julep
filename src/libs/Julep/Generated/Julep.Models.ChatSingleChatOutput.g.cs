@@ -9,7 +9,7 @@ namespace Julep
     public sealed partial class ChatSingleChatOutput
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("message")]
         [global::System.Text.Json.Serialization.JsonRequired]

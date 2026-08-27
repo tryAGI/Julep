@@ -9,11 +9,11 @@ namespace Julep
     public enum ExecutionTransitionsRouteListDirection
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Asc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Desc,
     }

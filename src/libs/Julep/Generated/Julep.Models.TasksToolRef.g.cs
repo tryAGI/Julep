@@ -9,7 +9,7 @@ namespace Julep
     public sealed partial class TasksToolRef
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("ref")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>))]

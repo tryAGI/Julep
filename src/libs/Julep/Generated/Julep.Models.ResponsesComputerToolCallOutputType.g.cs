@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesComputerToolCallOutputType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ComputerCallOutput,
     }

@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksEvaluateStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Evaluate,
     }

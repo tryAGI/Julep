@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesToolChoiceFunctionType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Function,
     }

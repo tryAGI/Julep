@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksWaitForInputStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         WaitForInput,
     }

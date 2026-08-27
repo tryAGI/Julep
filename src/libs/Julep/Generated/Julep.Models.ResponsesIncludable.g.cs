@@ -4,20 +4,20 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ResponsesIncludable
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ComputerCallOutputOutputImageUrl,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FileSearchCallResults,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MessageInputImageImageUrl,
     }

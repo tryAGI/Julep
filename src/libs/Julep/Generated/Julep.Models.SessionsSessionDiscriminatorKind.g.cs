@@ -4,32 +4,32 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum SessionsSessionDiscriminatorKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MultiAgentMultiUser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MultiAgentNoUser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MultiAgentSingleUser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SingleAgentMultiUser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SingleAgentNoUser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SingleAgentSingleUser,
     }

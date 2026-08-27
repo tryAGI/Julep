@@ -4,36 +4,36 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum EntriesBaseEntrySource
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ApiRequest,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ApiResponse,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Internal,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Meta,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Summarizer,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ToolRequest,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ToolResponse,
     }

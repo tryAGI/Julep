@@ -10,7 +10,7 @@ namespace Julep
     public enum SessionsVectorDocSearchMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Vector,
     }

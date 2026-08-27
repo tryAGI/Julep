@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsReadArgumentsMajorDimension
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Columns,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rows,
     }

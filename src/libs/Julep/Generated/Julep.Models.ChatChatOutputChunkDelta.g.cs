@@ -17,7 +17,7 @@ namespace Julep
         public required global::Julep.EntriesChatMLRole Role { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tool_call_id")]
         public string? ToolCallId { get; set; }

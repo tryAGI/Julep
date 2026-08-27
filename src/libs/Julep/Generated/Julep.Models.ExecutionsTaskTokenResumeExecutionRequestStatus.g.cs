@@ -9,7 +9,7 @@ namespace Julep
     public enum ExecutionsTaskTokenResumeExecutionRequestStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Running,
     }

@@ -9,19 +9,19 @@ namespace Julep
     public enum ResponsesComputerToolEnvironment
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Browser,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Mac,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ubuntu,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Windows,
     }

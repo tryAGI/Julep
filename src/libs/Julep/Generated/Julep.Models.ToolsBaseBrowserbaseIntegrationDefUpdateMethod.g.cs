@@ -4,52 +4,52 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ToolsBaseBrowserbaseIntegrationDefUpdateMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CompleteSession,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CreateContext,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CreateSession,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetConnectUrl,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetLiveUrls,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetLogs,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetRecordings,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetSession,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         GetSessionDownloads,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InstallExtensionFromGithub,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ListSessions,
     }
