@@ -33,7 +33,7 @@ namespace Julep
         /// </summary>
         Succeeded,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Unknown,
     }

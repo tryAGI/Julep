@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBaseCloudinaryIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Cloudinary,
     }

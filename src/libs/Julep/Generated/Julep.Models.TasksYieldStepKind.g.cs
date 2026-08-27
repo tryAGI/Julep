@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksYieldStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Yield,
     }

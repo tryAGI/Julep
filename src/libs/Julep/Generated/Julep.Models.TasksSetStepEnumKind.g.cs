@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksSetStepEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Set,
     }

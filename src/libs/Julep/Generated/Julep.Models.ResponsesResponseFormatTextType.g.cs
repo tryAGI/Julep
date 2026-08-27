@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesResponseFormatTextType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }

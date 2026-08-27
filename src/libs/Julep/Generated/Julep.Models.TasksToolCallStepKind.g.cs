@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksToolCallStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ToolCall,
     }

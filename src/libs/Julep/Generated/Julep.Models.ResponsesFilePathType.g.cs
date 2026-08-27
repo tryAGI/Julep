@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesFilePathType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FilePath,
     }

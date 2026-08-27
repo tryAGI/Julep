@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ToolsBrowserbaseCreateSessionArgumentsProxiesVariant2Item2
     {

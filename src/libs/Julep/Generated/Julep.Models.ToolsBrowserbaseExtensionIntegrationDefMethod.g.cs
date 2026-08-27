@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBrowserbaseExtensionIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InstallExtensionFromGithub,
     }

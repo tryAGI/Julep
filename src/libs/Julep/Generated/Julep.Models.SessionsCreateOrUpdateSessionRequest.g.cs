@@ -4,12 +4,12 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class SessionsCreateOrUpdateSessionRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("id")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -22,7 +22,7 @@ namespace Julep
         public global::System.Guid? User { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("users")]
         public global::System.Collections.Generic.IList<global::System.Guid>? Users { get; set; }
@@ -34,7 +34,7 @@ namespace Julep
         public global::System.Guid? Agent { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("agents")]
         public global::System.Collections.Generic.IList<global::System.Guid>? Agents { get; set; }
@@ -103,7 +103,7 @@ namespace Julep
         public global::Julep.AnyOf<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>? RecallOptions { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("metadata")]
         public object? Metadata { get; set; }

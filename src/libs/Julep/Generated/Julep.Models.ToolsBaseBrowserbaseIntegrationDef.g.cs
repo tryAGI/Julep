@@ -23,14 +23,14 @@ namespace Julep
         public global::Julep.ToolsBrowserbaseSetup? Setup { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("method")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.ToolsBaseBrowserbaseIntegrationDefMethodJsonConverter))]
         public global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod? Method { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("arguments")]
         public object? Arguments { get; set; }

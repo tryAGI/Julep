@@ -9,11 +9,11 @@ namespace Julep
     public enum SessionsRouteListDirection
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Asc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Desc,
     }

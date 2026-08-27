@@ -9,11 +9,11 @@ namespace Julep
     public enum ResponsesReasoningGenerateSummary
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Concise,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Detailed,
     }

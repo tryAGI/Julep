@@ -4,16 +4,16 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ResponsesResponseIncompleteDetailsReason
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ContentFilter,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MaxOutputTokens,
     }

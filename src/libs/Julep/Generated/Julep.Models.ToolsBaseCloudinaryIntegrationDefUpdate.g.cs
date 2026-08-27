@@ -22,7 +22,7 @@ namespace Julep
         public global::Julep.ToolsCloudinarySetupUpdate? Setup { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("method")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.ToolsBaseCloudinaryIntegrationDefUpdateMethodJsonConverter))]

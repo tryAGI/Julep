@@ -9,23 +9,23 @@ namespace Julep
     public enum ResponsesClickButton
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Back,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Forward,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Left,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Right,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Wheel,
     }

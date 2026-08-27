@@ -17,25 +17,25 @@ namespace Julep
         public required global::Julep.ToolsToolType Type { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("function")]
         public global::Julep.ToolsFunctionCallOption? Function { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("integration")]
         public object? Integration { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("system")]
         public object? System { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("api_call")]
         public object? ApiCall { get; set; }
@@ -47,13 +47,13 @@ namespace Julep
         public global::Julep.ToolsChosenComputer20241022? Computer20241022 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("text_editor_20241022")]
         public global::Julep.ToolsChosenTextEditor20241022? TextEditor20241022 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("bash_20241022")]
         public global::Julep.ToolsChosenBash20241022? Bash20241022 { get; set; }

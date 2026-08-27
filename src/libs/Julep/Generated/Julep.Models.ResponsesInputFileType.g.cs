@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesInputFileType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InputFile,
     }

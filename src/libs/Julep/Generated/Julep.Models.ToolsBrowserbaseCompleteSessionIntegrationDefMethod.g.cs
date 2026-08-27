@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBrowserbaseCompleteSessionIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CompleteSession,
     }

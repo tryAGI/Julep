@@ -9,7 +9,7 @@ namespace Julep
     public enum ExecutionsResumeExecutionRequestStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Running,
     }

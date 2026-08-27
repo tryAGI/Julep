@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class EntriesBaseEntry
     {
@@ -23,7 +23,7 @@ namespace Julep
         public string? Name { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("content")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>>>))]
@@ -31,7 +31,7 @@ namespace Julep
         public required global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2, global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3>>, global::Julep.ToolsTool, global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022, string, global::Julep.ToolsToolResponse>>> Content { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("source")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.EntriesBaseEntrySourceJsonConverter))]
@@ -39,14 +39,14 @@ namespace Julep
         public required global::Julep.EntriesBaseEntrySource Source { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tokenizer")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Tokenizer { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("token_count")]
         [global::System.Text.Json.Serialization.JsonRequired]

@@ -10,15 +10,15 @@ namespace Julep
     public enum ToolsGoogleSheetsBatchReadArgumentsValueRenderOption
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FormattedValue,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Formula,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UnformattedValue,
     }

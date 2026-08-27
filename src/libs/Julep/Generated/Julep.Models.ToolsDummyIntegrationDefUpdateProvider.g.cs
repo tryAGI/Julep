@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsDummyIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Dummy,
     }

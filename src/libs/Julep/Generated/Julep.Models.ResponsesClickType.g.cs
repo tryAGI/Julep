@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesClickType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Click,
     }

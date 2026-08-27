@@ -4,19 +4,19 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class SessionsSingleAgentSingleUserSession
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("agent")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::System.Guid Agent { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("user")]
         [global::System.Text.Json.Serialization.JsonRequired]

@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksTaskItemEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MapReduce,
     }

@@ -9,7 +9,7 @@ namespace Julep
     public enum ExecutionsStopExecutionRequestStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Cancelled,
     }

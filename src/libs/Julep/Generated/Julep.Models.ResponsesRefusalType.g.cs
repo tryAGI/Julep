@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesRefusalType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Refusal,
     }

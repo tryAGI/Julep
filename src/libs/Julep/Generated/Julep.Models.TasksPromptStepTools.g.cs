@@ -4,12 +4,12 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum TasksPromptStepTools
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         All,
     }

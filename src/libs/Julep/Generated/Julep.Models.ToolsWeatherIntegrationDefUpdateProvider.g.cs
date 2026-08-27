@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsWeatherIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Weather,
     }

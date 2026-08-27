@@ -4,20 +4,20 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ResponsesMessageStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Completed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InProgress,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Incomplete,
     }

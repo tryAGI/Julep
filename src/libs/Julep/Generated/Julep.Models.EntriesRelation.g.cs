@@ -4,26 +4,26 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class EntriesRelation
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("head")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::System.Guid Head { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("relation")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Relation { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tail")]
         [global::System.Text.Json.Serialization.JsonRequired]

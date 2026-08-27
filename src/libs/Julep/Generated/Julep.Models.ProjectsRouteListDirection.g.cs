@@ -9,11 +9,11 @@ namespace Julep
     public enum ProjectsRouteListDirection
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Asc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Desc,
     }

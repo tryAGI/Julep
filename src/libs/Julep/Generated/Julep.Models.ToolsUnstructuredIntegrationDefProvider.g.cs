@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsUnstructuredIntegrationDefProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Unstructured,
     }

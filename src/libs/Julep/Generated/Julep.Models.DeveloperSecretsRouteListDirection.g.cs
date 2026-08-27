@@ -9,11 +9,11 @@ namespace Julep
     public enum DeveloperSecretsRouteListDirection
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Asc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Desc,
     }

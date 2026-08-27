@@ -9,11 +9,11 @@ namespace Julep
     public enum DeveloperSecretsRouteListSortBy
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CreatedAt,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UpdatedAt,
     }

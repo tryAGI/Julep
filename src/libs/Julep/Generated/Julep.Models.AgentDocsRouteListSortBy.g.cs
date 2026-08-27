@@ -9,11 +9,11 @@ namespace Julep
     public enum AgentDocsRouteListSortBy
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CreatedAt,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UpdatedAt,
     }

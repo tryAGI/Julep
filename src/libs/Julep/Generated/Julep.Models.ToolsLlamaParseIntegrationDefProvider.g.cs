@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsLlamaParseIntegrationDefProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         LlamaParse,
     }

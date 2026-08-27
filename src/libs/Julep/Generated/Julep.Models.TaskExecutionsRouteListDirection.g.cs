@@ -9,11 +9,11 @@ namespace Julep
     public enum TaskExecutionsRouteListDirection
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Asc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Desc,
     }

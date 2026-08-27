@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ExecutionsTransition
     {
@@ -42,7 +42,7 @@ namespace Julep
         public global::System.Guid Id { get; set; } = default!;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("metadata")]
         public object? Metadata { get; set; }

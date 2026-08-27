@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksSwitchStepKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Switch,
     }

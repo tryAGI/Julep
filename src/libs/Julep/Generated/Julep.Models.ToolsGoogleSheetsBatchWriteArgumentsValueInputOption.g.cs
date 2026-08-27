@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsBatchWriteArgumentsValueInputOption
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Raw,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UserEntered,
     }

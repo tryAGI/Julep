@@ -4,12 +4,12 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ResponsesFunctionToolType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Function,
     }

@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSource
     {
@@ -17,7 +17,7 @@ namespace Julep
         public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType Type { get; set; } = global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType.Base64;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("media_type")]
         [global::System.Text.Json.Serialization.JsonRequired]

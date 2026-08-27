@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsComputer20241022DefUpdateType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Computer20241022,
     }

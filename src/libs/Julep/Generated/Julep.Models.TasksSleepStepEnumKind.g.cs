@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksSleepStepEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Sleep,
     }

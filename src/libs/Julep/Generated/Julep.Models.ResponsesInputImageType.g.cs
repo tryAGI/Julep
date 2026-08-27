@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesInputImageType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InputImage,
     }

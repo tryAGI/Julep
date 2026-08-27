@@ -4,7 +4,7 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     [global::System.Text.Json.Serialization.JsonPolymorphic(
         TypeDiscriminatorPropertyName = "status",

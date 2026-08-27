@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesScreenshotType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Screenshot,
     }

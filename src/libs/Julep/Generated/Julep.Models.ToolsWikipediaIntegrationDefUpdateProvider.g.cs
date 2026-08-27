@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsWikipediaIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Wikipedia,
     }

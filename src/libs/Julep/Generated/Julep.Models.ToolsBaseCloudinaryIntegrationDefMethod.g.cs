@@ -4,16 +4,16 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ToolsBaseCloudinaryIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MediaEdit,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MediaUpload,
     }

@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsWriteArgumentsInsertDataOption
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         InsertRows,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Overwrite,
     }

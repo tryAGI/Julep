@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsCloudinaryUploadIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MediaUpload,
     }

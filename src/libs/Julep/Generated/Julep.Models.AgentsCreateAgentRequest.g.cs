@@ -9,7 +9,7 @@ namespace Julep
     public sealed partial class AgentsCreateAgentRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("metadata")]
         public object? Metadata { get; set; }

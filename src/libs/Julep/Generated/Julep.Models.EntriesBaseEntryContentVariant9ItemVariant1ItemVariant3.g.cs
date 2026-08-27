@@ -9,7 +9,7 @@ namespace Julep
     public sealed partial class EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tool_use_id")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -24,7 +24,7 @@ namespace Julep
         public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type Type { get; set; } = global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type.ToolResult;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("content")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Julep.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>, global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>>))]

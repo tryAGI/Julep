@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesUrlCitationType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UrlCitation,
     }

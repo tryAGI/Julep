@@ -4,44 +4,44 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ToolsComputer20241022Action
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CursorPosition,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         DoubleClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Key,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         LeftClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MiddleClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MouseMove,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         RightClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Screenshot,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Type,
     }

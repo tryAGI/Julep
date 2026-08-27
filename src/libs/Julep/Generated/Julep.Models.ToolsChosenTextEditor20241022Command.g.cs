@@ -9,19 +9,19 @@ namespace Julep
     public enum ToolsChosenTextEditor20241022Command
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Insert,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         StrReplace,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         UndoEdit,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         View,
     }

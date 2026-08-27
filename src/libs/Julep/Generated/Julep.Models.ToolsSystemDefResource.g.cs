@@ -9,31 +9,31 @@ namespace Julep
     public enum ToolsSystemDefResource
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Agent,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Doc,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Execution,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Job,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Session,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Task,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         User,
     }

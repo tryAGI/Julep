@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesResponseFormatJsonObjectType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         JsonObject,
     }

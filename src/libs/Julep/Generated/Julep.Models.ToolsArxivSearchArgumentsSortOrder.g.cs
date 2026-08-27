@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsArxivSearchArgumentsSortOrder
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Ascending,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Descending,
     }

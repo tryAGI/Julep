@@ -9,27 +9,27 @@ namespace Julep
     public enum ToolsGoogleSheetsIntegrationDefUpdateMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AppendValues,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         BatchRead,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         BatchWrite,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ClearValues,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         ReadValues,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         WriteValues,
     }

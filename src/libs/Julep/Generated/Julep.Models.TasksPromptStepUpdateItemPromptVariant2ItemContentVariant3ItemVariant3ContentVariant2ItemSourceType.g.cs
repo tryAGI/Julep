@@ -9,7 +9,7 @@ namespace Julep
     public enum TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Base64,
     }

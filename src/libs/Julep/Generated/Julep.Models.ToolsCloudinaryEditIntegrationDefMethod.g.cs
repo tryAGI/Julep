@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsCloudinaryEditIntegrationDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MediaEdit,
     }

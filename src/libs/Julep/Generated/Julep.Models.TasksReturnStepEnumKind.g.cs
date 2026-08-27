@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksReturnStepEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Return,
     }

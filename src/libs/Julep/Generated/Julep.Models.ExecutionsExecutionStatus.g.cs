@@ -10,31 +10,31 @@ namespace Julep
     public enum ExecutionsExecutionStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AwaitingInput,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Cancelled,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Failed,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Queued,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Running,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Starting,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Succeeded,
     }

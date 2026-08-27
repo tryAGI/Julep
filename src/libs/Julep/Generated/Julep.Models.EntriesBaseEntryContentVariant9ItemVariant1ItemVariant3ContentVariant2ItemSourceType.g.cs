@@ -9,7 +9,7 @@ namespace Julep
     public enum EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Base64,
     }

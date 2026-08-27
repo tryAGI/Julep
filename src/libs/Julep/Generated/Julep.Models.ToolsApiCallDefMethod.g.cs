@@ -9,39 +9,39 @@ namespace Julep
     public enum ToolsApiCallDefMethod
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Connect,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Delete,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Get,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Head,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Options,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Patch,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Post,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Put,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Trace,
     }

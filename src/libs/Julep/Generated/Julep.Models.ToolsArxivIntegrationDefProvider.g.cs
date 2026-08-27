@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsArxivIntegrationDefProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Arxiv,
     }

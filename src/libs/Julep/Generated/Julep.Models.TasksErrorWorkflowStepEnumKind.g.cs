@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksErrorWorkflowStepEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Error,
     }

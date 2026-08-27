@@ -61,13 +61,13 @@ namespace Julep
         public global::Julep.ToolsComputer20241022Def? Computer20241022 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("text_editor_20241022")]
         public global::Julep.ToolsTextEditor20241022Def? TextEditor20241022 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("bash_20241022")]
         public global::Julep.ToolsBash20241022Def? Bash20241022 { get; set; }

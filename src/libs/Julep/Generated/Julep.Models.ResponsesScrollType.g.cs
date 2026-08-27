@@ -10,7 +10,7 @@ namespace Julep
     public enum ResponsesScrollType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Scroll,
     }

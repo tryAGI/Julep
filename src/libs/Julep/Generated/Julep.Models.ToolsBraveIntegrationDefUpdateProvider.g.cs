@@ -10,7 +10,7 @@ namespace Julep
     public enum ToolsBraveIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Brave,
     }

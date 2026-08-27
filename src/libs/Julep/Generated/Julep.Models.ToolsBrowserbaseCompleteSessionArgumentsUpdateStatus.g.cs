@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         RequestRelease,
     }

@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesTextResponseFormatJsonSchemaType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         JsonSchema,
     }

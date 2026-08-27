@@ -10,7 +10,7 @@ namespace Julep
     public enum TasksParallelStepEnumKind
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Parallel,
     }

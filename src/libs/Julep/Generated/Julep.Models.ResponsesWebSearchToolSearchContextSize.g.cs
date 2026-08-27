@@ -4,20 +4,20 @@
 namespace Julep
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ResponsesWebSearchToolSearchContextSize
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Large,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Medium,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Small,
     }

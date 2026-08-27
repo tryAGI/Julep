@@ -17,7 +17,7 @@ namespace Julep
         public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod Method { get; set; } = global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod.GetLiveUrls;
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("arguments")]
         public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsArguments? Arguments { get; set; }

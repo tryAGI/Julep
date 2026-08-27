@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesFileSearchToolCallType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         FileSearchCall,
     }

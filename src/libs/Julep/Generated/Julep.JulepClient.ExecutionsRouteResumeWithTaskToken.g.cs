@@ -11,7 +11,7 @@ namespace Julep
             new global::Julep.EndPointSecurityRequirement
             {
                 Authorizations = new global::Julep.EndPointAuthorizationRequirement[]
-                { 
+                {
                 },
             };
         private static readonly global::Julep.EndPointSecurityRequirement[] s_ExecutionsRouteResumeWithTaskTokenSecurityRequirements =

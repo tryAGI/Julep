@@ -10,7 +10,7 @@ namespace Julep
     public enum SessionsTextOnlyDocSearchUpdateMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }

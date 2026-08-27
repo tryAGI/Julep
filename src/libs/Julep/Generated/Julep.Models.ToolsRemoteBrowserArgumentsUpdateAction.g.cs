@@ -9,51 +9,51 @@ namespace Julep
     public enum ToolsRemoteBrowserArgumentsUpdateAction
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         CursorPosition,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         DoubleClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Key,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         LeftClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         LeftClickDrag,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MiddleClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         MouseMove,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Navigate,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Refresh,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         RightClick,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Screenshot,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Type,
     }

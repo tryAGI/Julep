@@ -10,7 +10,7 @@ namespace Julep
     public enum ChatSchemaCompletionResponseFormatType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         JsonSchema,
     }

@@ -9,7 +9,7 @@ namespace Julep
     public enum ResponsesOutputTextType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         OutputText,
     }

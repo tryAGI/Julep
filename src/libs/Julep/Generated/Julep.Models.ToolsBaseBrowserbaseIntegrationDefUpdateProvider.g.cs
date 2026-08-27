@@ -9,7 +9,7 @@ namespace Julep
     public enum ToolsBaseBrowserbaseIntegrationDefUpdateProvider
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Browserbase,
     }

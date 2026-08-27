@@ -10,11 +10,11 @@ namespace Julep
     public enum ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Columns,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Rows,
     }

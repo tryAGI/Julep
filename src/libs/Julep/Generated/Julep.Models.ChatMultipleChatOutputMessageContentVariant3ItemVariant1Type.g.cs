@@ -10,7 +10,7 @@ namespace Julep
     public enum ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Text,
     }
