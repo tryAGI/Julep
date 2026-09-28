@@ -42,8 +42,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputMessageResource PickInputMessageResource() => IsInputMessageResource
-            ? InputMessageResource!
+        public global::Julep.ResponsesInputMessageResource PickInputMessageResource() => InputMessageResource is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'InputMessageResource' but the value was {ToString()}.");
 
         /// <summary>
@@ -79,8 +79,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesOutputMessage PickOutputMessage() => IsOutputMessage
-            ? OutputMessage!
+        public global::Julep.ResponsesOutputMessage PickOutputMessage() => OutputMessage is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'OutputMessage' but the value was {ToString()}.");
 
         /// <summary>
@@ -116,8 +116,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolCall PickFileSearchToolCall() => IsFileSearchToolCall
-            ? FileSearchToolCall!
+        public global::Julep.ResponsesFileSearchToolCall PickFileSearchToolCall() => FileSearchToolCall is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'FileSearchToolCall' but the value was {ToString()}.");
 
         /// <summary>
@@ -153,8 +153,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCall PickComputerToolCall() => IsComputerToolCall
-            ? ComputerToolCall!
+        public global::Julep.ResponsesComputerToolCall PickComputerToolCall() => ComputerToolCall is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCall' but the value was {ToString()}.");
 
         /// <summary>
@@ -190,8 +190,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallOutputResource PickComputerToolCallOutputResource() => IsComputerToolCallOutputResource
-            ? ComputerToolCallOutputResource!
+        public global::Julep.ResponsesComputerToolCallOutputResource PickComputerToolCallOutputResource() => ComputerToolCallOutputResource is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'ComputerToolCallOutputResource' but the value was {ToString()}.");
 
         /// <summary>
@@ -227,8 +227,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolCall PickWebSearchToolCall() => IsWebSearchToolCall
-            ? WebSearchToolCall!
+        public global::Julep.ResponsesWebSearchToolCall PickWebSearchToolCall() => WebSearchToolCall is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'WebSearchToolCall' but the value was {ToString()}.");
 
         /// <summary>
@@ -264,8 +264,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCall PickFunctionToolCall() => IsFunctionToolCall
-            ? FunctionToolCall!
+        public global::Julep.ResponsesFunctionToolCall PickFunctionToolCall() => FunctionToolCall is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCall' but the value was {ToString()}.");
 
         /// <summary>
@@ -301,8 +301,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallOutputResource PickFunctionToolCallOutputResource() => IsFunctionToolCallOutputResource
-            ? FunctionToolCallOutputResource!
+        public global::Julep.ResponsesFunctionToolCallOutputResource PickFunctionToolCallOutputResource() => FunctionToolCallOutputResource is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'FunctionToolCallOutputResource' but the value was {ToString()}.");
         /// <summary>
         ///
@@ -567,37 +567,37 @@ namespace Julep
                 Validate();
             }
 
-            if (IsInputMessageResource && inputMessageResource != null)
+            if (InputMessageResource is { } __value0 && inputMessageResource != null)
             {
-                return inputMessageResource(InputMessageResource!);
+                return inputMessageResource(__value0);
             }
-            else if (IsOutputMessage && outputMessage != null)
+            else if (OutputMessage is { } __value1 && outputMessage != null)
             {
-                return outputMessage(OutputMessage!);
+                return outputMessage(__value1);
             }
-            else if (IsFileSearchToolCall && fileSearchToolCall != null)
+            else if (FileSearchToolCall is { } __value2 && fileSearchToolCall != null)
             {
-                return fileSearchToolCall(FileSearchToolCall!);
+                return fileSearchToolCall(__value2);
             }
-            else if (IsComputerToolCall && computerToolCall != null)
+            else if (ComputerToolCall is { } __value3 && computerToolCall != null)
             {
-                return computerToolCall(ComputerToolCall!);
+                return computerToolCall(__value3);
             }
-            else if (IsComputerToolCallOutputResource && computerToolCallOutputResource != null)
+            else if (ComputerToolCallOutputResource is { } __value4 && computerToolCallOutputResource != null)
             {
-                return computerToolCallOutputResource(ComputerToolCallOutputResource!);
+                return computerToolCallOutputResource(__value4);
             }
-            else if (IsWebSearchToolCall && webSearchToolCall != null)
+            else if (WebSearchToolCall is { } __value5 && webSearchToolCall != null)
             {
-                return webSearchToolCall(WebSearchToolCall!);
+                return webSearchToolCall(__value5);
             }
-            else if (IsFunctionToolCall && functionToolCall != null)
+            else if (FunctionToolCall is { } __value6 && functionToolCall != null)
             {
-                return functionToolCall(FunctionToolCall!);
+                return functionToolCall(__value6);
             }
-            else if (IsFunctionToolCallOutputResource && functionToolCallOutputResource != null)
+            else if (FunctionToolCallOutputResource is { } __value7 && functionToolCallOutputResource != null)
             {
-                return functionToolCallOutputResource(FunctionToolCallOutputResource!);
+                return functionToolCallOutputResource(__value7);
             }
 
             return default(TResult);
@@ -629,37 +629,37 @@ namespace Julep
                 Validate();
             }
 
-            if (IsInputMessageResource)
+            if (InputMessageResource is { } __value0)
             {
-                inputMessageResource?.Invoke(InputMessageResource!);
+                inputMessageResource?.Invoke(__value0);
             }
-            else if (IsOutputMessage)
+            else if (OutputMessage is { } __value1)
             {
-                outputMessage?.Invoke(OutputMessage!);
+                outputMessage?.Invoke(__value1);
             }
-            else if (IsFileSearchToolCall)
+            else if (FileSearchToolCall is { } __value2)
             {
-                fileSearchToolCall?.Invoke(FileSearchToolCall!);
+                fileSearchToolCall?.Invoke(__value2);
             }
-            else if (IsComputerToolCall)
+            else if (ComputerToolCall is { } __value3)
             {
-                computerToolCall?.Invoke(ComputerToolCall!);
+                computerToolCall?.Invoke(__value3);
             }
-            else if (IsComputerToolCallOutputResource)
+            else if (ComputerToolCallOutputResource is { } __value4)
             {
-                computerToolCallOutputResource?.Invoke(ComputerToolCallOutputResource!);
+                computerToolCallOutputResource?.Invoke(__value4);
             }
-            else if (IsWebSearchToolCall)
+            else if (WebSearchToolCall is { } __value5)
             {
-                webSearchToolCall?.Invoke(WebSearchToolCall!);
+                webSearchToolCall?.Invoke(__value5);
             }
-            else if (IsFunctionToolCall)
+            else if (FunctionToolCall is { } __value6)
             {
-                functionToolCall?.Invoke(FunctionToolCall!);
+                functionToolCall?.Invoke(__value6);
             }
-            else if (IsFunctionToolCallOutputResource)
+            else if (FunctionToolCallOutputResource is { } __value7)
             {
-                functionToolCallOutputResource?.Invoke(FunctionToolCallOutputResource!);
+                functionToolCallOutputResource?.Invoke(__value7);
             }
         }
 
@@ -682,37 +682,37 @@ namespace Julep
                 Validate();
             }
 
-            if (IsInputMessageResource)
+            if (InputMessageResource is { } __value0)
             {
-                inputMessageResource?.Invoke(InputMessageResource!);
+                inputMessageResource?.Invoke(__value0);
             }
-            else if (IsOutputMessage)
+            else if (OutputMessage is { } __value1)
             {
-                outputMessage?.Invoke(OutputMessage!);
+                outputMessage?.Invoke(__value1);
             }
-            else if (IsFileSearchToolCall)
+            else if (FileSearchToolCall is { } __value2)
             {
-                fileSearchToolCall?.Invoke(FileSearchToolCall!);
+                fileSearchToolCall?.Invoke(__value2);
             }
-            else if (IsComputerToolCall)
+            else if (ComputerToolCall is { } __value3)
             {
-                computerToolCall?.Invoke(ComputerToolCall!);
+                computerToolCall?.Invoke(__value3);
             }
-            else if (IsComputerToolCallOutputResource)
+            else if (ComputerToolCallOutputResource is { } __value4)
             {
-                computerToolCallOutputResource?.Invoke(ComputerToolCallOutputResource!);
+                computerToolCallOutputResource?.Invoke(__value4);
             }
-            else if (IsWebSearchToolCall)
+            else if (WebSearchToolCall is { } __value5)
             {
-                webSearchToolCall?.Invoke(WebSearchToolCall!);
+                webSearchToolCall?.Invoke(__value5);
             }
-            else if (IsFunctionToolCall)
+            else if (FunctionToolCall is { } __value6)
             {
-                functionToolCall?.Invoke(FunctionToolCall!);
+                functionToolCall?.Invoke(__value6);
             }
-            else if (IsFunctionToolCallOutputResource)
+            else if (FunctionToolCallOutputResource is { } __value7)
             {
-                functionToolCallOutputResource?.Invoke(FunctionToolCallOutputResource!);
+                functionToolCallOutputResource?.Invoke(__value7);
             }
         }
 
