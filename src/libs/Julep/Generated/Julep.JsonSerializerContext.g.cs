@@ -1,19 +1,14 @@
 
 #nullable enable
 
-#pragma warning disable CS0618 // Type or member is obsolete
-#pragma warning disable CS3016 // Arrays as attribute arguments is not CLS-compliant
-
 namespace Julep
 {
     /// <summary>
     ///
     /// </summary>
     [global::System.Text.Json.Serialization.JsonSourceGenerationOptions(
-        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
-        Converters = new global::System.Type[]
-        {
-        })]
+        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+    )]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_c74614e1e907bc9c")]
@@ -522,10 +517,8 @@ namespace Julep
     ///
     /// </summary>
     [global::System.Text.Json.Serialization.JsonSourceGenerationOptions(
-        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
-        Converters = new global::System.Type[]
-        {
-        })]
+        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+    )]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_c74614e1e907bc9c")]
@@ -1034,10 +1027,8 @@ namespace Julep
     ///
     /// </summary>
     [global::System.Text.Json.Serialization.JsonSourceGenerationOptions(
-        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
-        Converters = new global::System.Type[]
-        {
-        })]
+        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+    )]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_c74614e1e907bc9c")]
@@ -1546,10 +1537,8 @@ namespace Julep
     ///
     /// </summary>
     [global::System.Text.Json.Serialization.JsonSourceGenerationOptions(
-        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull,
-        Converters = new global::System.Type[]
-        {
-        })]
+        DefaultIgnoreCondition = global::System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
+    )]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_39e968616001c71f")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_0e8d4d20d12e8646")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2, global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3>), TypeInfoPropertyName = "ChatChatInputDataMessageContentVariant3ItemVariant3_c74614e1e907bc9c")]
