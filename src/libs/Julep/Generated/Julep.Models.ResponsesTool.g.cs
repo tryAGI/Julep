@@ -42,8 +42,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionTool PickFunction() => IsFunction
-            ? Function!
+        public global::Julep.ResponsesFunctionTool PickFunction() => Function is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'Function' but the value was {ToString()}.");
 
         /// <summary>
@@ -79,8 +79,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchTool PickWebSearch() => IsWebSearch
-            ? WebSearch!
+        public global::Julep.ResponsesWebSearchTool PickWebSearch() => WebSearch is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'WebSearch' but the value was {ToString()}.");
 
         /// <summary>
@@ -116,8 +116,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchTool PickFileSearch() => IsFileSearch
-            ? FileSearch!
+        public global::Julep.ResponsesFileSearchTool PickFileSearch() => FileSearch is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'FileSearch' but the value was {ToString()}.");
 
         /// <summary>
@@ -153,8 +153,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerTool PickComputer() => IsComputer
-            ? Computer!
+        public global::Julep.ResponsesComputerTool PickComputer() => Computer is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'Computer' but the value was {ToString()}.");
         /// <summary>
         ///
@@ -307,21 +307,21 @@ namespace Julep
                 Validate();
             }
 
-            if (IsFunction && function != null)
+            if (Function is { } __value0 && function != null)
             {
-                return function(Function!);
+                return function(__value0);
             }
-            else if (IsWebSearch && webSearch != null)
+            else if (WebSearch is { } __value1 && webSearch != null)
             {
-                return webSearch(WebSearch!);
+                return webSearch(__value1);
             }
-            else if (IsFileSearch && fileSearch != null)
+            else if (FileSearch is { } __value2 && fileSearch != null)
             {
-                return fileSearch(FileSearch!);
+                return fileSearch(__value2);
             }
-            else if (IsComputer && computer != null)
+            else if (Computer is { } __value3 && computer != null)
             {
-                return computer(Computer!);
+                return computer(__value3);
             }
 
             return default(TResult);
@@ -345,21 +345,21 @@ namespace Julep
                 Validate();
             }
 
-            if (IsFunction)
+            if (Function is { } __value0)
             {
-                function?.Invoke(Function!);
+                function?.Invoke(__value0);
             }
-            else if (IsWebSearch)
+            else if (WebSearch is { } __value1)
             {
-                webSearch?.Invoke(WebSearch!);
+                webSearch?.Invoke(__value1);
             }
-            else if (IsFileSearch)
+            else if (FileSearch is { } __value2)
             {
-                fileSearch?.Invoke(FileSearch!);
+                fileSearch?.Invoke(__value2);
             }
-            else if (IsComputer)
+            else if (Computer is { } __value3)
             {
-                computer?.Invoke(Computer!);
+                computer?.Invoke(__value3);
             }
         }
 
@@ -378,21 +378,21 @@ namespace Julep
                 Validate();
             }
 
-            if (IsFunction)
+            if (Function is { } __value0)
             {
-                function?.Invoke(Function!);
+                function?.Invoke(__value0);
             }
-            else if (IsWebSearch)
+            else if (WebSearch is { } __value1)
             {
-                webSearch?.Invoke(WebSearch!);
+                webSearch?.Invoke(__value1);
             }
-            else if (IsFileSearch)
+            else if (FileSearch is { } __value2)
             {
-                fileSearch?.Invoke(FileSearch!);
+                fileSearch?.Invoke(__value2);
             }
-            else if (IsComputer)
+            else if (Computer is { } __value3)
             {
-                computer?.Invoke(Computer!);
+                computer?.Invoke(__value3);
             }
         }
 

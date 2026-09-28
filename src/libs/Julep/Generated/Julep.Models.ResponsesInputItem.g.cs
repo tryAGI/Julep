@@ -42,8 +42,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesEasyInputMessage PickEasyMessage() => IsEasyMessage
-            ? EasyMessage!
+        public global::Julep.ResponsesEasyInputMessage PickEasyMessage() => EasyMessage is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'EasyMessage' but the value was {ToString()}.");
 
         /// <summary>
@@ -79,8 +79,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesItem PickResponsesItem() => IsResponsesItem
-            ? ResponsesItem!
+        public global::Julep.ResponsesItem PickResponsesItem() => ResponsesItem is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'ResponsesItem' but the value was {ToString()}.");
 
         /// <summary>
@@ -116,8 +116,8 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesItemReference PickReference() => IsReference
-            ? Reference!.Value
+        public global::Julep.ResponsesItemReference PickReference() => Reference is { } value
+            ? value
             : throw new global::System.InvalidOperationException($"Expected union variant 'Reference' but the value was {ToString()}.");
         /// <summary>
         ///
@@ -242,17 +242,17 @@ namespace Julep
                 Validate();
             }
 
-            if (IsEasyMessage && easyMessage != null)
+            if (EasyMessage is { } __value0 && easyMessage != null)
             {
-                return easyMessage(EasyMessage!);
+                return easyMessage(__value0);
             }
-            else if (IsResponsesItem && responsesItem != null)
+            else if (ResponsesItem is { } __value1 && responsesItem != null)
             {
-                return responsesItem(ResponsesItem!);
+                return responsesItem(__value1);
             }
-            else if (IsReference && reference != null)
+            else if (Reference is { } __value2 && reference != null)
             {
-                return reference(Reference!);
+                return reference(__value2);
             }
 
             return default(TResult);
@@ -274,17 +274,17 @@ namespace Julep
                 Validate();
             }
 
-            if (IsEasyMessage)
+            if (EasyMessage is { } __value0)
             {
-                easyMessage?.Invoke(EasyMessage!);
+                easyMessage?.Invoke(__value0);
             }
-            else if (IsResponsesItem)
+            else if (ResponsesItem is { } __value1)
             {
-                responsesItem?.Invoke(ResponsesItem!);
+                responsesItem?.Invoke(__value1);
             }
-            else if (IsReference)
+            else if (Reference is { } __value2)
             {
-                reference?.Invoke(Reference!);
+                reference?.Invoke(__value2);
             }
         }
 
@@ -302,17 +302,17 @@ namespace Julep
                 Validate();
             }
 
-            if (IsEasyMessage)
+            if (EasyMessage is { } __value0)
             {
-                easyMessage?.Invoke(EasyMessage!);
+                easyMessage?.Invoke(__value0);
             }
-            else if (IsResponsesItem)
+            else if (ResponsesItem is { } __value1)
             {
-                responsesItem?.Invoke(ResponsesItem!);
+                responsesItem?.Invoke(__value1);
             }
-            else if (IsReference)
+            else if (Reference is { } __value2)
             {
-                reference?.Invoke(Reference!);
+                reference?.Invoke(__value2);
             }
         }
 

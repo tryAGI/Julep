@@ -167,19 +167,19 @@ namespace Julep.JsonConverters
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesEasyInputMessage), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesEasyInputMessage?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesEasyInputMessage).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.EasyMessage!, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.PickEasyMessage(), typeInfo);
             }
             else if (value.IsResponsesItem)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesItem), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesItem?> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesItem).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.ResponsesItem!, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.PickResponsesItem(), typeInfo);
             }
             else if (value.IsReference)
             {
                 var typeInfo = typeInfoResolver.GetTypeInfo(typeof(global::Julep.ResponsesItemReference), options) as global::System.Text.Json.Serialization.Metadata.JsonTypeInfo<global::Julep.ResponsesItemReference> ??
                                throw new global::System.InvalidOperationException($"Cannot get type info for {typeof(global::Julep.ResponsesItemReference).Name}");
-                global::System.Text.Json.JsonSerializer.Serialize(writer, value.Reference!.Value, typeInfo);
+                global::System.Text.Json.JsonSerializer.Serialize(writer, value.PickReference(), typeInfo);
             }
         }
     }

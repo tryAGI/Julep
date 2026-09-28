@@ -166,11 +166,11 @@ namespace Julep
                                 path: $"/agents/{id}/tools",
                                 baseUri: HttpClient.BaseAddress);
                             __pathBuilder
-                                .AddRequiredParameter("limit", limit.ToString()!)
-                                .AddRequiredParameter("offset", offset.ToString()!)
+                                .AddRequiredParameter("limit", limit.ToString() ?? throw new global::System.InvalidOperationException("A required query parameter returned null from ToString()."))
+                                .AddRequiredParameter("offset", offset.ToString() ?? throw new global::System.InvalidOperationException("A required query parameter returned null from ToString()."))
                                 .AddRequiredParameter("sort_by", sortBy.ToValueString())
                                 .AddRequiredParameter("direction", direction.ToValueString())
-                                .AddRequiredParameter("metadata_filter", metadataFilter.ToString()!)
+                                .AddRequiredParameter("metadata_filter", metadataFilter.ToString() ?? throw new global::System.InvalidOperationException("A required query parameter returned null from ToString()."))
                                 ;
                             var __path = __pathBuilder.ToString();
                 __path = global::Julep.AutoSDKRequestOptionsSupport.AppendQueryParameters(
@@ -212,12 +212,12 @@ namespace Julep
                 PrepareAgentToolsRouteListRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id!,
-                    limit: limit!,
-                    offset: offset!,
-                    sortBy: sortBy!,
-                    direction: direction!,
-                    metadataFilter: metadataFilter!);
+                    id: id,
+                    limit: limit,
+                    offset: offset,
+                    sortBy: sortBy,
+                    direction: direction,
+                    metadataFilter: metadataFilter);
 
                 return __httpRequest;
             }
@@ -239,7 +239,7 @@ namespace Julep
                                 pathTemplate: "$\"/agents/{id}/tools\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: null,
                                 exception: null,
                                 clientOptions: Options,
@@ -273,7 +273,7 @@ namespace Julep
                                 pathTemplate: "$\"/agents/{id}/tools\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: null,
                                 exception: __exception,
                                 clientOptions: Options,
@@ -314,7 +314,7 @@ namespace Julep
                                 pathTemplate: "$\"/agents/{id}/tools\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
@@ -362,7 +362,7 @@ namespace Julep
                                 pathTemplate: "$\"/agents/{id}/tools\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
@@ -384,7 +384,7 @@ namespace Julep
                                 pathTemplate: "$\"/agents/{id}/tools\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
