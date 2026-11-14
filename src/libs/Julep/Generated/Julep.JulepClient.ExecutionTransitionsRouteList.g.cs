@@ -29,7 +29,7 @@ namespace Julep
             global::System.Net.Http.HttpClient httpClient,
             ref global::System.Guid id,
             ref int limit,
-            ref int offset,
+            ref long offset,
             ref global::Julep.ExecutionTransitionsRouteListSortBy sortBy,
             ref global::Julep.ExecutionTransitionsRouteListDirection direction,
             object metadataFilter);
@@ -38,7 +38,7 @@ namespace Julep
             global::System.Net.Http.HttpRequestMessage httpRequestMessage,
             global::System.Guid id,
             int limit,
-            int offset,
+            long offset,
             global::Julep.ExecutionTransitionsRouteListSortBy sortBy,
             global::Julep.ExecutionTransitionsRouteListDirection direction,
             object metadataFilter);
@@ -76,7 +76,7 @@ namespace Julep
         public async global::System.Threading.Tasks.Task<global::Julep.ExecutionTransitionsRouteListResponse> ExecutionTransitionsRouteListAsync(
             global::System.Guid id,
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.ExecutionTransitionsRouteListSortBy sortBy = global::Julep.ExecutionTransitionsRouteListSortBy.CreatedAt,
             global::Julep.ExecutionTransitionsRouteListDirection direction = global::Julep.ExecutionTransitionsRouteListDirection.Asc,
@@ -121,7 +121,7 @@ namespace Julep
         public async global::System.Threading.Tasks.Task<global::Julep.AutoSDKHttpResponse<global::Julep.ExecutionTransitionsRouteListResponse>> ExecutionTransitionsRouteListAsResponseAsync(
             global::System.Guid id,
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.ExecutionTransitionsRouteListSortBy sortBy = global::Julep.ExecutionTransitionsRouteListSortBy.CreatedAt,
             global::Julep.ExecutionTransitionsRouteListDirection direction = global::Julep.ExecutionTransitionsRouteListDirection.Asc,

@@ -98,7 +98,7 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public int? Type15 { get; set; }
+        public long? Type15 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -166,3619 +166,3627 @@ namespace Julep
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInput? Type32 { get; set; }
+        public int? Type32 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public bool? Type33 { get; set; }
+        public global::Julep.ChatChatInput? Type33 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public short? Type34 { get; set; }
+        public bool? Type34 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, float>? Type35 { get; set; }
+        public short? Type35 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>? Type36 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, float>? Type36 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSimpleCompletionResponseFormat? Type37 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>? Type37 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSchemaCompletionResponseFormat? Type38 { get; set; }
+        public global::Julep.ChatSimpleCompletionResponseFormat? Type38 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputData? Type39 { get; set; }
+        public global::Julep.ChatSchemaCompletionResponseFormat? Type39 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessage>? Type40 { get; set; }
+        public global::Julep.ChatChatInputData? Type40 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessage? Type41 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessage>? Type41 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesChatMLRole? Type42 { get; set; }
+        public global::Julep.ChatChatInputDataMessage? Type42 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1? Type43 { get; set; }
+        public global::Julep.EntriesChatMLRole? Type43 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1Type? Type44 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1? Type44 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2? Type45 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant1Type? Type45 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2ImageUrl? Type46 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2? Type46 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesImageDetail? Type47 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2ImageUrl? Type47 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2Type? Type48 { get; set; }
+        public global::Julep.EntriesImageDetail? Type48 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3? Type49 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant2Type? Type49 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3Type? Type50 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3? Type50 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item>? Type51 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3Type? Type51 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item? Type52 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item>? Type52 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemType? Type53 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1Item? Type53 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item>? Type54 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant1ItemType? Type54 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item? Type55 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item>? Type55 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemType? Type56 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2Item? Type56 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSource? Type57 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemType? Type57 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type58 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSource? Type58 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ToolsCreateToolRequest>? Type59 { get; set; }
+        public global::Julep.ChatChatInputDataMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type59 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCreateToolRequest? Type60 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ToolsCreateToolRequest>? Type60 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ChatChatInputDataToolChoice?, global::Julep.ToolsNamedToolChoice>? Type61 { get; set; }
+        public global::Julep.ToolsCreateToolRequest? Type61 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatInputDataToolChoice? Type62 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ChatChatInputDataToolChoice?, global::Julep.ToolsNamedToolChoice>? Type62 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsNamedToolChoice? Type63 { get; set; }
+        public global::Julep.ChatChatInputDataToolChoice? Type63 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunk? Type64 { get; set; }
+        public global::Julep.ToolsNamedToolChoice? Type64 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDelta? Type65 { get; set; }
+        public global::Julep.ChatChatOutputChunk? Type65 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1? Type66 { get; set; }
+        public global::Julep.ChatChatOutputChunkDelta? Type66 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1Type? Type67 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1? Type67 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2? Type68 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant1Type? Type68 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2ImageUrl? Type69 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2? Type69 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2Type? Type70 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2ImageUrl? Type70 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3? Type71 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant2Type? Type71 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3Type? Type72 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3? Type72 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item>? Type73 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3Type? Type73 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item? Type74 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item>? Type74 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemType? Type75 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1Item? Type75 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item>? Type76 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant1ItemType? Type76 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item? Type77 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item>? Type77 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemType? Type78 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2Item? Type78 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSource? Type79 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemType? Type79 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type80 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSource? Type80 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatChunkChatResponse? Type81 { get; set; }
+        public global::Julep.ChatChatOutputChunkDeltaContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type81 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunk>? Type82 { get; set; }
+        public global::Julep.ChatChunkChatResponse? Type82 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatTokenLogProb>? Type83 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatChatOutputChunk>? Type83 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatTokenLogProb? Type84 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatTokenLogProb>? Type84 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMessageChatResponse? Type85 { get; set; }
+        public global::Julep.ChatTokenLogProb? Type85 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>>? Type86 { get; set; }
+        public global::Julep.ChatMessageChatResponse? Type86 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>? Type87 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>>? Type87 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutput? Type88 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ChatSingleChatOutput, global::Julep.ChatMultipleChatOutput>? Type88 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutput? Type89 { get; set; }
+        public global::Julep.ChatSingleChatOutput? Type89 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessage>? Type90 { get; set; }
+        public global::Julep.ChatMultipleChatOutput? Type90 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessage? Type91 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessage>? Type91 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1? Type92 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessage? Type92 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type? Type93 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1? Type93 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2? Type94 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant1Type? Type94 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2ImageUrl? Type95 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2? Type95 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2Type? Type96 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2ImageUrl? Type96 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3? Type97 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant2Type? Type97 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3Type? Type98 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3? Type98 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>? Type99 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3Type? Type99 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item? Type100 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>? Type100 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType? Type101 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item? Type101 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>? Type102 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType? Type102 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item? Type103 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>? Type103 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType? Type104 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item? Type104 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSource? Type105 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType? Type105 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type106 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSource? Type106 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatRenderResponse? Type107 { get; set; }
+        public global::Julep.ChatMultipleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type107 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSchemaCompletionResponseFormatType? Type108 { get; set; }
+        public global::Julep.ChatRenderResponse? Type108 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSimpleCompletionResponseFormatType? Type109 { get; set; }
+        public global::Julep.ChatSchemaCompletionResponseFormatType? Type109 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessage? Type110 { get; set; }
+        public global::Julep.ChatSimpleCompletionResponseFormatType? Type110 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1? Type111 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessage? Type111 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1Type? Type112 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1? Type112 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2? Type113 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant1Type? Type113 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2ImageUrl? Type114 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2? Type114 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2Type? Type115 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2ImageUrl? Type115 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3? Type116 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant2Type? Type116 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3Type? Type117 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3? Type117 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>? Type118 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3Type? Type118 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item? Type119 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item>? Type119 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType? Type120 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1Item? Type120 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>? Type121 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant1ItemType? Type121 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item? Type122 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item>? Type122 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType? Type123 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2Item? Type123 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSource? Type124 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemType? Type124 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type125 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSource? Type125 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ChatBaseTokenLogProb>? Type126 { get; set; }
+        public global::Julep.ChatSingleChatOutputMessageContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type126 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.CommonResourceDeletedResponse? Type127 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ChatBaseTokenLogProb>? Type127 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsBulkDeleteDocsRequest? Type128 { get; set; }
+        public global::Julep.CommonResourceDeletedResponse? Type128 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsCreateDocRequest? Type129 { get; set; }
+        public global::Julep.DocsBulkDeleteDocsRequest? Type129 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsDoc? Type130 { get; set; }
+        public global::Julep.DocsCreateDocRequest? Type130 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>? Type131 { get; set; }
+        public global::Julep.DocsDoc? Type131 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<float>? Type132 { get; set; }
+        public global::Julep.AnyOf<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>? Type132 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>? Type133 { get; set; }
+        public global::System.Collections.Generic.IList<float>? Type133 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsDocOwner? Type134 { get; set; }
+        public global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>? Type134 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsDocOwnerRole? Type135 { get; set; }
+        public global::Julep.DocsDocOwner? Type135 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsSnippet? Type136 { get; set; }
+        public global::Julep.DocsDocOwnerRole? Type136 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public double? Type137 { get; set; }
+        public global::Julep.DocsSnippet? Type137 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsDocSearchResponse? Type138 { get; set; }
+        public double? Type138 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsEmbedQueryResponse? Type139 { get; set; }
+        public global::Julep.DocsDocSearchResponse? Type139 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<double>>? Type140 { get; set; }
+        public global::Julep.DocsEmbedQueryResponse? Type140 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<double>? Type141 { get; set; }
+        public global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<double>>? Type141 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsHybridDocSearchRequest? Type142 { get; set; }
+        public global::System.Collections.Generic.IList<double>? Type142 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsMultipleEmbedQueryRequest? Type143 { get; set; }
+        public global::Julep.DocsHybridDocSearchRequest? Type143 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsSingleEmbedQueryRequest? Type144 { get; set; }
+        public sbyte? Type144 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsTextOnlyDocSearchRequest? Type145 { get; set; }
+        public global::Julep.DocsMultipleEmbedQueryRequest? Type145 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DocsVectorDocSearchRequest? Type146 { get; set; }
+        public global::Julep.DocsSingleEmbedQueryRequest? Type146 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntry? Type147 { get; set; }
+        public global::Julep.DocsTextOnlyDocSearchRequest? Type147 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant1? Type148 { get; set; }
+        public global::Julep.DocsVectorDocSearchRequest? Type148 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type? Type149 { get; set; }
+        public global::Julep.EntriesBaseEntry? Type149 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant2? Type150 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant1? Type150 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant2ImageUrl? Type151 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type? Type151 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type? Type152 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant2? Type152 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3? Type153 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant2ImageUrl? Type153 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type? Type154 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type? Type154 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item>? Type155 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3? Type155 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item? Type156 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type? Type156 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType? Type157 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item>? Type157 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item>? Type158 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1Item? Type158 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item? Type159 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant1ItemType? Type159 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemType? Type160 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item>? Type160 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSource? Type161 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2Item? Type161 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceType? Type162 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemType? Type162 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsTool? Type163 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSource? Type163 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsToolResponse? Type164 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant1ItemVariant3ContentVariant2ItemSourceType? Type164 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1? Type165 { get; set; }
+        public global::Julep.ToolsTool? Type165 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1Type? Type166 { get; set; }
+        public global::Julep.ToolsToolResponse? Type166 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2? Type167 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1? Type167 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2ImageUrl? Type168 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant1Type? Type168 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2Type? Type169 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2? Type169 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3? Type170 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2ImageUrl? Type170 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type? Type171 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant2Type? Type171 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>? Type172 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3? Type172 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item? Type173 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3Type? Type173 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemType? Type174 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item>? Type174 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>? Type175 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1Item? Type175 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item? Type176 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant1ItemType? Type176 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemType? Type177 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item>? Type177 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSource? Type178 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2Item? Type178 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType? Type179 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemType? Type179 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesBaseEntrySource? Type180 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSource? Type180 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesEntry? Type181 { get; set; }
+        public global::Julep.EntriesBaseEntryContentVariant9ItemVariant1ItemVariant3ContentVariant2ItemSourceType? Type181 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesHistory? Type182 { get; set; }
+        public global::Julep.EntriesBaseEntrySource? Type182 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.EntriesEntry>? Type183 { get; set; }
+        public global::Julep.EntriesEntry? Type183 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.EntriesRelation>? Type184 { get; set; }
+        public global::Julep.EntriesHistory? Type184 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EntriesRelation? Type185 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.EntriesEntry>? Type185 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsCreateExecutionRequest? Type186 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.EntriesRelation>? Type186 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public byte? Type187 { get; set; }
+        public global::Julep.EntriesRelation? Type187 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsExecution? Type188 { get; set; }
+        public global::Julep.ExecutionsCreateExecutionRequest? Type188 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsExecutionStatus? Type189 { get; set; }
+        public byte? Type189 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsResumeExecutionRequest? Type190 { get; set; }
+        public global::Julep.ExecutionsExecution? Type190 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsResumeExecutionRequestStatus? Type191 { get; set; }
+        public global::Julep.ExecutionsExecutionStatus? Type191 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsUpdateExecutionRequest? Type192 { get; set; }
+        public global::Julep.ExecutionsResumeExecutionRequest? Type192 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsStopExecutionRequest? Type193 { get; set; }
+        public global::Julep.ExecutionsResumeExecutionRequestStatus? Type193 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsStopExecutionRequestStatus? Type194 { get; set; }
+        public global::Julep.ExecutionsUpdateExecutionRequest? Type194 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsTaskTokenResumeExecutionRequest? Type195 { get; set; }
+        public global::Julep.ExecutionsStopExecutionRequest? Type195 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsTaskTokenResumeExecutionRequestStatus? Type196 { get; set; }
+        public global::Julep.ExecutionsStopExecutionRequestStatus? Type196 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsTransition? Type197 { get; set; }
+        public global::Julep.ExecutionsTaskTokenResumeExecutionRequest? Type197 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsTransitionTarget? Type198 { get; set; }
+        public global::Julep.ExecutionsTaskTokenResumeExecutionRequestStatus? Type198 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsTransitionEvent? Type199 { get; set; }
+        public global::Julep.ExecutionsTransition? Type199 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsTransitionEventType? Type200 { get; set; }
+        public global::Julep.ExecutionsTransitionTarget? Type200 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsUpdateExecutionRequestStatus? Type201 { get; set; }
+        public global::Julep.ExecutionsTransitionEvent? Type201 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsUpdateExecutionRequestDiscriminator? Type202 { get; set; }
+        public global::Julep.ExecutionsTransitionEventType? Type202 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionsUpdateExecutionRequestDiscriminatorStatus? Type203 { get; set; }
+        public global::Julep.ExecutionsUpdateExecutionRequestStatus? Type203 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.FilesCreateFileRequest? Type204 { get; set; }
+        public global::Julep.ExecutionsUpdateExecutionRequestDiscriminator? Type204 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.FilesFile? Type205 { get; set; }
+        public global::Julep.ExecutionsUpdateExecutionRequestDiscriminatorStatus? Type205 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>? Type206 { get; set; }
+        public global::Julep.FilesCreateFileRequest? Type206 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>? Type207 { get; set; }
+        public global::Julep.FilesFile? Type207 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputText? Type208 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>? Type208 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputImage? Type209 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>? Type209 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputFile? Type210 { get; set; }
+        public global::Julep.ResponsesInputText? Type210 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.JobsJobState? Type211 { get; set; }
+        public global::Julep.ResponsesInputImage? Type211 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.JobsJobStatus? Type212 { get; set; }
+        public global::Julep.ResponsesInputFile? Type212 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsCreateOrUpdateProjectRequest? Type213 { get; set; }
+        public global::Julep.JobsJobState? Type213 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsCreateProjectRequest? Type214 { get; set; }
+        public global::Julep.JobsJobStatus? Type214 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsPatchProjectRequest? Type215 { get; set; }
+        public global::Julep.ProjectsCreateOrUpdateProjectRequest? Type215 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsProject? Type216 { get; set; }
+        public global::Julep.ProjectsCreateProjectRequest? Type216 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsUpdateProjectRequest? Type217 { get; set; }
+        public global::Julep.ProjectsPatchProjectRequest? Type217 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesBaseTool? Type218 { get; set; }
+        public global::Julep.ProjectsProject? Type218 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesClick? Type219 { get; set; }
+        public global::Julep.ProjectsUpdateProjectRequest? Type219 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesClickType? Type220 { get; set; }
+        public global::Julep.ResponsesBaseTool? Type220 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesClickButton? Type221 { get; set; }
+        public global::Julep.ResponsesClick? Type221 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerScreenshotImage? Type222 { get; set; }
+        public global::Julep.ResponsesClickType? Type222 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerScreenshotImageType? Type223 { get; set; }
+        public global::Julep.ResponsesClickButton? Type223 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerTool? Type224 { get; set; }
+        public global::Julep.ResponsesComputerScreenshotImage? Type224 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolType? Type225 { get; set; }
+        public global::Julep.ResponsesComputerScreenshotImageType? Type225 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolEnvironment? Type226 { get; set; }
+        public global::Julep.ResponsesComputerTool? Type226 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCall? Type227 { get; set; }
+        public global::Julep.ResponsesComputerToolType? Type227 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallType? Type228 { get; set; }
+        public global::Julep.ResponsesComputerToolEnvironment? Type228 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesDoubleClick? Type229 { get; set; }
+        public global::Julep.ResponsesComputerToolCall? Type229 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesDrag? Type230 { get; set; }
+        public global::Julep.ResponsesComputerToolCallType? Type230 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesKeyPress? Type231 { get; set; }
+        public global::Julep.ResponsesDoubleClick? Type231 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesMove? Type232 { get; set; }
+        public global::Julep.ResponsesDrag? Type232 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesScreenshot? Type233 { get; set; }
+        public global::Julep.ResponsesKeyPress? Type233 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesScroll? Type234 { get; set; }
+        public global::Julep.ResponsesMove? Type234 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesType? Type235 { get; set; }
+        public global::Julep.ResponsesScreenshot? Type235 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWait? Type236 { get; set; }
+        public global::Julep.ResponsesScroll? Type236 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesComputerToolCallSafetyCheck>? Type237 { get; set; }
+        public global::Julep.ResponsesType? Type237 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallSafetyCheck? Type238 { get; set; }
+        public global::Julep.ResponsesWait? Type238 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallStatus? Type239 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesComputerToolCallSafetyCheck>? Type239 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallOutput? Type240 { get; set; }
+        public global::Julep.ResponsesComputerToolCallSafetyCheck? Type240 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallOutputType? Type241 { get; set; }
+        public global::Julep.ResponsesComputerToolCallStatus? Type241 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesMessageStatus? Type242 { get; set; }
+        public global::Julep.ResponsesComputerToolCallOutput? Type242 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesComputerToolCallOutputResource? Type243 { get; set; }
+        public global::Julep.ResponsesComputerToolCallOutputType? Type243 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCoordinate? Type244 { get; set; }
+        public global::Julep.ResponsesMessageStatus? Type244 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponse? Type245 { get; set; }
+        public global::Julep.ResponsesComputerToolCallOutputResource? Type245 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>>? Type246 { get; set; }
+        public global::Julep.ResponsesCoordinate? Type246 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>? Type247 { get; set; }
+        public global::Julep.ResponsesCreateResponse? Type247 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputItem? Type248 { get; set; }
+        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>>? Type248 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesIncludable>? Type249 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesInputItem>? Type249 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesIncludable? Type250 { get; set; }
+        public global::Julep.ResponsesInputItem? Type250 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoning? Type251 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesIncludable>? Type251 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponseText? Type252 { get; set; }
+        public global::Julep.ResponsesIncludable? Type252 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>? Type253 { get; set; }
+        public global::Julep.ResponsesReasoning? Type253 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseFormatText? Type254 { get; set; }
+        public global::Julep.ResponsesCreateResponseText? Type254 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesTextResponseFormatJsonSchema? Type255 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ResponsesResponseFormatText, global::Julep.ResponsesTextResponseFormatJsonSchema, global::Julep.ResponsesResponseFormatJsonObject>? Type255 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseFormatJsonObject? Type256 { get; set; }
+        public global::Julep.ResponsesResponseFormatText? Type256 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ResponsesCreateResponseToolChoiceEnum?, global::Julep.ResponsesCreateResponseToolChoiceEnum2>? Type257 { get; set; }
+        public global::Julep.ResponsesTextResponseFormatJsonSchema? Type257 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponseToolChoiceEnum? Type258 { get; set; }
+        public global::Julep.ResponsesResponseFormatJsonObject? Type258 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponseToolChoiceEnum2? Type259 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ResponsesCreateResponseToolChoiceEnum?, global::Julep.ResponsesCreateResponseToolChoiceEnum2>? Type259 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponseToolChoiceEnumType? Type260 { get; set; }
+        public global::Julep.ResponsesCreateResponseToolChoiceEnum? Type260 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponseToolChoiceEnumFunction? Type261 { get; set; }
+        public global::Julep.ResponsesCreateResponseToolChoiceEnum2? Type261 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesTool>? Type262 { get; set; }
+        public global::Julep.ResponsesCreateResponseToolChoiceEnumType? Type262 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesTool? Type263 { get; set; }
+        public global::Julep.ResponsesCreateResponseToolChoiceEnumFunction? Type263 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesCreateResponseTruncation? Type264 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesTool>? Type264 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesDoubleClickType? Type265 { get; set; }
+        public global::Julep.ResponsesTool? Type265 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesDragType? Type266 { get; set; }
+        public global::Julep.ResponsesCreateResponseTruncation? Type266 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesCoordinate>? Type267 { get; set; }
+        public global::Julep.ResponsesDoubleClickType? Type267 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesEasyInputMessage? Type268 { get; set; }
+        public global::Julep.ResponsesDragType? Type268 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesMessageRole? Type269 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesCoordinate>? Type269 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>>? Type270 { get; set; }
+        public global::Julep.ResponsesEasyInputMessage? Type270 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesEasyInputMessageType? Type271 { get; set; }
+        public global::Julep.ResponsesMessageRole? Type271 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileCitation? Type272 { get; set; }
+        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesInputText, global::Julep.ResponsesInputImage, global::Julep.ResponsesInputFile>>>? Type272 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileCitationType? Type273 { get; set; }
+        public global::Julep.ResponsesEasyInputMessageType? Type273 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFilePath? Type274 { get; set; }
+        public global::Julep.ResponsesFileCitation? Type274 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFilePathType? Type275 { get; set; }
+        public global::Julep.ResponsesFileCitationType? Type275 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchTool? Type276 { get; set; }
+        public global::Julep.ResponsesFilePath? Type276 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolType? Type277 { get; set; }
+        public global::Julep.ResponsesFilePathType? Type277 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolRankingOptions? Type278 { get; set; }
+        public global::Julep.ResponsesFileSearchTool? Type278 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolRankingOptionsRanker? Type279 { get; set; }
+        public global::Julep.ResponsesFileSearchToolType? Type279 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolCall? Type280 { get; set; }
+        public global::Julep.ResponsesFileSearchToolRankingOptions? Type280 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolCallType? Type281 { get; set; }
+        public global::Julep.ResponsesFileSearchToolRankingOptionsRanker? Type281 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolCallStatus? Type282 { get; set; }
+        public global::Julep.ResponsesFileSearchToolCall? Type282 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesFileSearchToolCallResult>? Type283 { get; set; }
+        public global::Julep.ResponsesFileSearchToolCallType? Type283 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFileSearchToolCallResult? Type284 { get; set; }
+        public global::Julep.ResponsesFileSearchToolCallStatus? Type284 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesVectorStoreFileAttributes? Type285 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesFileSearchToolCallResult>? Type285 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionTool? Type286 { get; set; }
+        public global::Julep.ResponsesFileSearchToolCallResult? Type286 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolType? Type287 { get; set; }
+        public global::Julep.ResponsesVectorStoreFileAttributes? Type287 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCall? Type288 { get; set; }
+        public global::Julep.ResponsesFunctionTool? Type288 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallType? Type289 { get; set; }
+        public global::Julep.ResponsesFunctionToolType? Type289 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallStatus? Type290 { get; set; }
+        public global::Julep.ResponsesFunctionToolCall? Type290 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallOutput? Type291 { get; set; }
+        public global::Julep.ResponsesFunctionToolCallType? Type291 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallOutputType? Type292 { get; set; }
+        public global::Julep.ResponsesFunctionToolCallStatus? Type292 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallOutputStatus? Type293 { get; set; }
+        public global::Julep.ResponsesFunctionToolCallOutput? Type293 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesFunctionToolCallOutputResource? Type294 { get; set; }
+        public global::Julep.ResponsesFunctionToolCallOutputType? Type294 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputFileType? Type295 { get; set; }
+        public global::Julep.ResponsesFunctionToolCallOutputStatus? Type295 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputImageType? Type296 { get; set; }
+        public global::Julep.ResponsesFunctionToolCallOutputResource? Type296 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputImageDetail? Type297 { get; set; }
+        public global::Julep.ResponsesInputFileType? Type297 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesItem? Type298 { get; set; }
+        public global::Julep.ResponsesInputImageType? Type298 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesItemReference? Type299 { get; set; }
+        public global::Julep.ResponsesInputImageDetail? Type299 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputMessage? Type300 { get; set; }
+        public global::Julep.ResponsesItem? Type300 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputMessageType? Type301 { get; set; }
+        public global::Julep.ResponsesItemReference? Type301 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputMessageResource? Type302 { get; set; }
+        public global::Julep.ResponsesInputMessage? Type302 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesInputTextType? Type303 { get; set; }
+        public global::Julep.ResponsesInputMessageType? Type303 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesOutputMessage? Type304 { get; set; }
+        public global::Julep.ResponsesInputMessageResource? Type304 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolCall? Type305 { get; set; }
+        public global::Julep.ResponsesInputTextType? Type305 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesKeyPressType? Type306 { get; set; }
+        public global::Julep.ResponsesOutputMessage? Type306 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesMoveType? Type307 { get; set; }
+        public global::Julep.ResponsesWebSearchToolCall? Type307 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesOutputItem? Type308 { get; set; }
+        public global::Julep.ResponsesKeyPressType? Type308 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningItem? Type309 { get; set; }
+        public global::Julep.ResponsesMoveType? Type309 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesOutputMessageType? Type310 { get; set; }
+        public global::Julep.ResponsesOutputItem? Type310 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>>? Type311 { get; set; }
+        public global::Julep.ResponsesReasoningItem? Type311 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>? Type312 { get; set; }
+        public global::Julep.ResponsesOutputMessageType? Type312 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesOutputText? Type313 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>>? Type313 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesRefusal? Type314 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ResponsesOutputText, global::Julep.ResponsesRefusal>? Type314 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesOutputTextType? Type315 { get; set; }
+        public global::Julep.ResponsesOutputText? Type315 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>>? Type316 { get; set; }
+        public global::Julep.ResponsesRefusal? Type316 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>? Type317 { get; set; }
+        public global::Julep.ResponsesOutputTextType? Type317 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesUrlCitation? Type318 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>>? Type318 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningEffort? Type319 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ResponsesFileCitation, global::Julep.ResponsesUrlCitation, global::Julep.ResponsesFilePath>? Type319 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningGenerateSummary? Type320 { get; set; }
+        public global::Julep.ResponsesUrlCitation? Type320 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningContent? Type321 { get; set; }
+        public global::Julep.ResponsesReasoningEffort? Type321 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningContentType? Type322 { get; set; }
+        public global::Julep.ResponsesReasoningGenerateSummary? Type322 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningItemType? Type323 { get; set; }
+        public global::Julep.ResponsesReasoningContent? Type323 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesReasoningContent>? Type324 { get; set; }
+        public global::Julep.ResponsesReasoningContentType? Type324 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesReasoningItemStatus? Type325 { get; set; }
+        public global::Julep.ResponsesReasoningItemType? Type325 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesRefusalType? Type326 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesReasoningContent>? Type326 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponse? Type327 { get; set; }
+        public global::Julep.ResponsesReasoningItemStatus? Type327 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseObject? Type328 { get; set; }
+        public global::Julep.ResponsesRefusalType? Type328 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseStatus? Type329 { get; set; }
+        public global::Julep.ResponsesResponse? Type329 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseError? Type330 { get; set; }
+        public global::Julep.ResponsesResponseObject? Type330 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseIncompleteDetails? Type331 { get; set; }
+        public global::Julep.ResponsesResponseStatus? Type331 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseIncompleteDetailsReason? Type332 { get; set; }
+        public global::Julep.ResponsesResponseError? Type332 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ResponsesOutputItem>? Type333 { get; set; }
+        public global::Julep.ResponsesResponseIncompleteDetails? Type333 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseText? Type334 { get; set; }
+        public global::Julep.ResponsesResponseIncompleteDetailsReason? Type334 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ResponsesToolChoiceOptions?, global::Julep.ResponsesToolChoiceTypes, global::Julep.ResponsesToolChoiceFunction>? Type335 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ResponsesOutputItem>? Type335 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesToolChoiceOptions? Type336 { get; set; }
+        public global::Julep.ResponsesResponseText? Type336 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesToolChoiceTypes? Type337 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ResponsesToolChoiceOptions?, global::Julep.ResponsesToolChoiceTypes, global::Julep.ResponsesToolChoiceFunction>? Type337 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesToolChoiceFunction? Type338 { get; set; }
+        public global::Julep.ResponsesToolChoiceOptions? Type338 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseTruncation? Type339 { get; set; }
+        public global::Julep.ResponsesToolChoiceTypes? Type339 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseUsage? Type340 { get; set; }
+        public global::Julep.ResponsesToolChoiceFunction? Type340 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseFormatJsonObjectType? Type341 { get; set; }
+        public global::Julep.ResponsesResponseTruncation? Type341 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseFormatTextType? Type342 { get; set; }
+        public global::Julep.ResponsesResponseUsage? Type342 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseUsageInputTokensDetails? Type343 { get; set; }
+        public global::Julep.ResponsesResponseFormatJsonObjectType? Type343 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesResponseUsageOutputTokensDetails? Type344 { get; set; }
+        public global::Julep.ResponsesResponseFormatTextType? Type344 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesScreenshotType? Type345 { get; set; }
+        public global::Julep.ResponsesResponseUsageInputTokensDetails? Type345 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesScrollType? Type346 { get; set; }
+        public global::Julep.ResponsesResponseUsageOutputTokensDetails? Type346 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesTextResponseFormatJsonSchemaType? Type347 { get; set; }
+        public global::Julep.ResponsesScreenshotType? Type347 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchTool? Type348 { get; set; }
+        public global::Julep.ResponsesScrollType? Type348 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesToolChoiceFunctionType? Type349 { get; set; }
+        public global::Julep.ResponsesTextResponseFormatJsonSchemaType? Type349 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesToolChoiceTypesType? Type350 { get; set; }
+        public global::Julep.ResponsesWebSearchTool? Type350 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesTypeType? Type351 { get; set; }
+        public global::Julep.ResponsesToolChoiceFunctionType? Type351 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesUrlCitationType? Type352 { get; set; }
+        public global::Julep.ResponsesToolChoiceTypesType? Type352 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, bool?, double?>? Type353 { get; set; }
+        public global::Julep.ResponsesTypeType? Type353 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWaitType? Type354 { get; set; }
+        public global::Julep.ResponsesUrlCitationType? Type354 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchStatus? Type355 { get; set; }
+        public global::Julep.AnyOf<string, bool?, double?>? Type355 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolType? Type356 { get; set; }
+        public global::Julep.ResponsesWaitType? Type356 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolSearchContextSize? Type357 { get; set; }
+        public global::Julep.ResponsesWebSearchStatus? Type357 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolUserLocation? Type358 { get; set; }
+        public global::Julep.ResponsesWebSearchToolType? Type358 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolUserLocationType? Type359 { get; set; }
+        public global::Julep.ResponsesWebSearchToolSearchContextSize? Type359 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ResponsesWebSearchToolCallType? Type360 { get; set; }
+        public global::Julep.ResponsesWebSearchToolUserLocation? Type360 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SecretsCreateSecretRequest? Type361 { get; set; }
+        public global::Julep.ResponsesWebSearchToolUserLocationType? Type361 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SecretsSecret? Type362 { get; set; }
+        public global::Julep.ResponsesWebSearchToolCallType? Type362 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SecretsUpdateSecretRequest? Type363 { get; set; }
+        public global::Julep.SecretsCreateSecretRequest? Type363 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsBaseDocSearch? Type364 { get; set; }
+        public global::Julep.SecretsSecret? Type364 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsBaseDocSearchUpdate? Type365 { get; set; }
+        public global::Julep.SecretsUpdateSecretRequest? Type365 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsContextOverflowType? Type366 { get; set; }
+        public global::Julep.SessionsBaseDocSearch? Type366 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsCreateOrUpdateSessionRequest? Type367 { get; set; }
+        public global::Julep.SessionsBaseDocSearchUpdate? Type367 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>? Type368 { get; set; }
+        public global::Julep.SessionsContextOverflowType? Type368 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsVectorDocSearch? Type369 { get; set; }
+        public global::Julep.SessionsCreateOrUpdateSessionRequest? Type369 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsTextOnlyDocSearch? Type370 { get; set; }
+        public global::Julep.AnyOf<global::Julep.SessionsVectorDocSearch, global::Julep.SessionsTextOnlyDocSearch, global::Julep.SessionsHybridDocSearch>? Type370 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsHybridDocSearch? Type371 { get; set; }
+        public global::Julep.SessionsVectorDocSearch? Type371 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsCreateSessionRequest? Type372 { get; set; }
+        public global::Julep.SessionsTextOnlyDocSearch? Type372 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsHybridDocSearchMode? Type373 { get; set; }
+        public global::Julep.SessionsHybridDocSearch? Type373 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsHybridDocSearchUpdate? Type374 { get; set; }
+        public global::Julep.SessionsCreateSessionRequest? Type374 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsHybridDocSearchUpdateMode? Type375 { get; set; }
+        public global::Julep.SessionsHybridDocSearchMode? Type375 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsMultiAgentMultiUserSession? Type376 { get; set; }
+        public global::Julep.SessionsHybridDocSearchUpdate? Type376 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsSession? Type377 { get; set; }
+        public global::Julep.SessionsHybridDocSearchUpdateMode? Type377 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsMultiAgentNoUserSession? Type378 { get; set; }
+        public global::Julep.SessionsMultiAgentMultiUserSession? Type378 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsMultiAgentSingleUserSession? Type379 { get; set; }
+        public global::Julep.SessionsSession? Type379 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsPatchSessionRequest? Type380 { get; set; }
+        public global::Julep.SessionsMultiAgentNoUserSession? Type380 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.SessionsVectorDocSearchUpdate, global::Julep.SessionsTextOnlyDocSearchUpdate, global::Julep.SessionsHybridDocSearchUpdate>? Type381 { get; set; }
+        public global::Julep.SessionsMultiAgentSingleUserSession? Type381 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsVectorDocSearchUpdate? Type382 { get; set; }
+        public global::Julep.SessionsPatchSessionRequest? Type382 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsTextOnlyDocSearchUpdate? Type383 { get; set; }
+        public global::Julep.AnyOf<global::Julep.SessionsVectorDocSearchUpdate, global::Julep.SessionsTextOnlyDocSearchUpdate, global::Julep.SessionsHybridDocSearchUpdate>? Type383 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsSessionDiscriminator? Type384 { get; set; }
+        public global::Julep.SessionsVectorDocSearchUpdate? Type384 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsSessionDiscriminatorKind? Type385 { get; set; }
+        public global::Julep.SessionsTextOnlyDocSearchUpdate? Type385 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsSingleAgentMultiUserSession? Type386 { get; set; }
+        public global::Julep.SessionsSessionDiscriminator? Type386 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsSingleAgentNoUserSession? Type387 { get; set; }
+        public global::Julep.SessionsSessionDiscriminatorKind? Type387 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsSingleAgentSingleUserSession? Type388 { get; set; }
+        public global::Julep.SessionsSingleAgentMultiUserSession? Type388 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsTextOnlyDocSearchMode? Type389 { get; set; }
+        public global::Julep.SessionsSingleAgentNoUserSession? Type389 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsTextOnlyDocSearchUpdateMode? Type390 { get; set; }
+        public global::Julep.SessionsSingleAgentSingleUserSession? Type390 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsUpdateSessionRequest? Type391 { get; set; }
+        public global::Julep.SessionsTextOnlyDocSearchMode? Type391 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsVectorDocSearchMode? Type392 { get; set; }
+        public global::Julep.SessionsTextOnlyDocSearchUpdateMode? Type392 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsVectorDocSearchUpdateMode? Type393 { get; set; }
+        public global::Julep.SessionsUpdateSessionRequest? Type393 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCaseThen? Type394 { get; set; }
+        public global::Julep.SessionsVectorDocSearchMode? Type394 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::Julep.TasksCaseThenCase?>? Type395 { get; set; }
+        public global::Julep.SessionsVectorDocSearchUpdateMode? Type395 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCaseThenCase? Type396 { get; set; }
+        public global::Julep.TasksCaseThen? Type396 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksEvaluateStep? Type397 { get; set; }
+        public global::Julep.AnyOf<string, global::Julep.TasksCaseThenCase?>? Type397 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolCallStep? Type398 { get; set; }
+        public global::Julep.TasksCaseThenCase? Type398 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStep? Type399 { get; set; }
+        public global::Julep.TasksEvaluateStep? Type399 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksGetStep? Type400 { get; set; }
+        public global::Julep.TasksToolCallStep? Type400 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSetStep? Type401 { get; set; }
+        public global::Julep.TasksPromptStep? Type401 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksLogStep? Type402 { get; set; }
+        public global::Julep.TasksGetStep? Type402 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksYieldStep? Type403 { get; set; }
+        public global::Julep.TasksSetStep? Type403 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksReturnStep? Type404 { get; set; }
+        public global::Julep.TasksLogStep? Type404 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSleepStep? Type405 { get; set; }
+        public global::Julep.TasksYieldStep? Type405 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksErrorWorkflowStep? Type406 { get; set; }
+        public global::Julep.TasksReturnStep? Type406 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksWaitForInputStep? Type407 { get; set; }
+        public global::Julep.TasksSleepStep? Type407 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCaseThenUpdateItem? Type408 { get; set; }
+        public global::Julep.TasksErrorWorkflowStep? Type408 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::Julep.TasksCaseThenUpdateItemCase?>? Type409 { get; set; }
+        public global::Julep.TasksWaitForInputStep? Type409 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCaseThenUpdateItemCase? Type410 { get; set; }
+        public global::Julep.TasksCaseThenUpdateItem? Type410 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItem? Type411 { get; set; }
+        public global::Julep.AnyOf<string, global::Julep.TasksCaseThenUpdateItemCase?>? Type411 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequest? Type412 { get; set; }
+        public global::Julep.TasksCaseThenUpdateItemCase? Type412 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStep? Type413 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItem? Type413 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSwitchStep? Type414 { get; set; }
+        public global::Julep.TasksCreateTaskRequest? Type414 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachStep? Type415 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStep? Type415 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksParallelStep? Type416 { get; set; }
+        public global::Julep.TasksSwitchStep? Type416 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestItem2? Type417 { get; set; }
+        public global::Julep.TasksForeachStep? Type417 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestItemKind? Type418 { get; set; }
+        public global::Julep.TasksParallelStep? Type418 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>? Type419 { get; set; }
+        public global::Julep.TasksCreateTaskRequestItem2? Type419 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestItemEnum? Type420 { get; set; }
+        public global::Julep.TasksCreateTaskRequestItemKind? Type420 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestItemEnumKind? Type421 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>? Type421 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestMainItem? Type422 { get; set; }
+        public global::Julep.TasksCreateTaskRequestItemEnum? Type422 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestMainItemKind? Type423 { get; set; }
+        public global::Julep.TasksCreateTaskRequestItemEnumKind? Type423 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestMainItemEnum? Type424 { get; set; }
+        public global::Julep.TasksCreateTaskRequestMainItem? Type424 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksCreateTaskRequestMainItemEnumKind? Type425 { get; set; }
+        public global::Julep.TasksCreateTaskRequestMainItemKind? Type425 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksTaskTool>? Type426 { get; set; }
+        public global::Julep.TasksCreateTaskRequestMainItemEnum? Type426 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskTool? Type427 { get; set; }
+        public global::Julep.TasksCreateTaskRequestMainItemEnumKind? Type427 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksErrorWorkflowStepKind? Type428 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksTaskTool>? Type428 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksErrorWorkflowStepEnum? Type429 { get; set; }
+        public global::Julep.TasksTaskTool? Type429 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksErrorWorkflowStepEnumKind? Type430 { get; set; }
+        public global::Julep.TasksErrorWorkflowStepKind? Type430 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksEvaluateStepKind? Type431 { get; set; }
+        public global::Julep.TasksErrorWorkflowStepEnum? Type431 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, object>? Type432 { get; set; }
+        public global::Julep.TasksErrorWorkflowStepEnumKind? Type432 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksEvaluateStepEnum? Type433 { get; set; }
+        public global::Julep.TasksEvaluateStepKind? Type433 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksEvaluateStepEnumKind? Type434 { get; set; }
+        public global::Julep.AnyOf<string, object>? Type434 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachDo? Type435 { get; set; }
+        public global::Julep.TasksEvaluateStepEnum? Type435 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachDoUpdateItem? Type436 { get; set; }
+        public global::Julep.TasksEvaluateStepEnumKind? Type436 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachStepKind? Type437 { get; set; }
+        public global::Julep.TasksForeachDo? Type437 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachStepEnum? Type438 { get; set; }
+        public global::Julep.TasksForeachDoUpdateItem? Type438 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachStepEnumKind? Type439 { get; set; }
+        public global::Julep.TasksForeachStepKind? Type439 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachStepUpdateItem? Type440 { get; set; }
+        public global::Julep.TasksForeachStepEnum? Type440 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksForeachStepUpdateItemVariant1? Type441 { get; set; }
+        public global::Julep.TasksForeachStepEnumKind? Type441 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksGetStepKind? Type442 { get; set; }
+        public global::Julep.TasksForeachStepUpdateItem? Type442 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksGetStepEnum? Type443 { get; set; }
+        public global::Julep.TasksForeachStepUpdateItemVariant1? Type443 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksGetStepEnumKind? Type444 { get; set; }
+        public global::Julep.TasksGetStepKind? Type444 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepKind? Type445 { get; set; }
+        public global::Julep.TasksGetStepEnum? Type445 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepThen? Type446 { get; set; }
+        public global::Julep.TasksGetStepEnumKind? Type446 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepThenKind? Type447 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepKind? Type447 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepThenEnum? Type448 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepThen? Type448 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepThenEnumKind? Type449 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepThenKind? Type449 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepElse? Type450 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepThenEnum? Type450 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepElseKind? Type451 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepThenEnumKind? Type451 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepElseEnum? Type452 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepElse? Type452 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepElseEnumKind? Type453 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepElseKind? Type453 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepEnum? Type454 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepElseEnum? Type454 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepEnumKind? Type455 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepElseEnumKind? Type455 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepUpdateItem? Type456 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepEnum? Type456 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSwitchStepUpdateItem? Type457 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepEnumKind? Type457 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksParallelStepUpdateItem? Type458 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepUpdateItem? Type458 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepUpdateItemThen? Type459 { get; set; }
+        public global::Julep.TasksSwitchStepUpdateItem? Type459 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepUpdateItemThenVariant1? Type460 { get; set; }
+        public global::Julep.TasksParallelStepUpdateItem? Type460 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepUpdateItemElse? Type461 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepUpdateItemThen? Type461 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepUpdateItemElseVariant1? Type462 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepUpdateItemThenVariant1? Type462 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksIfElseWorkflowStepUpdateItemVariant1? Type463 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepUpdateItemElse? Type463 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksLogStepKind? Type464 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepUpdateItemElseVariant1? Type464 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksLogStepEnum? Type465 { get; set; }
+        public global::Julep.TasksIfElseWorkflowStepUpdateItemVariant1? Type465 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksLogStepEnumKind? Type466 { get; set; }
+        public global::Julep.TasksLogStepKind? Type466 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksParallelStepKind? Type467 { get; set; }
+        public global::Julep.TasksLogStepEnum? Type467 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>>? Type468 { get; set; }
+        public global::Julep.TasksLogStepEnumKind? Type468 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksParallelStepEnum? Type469 { get; set; }
+        public global::Julep.TasksParallelStepKind? Type469 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksParallelStepEnumKind? Type470 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep>>? Type470 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksParallelStepUpdateItemVariant1? Type471 { get; set; }
+        public global::Julep.TasksParallelStepEnum? Type471 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPatchTaskRequest? Type472 { get; set; }
+        public global::Julep.TasksParallelStepEnumKind? Type472 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPatchTaskRequestItem2? Type473 { get; set; }
+        public global::Julep.TasksParallelStepUpdateItemVariant1? Type473 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPatchTaskRequestItemVariant1? Type474 { get; set; }
+        public global::Julep.TasksPatchTaskRequest? Type474 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPatchTaskRequestMainItem? Type475 { get; set; }
+        public global::Julep.TasksPatchTaskRequestItem2? Type475 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPatchTaskRequestMainItemVariant1? Type476 { get; set; }
+        public global::Julep.TasksPatchTaskRequestItemVariant1? Type476 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepKind? Type477 { get; set; }
+        public global::Julep.TasksPatchTaskRequestMainItem? Type477 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>>? Type478 { get; set; }
+        public global::Julep.TasksPatchTaskRequestMainItemVariant1? Type478 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>? Type479 { get; set; }
+        public global::Julep.TasksPromptStepKind? Type479 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2Item? Type480 { get; set; }
+        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>>? Type480 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1? Type481 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2Item>? Type481 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1Type? Type482 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2Item? Type482 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2? Type483 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1? Type483 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2ImageUrl? Type484 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant1Type? Type484 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2Type? Type485 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2? Type485 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3? Type486 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2ImageUrl? Type486 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3Type? Type487 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant2Type? Type487 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>? Type488 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3? Type488 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item? Type489 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3Type? Type489 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType? Type490 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>? Type490 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>? Type491 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item? Type491 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item? Type492 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType? Type492 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType? Type493 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>? Type493 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSource? Type494 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item? Type494 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type495 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType? Type495 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksPromptStepTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>>? Type496 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSource? Type496 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepTools? Type497 { get; set; }
+        public global::Julep.TasksPromptStepPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type497 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>? Type498 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksPromptStepTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>>? Type498 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>? Type499 { get; set; }
+        public global::Julep.TasksPromptStepTools? Type499 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolRef? Type500 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>>? Type500 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksPromptStepToolChoice?, global::Julep.ToolsNamedToolChoice>? Type501 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksToolRef, global::Julep.ToolsCreateToolRequest>? Type501 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepToolChoice? Type502 { get; set; }
+        public global::Julep.TasksToolRef? Type502 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepEnum? Type503 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksPromptStepToolChoice?, global::Julep.ToolsNamedToolChoice>? Type503 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepEnumKind? Type504 { get; set; }
+        public global::Julep.TasksPromptStepToolChoice? Type504 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>>? Type505 { get; set; }
+        public global::Julep.TasksPromptStepEnum? Type505 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>? Type506 { get; set; }
+        public global::Julep.TasksPromptStepEnumKind? Type506 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2Item? Type507 { get; set; }
+        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>>? Type507 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1? Type508 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2Item>? Type508 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1Type? Type509 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2Item? Type509 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2? Type510 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1? Type510 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2ImageUrl? Type511 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant1Type? Type511 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type? Type512 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2? Type512 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3? Type513 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2ImageUrl? Type513 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3Type? Type514 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant2Type? Type514 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>? Type515 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3? Type515 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item? Type516 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3Type? Type516 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType? Type517 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item>? Type517 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>? Type518 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1Item? Type518 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item? Type519 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant1ItemType? Type519 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType? Type520 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item>? Type520 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSource? Type521 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2Item? Type521 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type522 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemType? Type522 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>>? Type523 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSource? Type523 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemTools? Type524 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemPromptVariant2ItemContentVariant3ItemVariant3ContentVariant2ItemSourceType? Type524 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>? Type525 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemTools?, global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>>? Type525 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>? Type526 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemTools? Type526 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolRefUpdateItem? Type527 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>>? Type527 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemToolChoice?, global::Julep.ToolsNamedToolChoice>? Type528 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksToolRefUpdateItem, global::Julep.ToolsCreateToolRequest>? Type528 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemToolChoice? Type529 { get; set; }
+        public global::Julep.TasksToolRefUpdateItem? Type529 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksPromptStepUpdateItemVariant1? Type530 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksPromptStepUpdateItemToolChoice?, global::Julep.ToolsNamedToolChoice>? Type530 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksReturnStepKind? Type531 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemToolChoice? Type531 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>? Type532 { get; set; }
+        public global::Julep.TasksPromptStepUpdateItemVariant1? Type532 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, string>? Type533 { get; set; }
+        public global::Julep.TasksReturnStepKind? Type533 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>? Type534 { get; set; }
+        public global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>, global::System.Collections.Generic.Dictionary<string, string>, global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>>? Type534 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksReturnStepEnum? Type535 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, string>? Type535 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksReturnStepEnumKind? Type536 { get; set; }
+        public global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>? Type536 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSetStepKind? Type537 { get; set; }
+        public global::Julep.TasksReturnStepEnum? Type537 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSetStepEnum? Type538 { get; set; }
+        public global::Julep.TasksReturnStepEnumKind? Type538 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSetStepEnumKind? Type539 { get; set; }
+        public global::Julep.TasksSetStepKind? Type539 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSleepFor? Type540 { get; set; }
+        public global::Julep.TasksSetStepEnum? Type540 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSleepStepKind? Type541 { get; set; }
+        public global::Julep.TasksSetStepEnumKind? Type541 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSleepStepEnum? Type542 { get; set; }
+        public global::Julep.TasksSleepFor? Type542 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSleepStepEnumKind? Type543 { get; set; }
+        public global::Julep.TasksSleepStepKind? Type543 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSwitchStepKind? Type544 { get; set; }
+        public global::Julep.TasksSleepStepEnum? Type544 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksCaseThen>? Type545 { get; set; }
+        public global::Julep.TasksSleepStepEnumKind? Type545 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSwitchStepEnum? Type546 { get; set; }
+        public global::Julep.TasksSwitchStepKind? Type546 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSwitchStepEnumKind? Type547 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksCaseThen>? Type547 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksCaseThenUpdateItem>? Type548 { get; set; }
+        public global::Julep.TasksSwitchStepEnum? Type548 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksSwitchStepUpdateItemVariant1? Type549 { get; set; }
+        public global::Julep.TasksSwitchStepEnumKind? Type549 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTask? Type550 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksCaseThenUpdateItem>? Type550 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskItem2? Type551 { get; set; }
+        public global::Julep.TasksSwitchStepUpdateItemVariant1? Type551 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskItemKind? Type552 { get; set; }
+        public global::Julep.TasksTask? Type552 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskItemEnum? Type553 { get; set; }
+        public global::Julep.TasksTaskItem2? Type553 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskItemEnumKind? Type554 { get; set; }
+        public global::Julep.TasksTaskItemKind? Type554 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskMainItem? Type555 { get; set; }
+        public global::Julep.TasksTaskItemEnum? Type555 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskMainItemKind? Type556 { get; set; }
+        public global::Julep.TasksTaskItemEnumKind? Type556 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskMainItemEnum? Type557 { get; set; }
+        public global::Julep.TasksTaskMainItem? Type557 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksTaskMainItemEnumKind? Type558 { get; set; }
+        public global::Julep.TasksTaskMainItemKind? Type558 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolCallStepKind? Type559 { get; set; }
+        public global::Julep.TasksTaskMainItemEnum? Type559 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<object, global::Julep.TasksToolCallStepArgumentsEnum3?>? Type560 { get; set; }
+        public global::Julep.TasksTaskMainItemEnumKind? Type560 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolCallStepArgumentsEnum3? Type561 { get; set; }
+        public global::Julep.TasksToolCallStepKind? Type561 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolCallStepEnum? Type562 { get; set; }
+        public global::Julep.AnyOf<object, global::Julep.TasksToolCallStepArgumentsEnum3?>? Type562 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolCallStepEnumKind? Type563 { get; set; }
+        public global::Julep.TasksToolCallStepArgumentsEnum3? Type563 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>? Type564 { get; set; }
+        public global::Julep.TasksToolCallStepEnum? Type564 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolRefById? Type565 { get; set; }
+        public global::Julep.TasksToolCallStepEnumKind? Type565 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksToolRefByName? Type566 { get; set; }
+        public global::Julep.AnyOf<global::Julep.TasksToolRefById, global::Julep.TasksToolRefByName>? Type566 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequest? Type567 { get; set; }
+        public global::Julep.TasksToolRefById? Type567 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestItem2? Type568 { get; set; }
+        public global::Julep.TasksToolRefByName? Type568 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestItemKind? Type569 { get; set; }
+        public global::Julep.TasksUpdateTaskRequest? Type569 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestItemEnum? Type570 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestItem2? Type570 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestItemEnumKind? Type571 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestItemKind? Type571 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestMainItem? Type572 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestItemEnum? Type572 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestMainItemKind? Type573 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestItemEnumKind? Type573 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestMainItemEnum? Type574 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestMainItem? Type574 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksUpdateTaskRequestMainItemEnumKind? Type575 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestMainItemKind? Type575 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksWaitForInputInfo? Type576 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestMainItemEnum? Type576 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksWaitForInputStepKind? Type577 { get; set; }
+        public global::Julep.TasksUpdateTaskRequestMainItemEnumKind? Type577 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksWaitForInputStepEnum? Type578 { get; set; }
+        public global::Julep.TasksWaitForInputInfo? Type578 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksWaitForInputStepEnumKind? Type579 { get; set; }
+        public global::Julep.TasksWaitForInputStepKind? Type579 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksYieldStepKind? Type580 { get; set; }
+        public global::Julep.TasksWaitForInputStepEnum? Type580 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<object, global::Julep.TasksYieldStepArgumentsEnum3?>? Type581 { get; set; }
+        public global::Julep.TasksWaitForInputStepEnumKind? Type581 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksYieldStepArgumentsEnum3? Type582 { get; set; }
+        public global::Julep.TasksYieldStepKind? Type582 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksYieldStepEnum? Type583 { get; set; }
+        public global::Julep.AnyOf<object, global::Julep.TasksYieldStepArgumentsEnum3?>? Type583 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksYieldStepEnumKind? Type584 { get; set; }
+        public global::Julep.TasksYieldStepArgumentsEnum3? Type584 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaIntegrationDef? Type585 { get; set; }
+        public global::Julep.TasksYieldStepEnum? Type585 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaIntegrationDefProvider? Type586 { get; set; }
+        public global::Julep.TasksYieldStepEnumKind? Type586 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaSetup? Type587 { get; set; }
+        public global::Julep.ToolsAlgoliaIntegrationDef? Type587 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaSearchArguments? Type588 { get; set; }
+        public global::Julep.ToolsAlgoliaIntegrationDefProvider? Type588 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDef? Type589 { get; set; }
+        public global::Julep.ToolsAlgoliaSetup? Type589 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaIntegrationDefUpdate? Type590 { get; set; }
+        public global::Julep.ToolsAlgoliaSearchArguments? Type590 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaIntegrationDefUpdateProvider? Type591 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDef? Type591 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaSetupUpdate? Type592 { get; set; }
+        public global::Julep.ToolsAlgoliaIntegrationDefUpdate? Type592 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsAlgoliaSearchArgumentsUpdate? Type593 { get; set; }
+        public global::Julep.ToolsAlgoliaIntegrationDefUpdateProvider? Type593 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefUpdate? Type594 { get; set; }
+        public global::Julep.ToolsAlgoliaSetupUpdate? Type594 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsApiCallDef? Type595 { get; set; }
+        public global::Julep.ToolsAlgoliaSearchArgumentsUpdate? Type595 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsApiCallDefMethod? Type596 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefUpdate? Type596 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsSecretRef>? Type597 { get; set; }
+        public global::Julep.ToolsApiCallDef? Type597 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSecretRef? Type598 { get; set; }
+        public global::Julep.ToolsApiCallDefMethod? Type598 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsParameterSchema? Type599 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsSecretRef>? Type599 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsApiCallDefUpdate? Type600 { get; set; }
+        public global::Julep.ToolsSecretRef? Type600 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsApiCallDefUpdateMethod? Type601 { get; set; }
+        public global::Julep.ToolsParameterSchema? Type601 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsSecretRefUpdate>? Type602 { get; set; }
+        public global::Julep.ToolsApiCallDefUpdate? Type602 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSecretRefUpdate? Type603 { get; set; }
+        public global::Julep.ToolsApiCallDefUpdateMethod? Type603 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsParameterSchemaUpdate? Type604 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsSecretRefUpdate>? Type604 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivIntegrationDef? Type605 { get; set; }
+        public global::Julep.ToolsSecretRefUpdate? Type605 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivIntegrationDefProvider? Type606 { get; set; }
+        public global::Julep.ToolsParameterSchemaUpdate? Type606 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivSearchArguments? Type607 { get; set; }
+        public global::Julep.ToolsArxivIntegrationDef? Type607 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivIntegrationDefUpdate? Type608 { get; set; }
+        public global::Julep.ToolsArxivIntegrationDefProvider? Type608 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivIntegrationDefUpdateProvider? Type609 { get; set; }
+        public global::Julep.ToolsArxivSearchArguments? Type609 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivSearchArgumentsUpdate? Type610 { get; set; }
+        public global::Julep.ToolsArxivIntegrationDefUpdate? Type610 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivSearchArgumentsSortBy? Type611 { get; set; }
+        public global::Julep.ToolsArxivIntegrationDefUpdateProvider? Type611 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivSearchArgumentsSortOrder? Type612 { get; set; }
+        public global::Julep.ToolsArxivSearchArgumentsUpdate? Type612 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivSearchArgumentsUpdateSortBy? Type613 { get; set; }
+        public global::Julep.ToolsArxivSearchArgumentsSortBy? Type613 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsArxivSearchArgumentsUpdateSortOrder? Type614 { get; set; }
+        public global::Julep.ToolsArxivSearchArgumentsSortOrder? Type614 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseBrowserbaseIntegrationDef? Type615 { get; set; }
+        public global::Julep.ToolsArxivSearchArgumentsUpdateSortBy? Type615 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseBrowserbaseIntegrationDefProvider? Type616 { get; set; }
+        public global::Julep.ToolsArxivSearchArgumentsUpdateSortOrder? Type616 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseSetup? Type617 { get; set; }
+        public global::Julep.ToolsBaseBrowserbaseIntegrationDef? Type617 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod? Type618 { get; set; }
+        public global::Julep.ToolsBaseBrowserbaseIntegrationDefProvider? Type618 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdate? Type619 { get; set; }
+        public global::Julep.ToolsBrowserbaseSetup? Type619 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateProvider? Type620 { get; set; }
+        public global::Julep.ToolsBaseBrowserbaseIntegrationDefMethod? Type620 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseSetupUpdate? Type621 { get; set; }
+        public global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdate? Type621 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateMethod? Type622 { get; set; }
+        public global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateProvider? Type622 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseChosenToolCall? Type623 { get; set; }
+        public global::Julep.ToolsBrowserbaseSetupUpdate? Type623 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsToolType? Type624 { get; set; }
+        public global::Julep.ToolsBaseBrowserbaseIntegrationDefUpdateMethod? Type624 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFunctionCallOption? Type625 { get; set; }
+        public global::Julep.ToolsBaseChosenToolCall? Type625 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseCloudinaryIntegrationDef? Type626 { get; set; }
+        public global::Julep.ToolsToolType? Type626 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseCloudinaryIntegrationDefProvider? Type627 { get; set; }
+        public global::Julep.ToolsFunctionCallOption? Type627 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinarySetup? Type628 { get; set; }
+        public global::Julep.ToolsBaseCloudinaryIntegrationDef? Type628 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseCloudinaryIntegrationDefMethod? Type629 { get; set; }
+        public global::Julep.ToolsBaseCloudinaryIntegrationDefProvider? Type629 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseCloudinaryIntegrationDefUpdate? Type630 { get; set; }
+        public global::Julep.ToolsCloudinarySetup? Type630 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateProvider? Type631 { get; set; }
+        public global::Julep.ToolsBaseCloudinaryIntegrationDefMethod? Type631 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinarySetupUpdate? Type632 { get; set; }
+        public global::Julep.ToolsBaseCloudinaryIntegrationDefUpdate? Type632 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateMethod? Type633 { get; set; }
+        public global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateProvider? Type633 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefProvider? Type634 { get; set; }
+        public global::Julep.ToolsCloudinarySetupUpdate? Type634 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefDiscriminator? Type635 { get; set; }
+        public global::Julep.ToolsBaseCloudinaryIntegrationDefUpdateMethod? Type635 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefDiscriminatorProvider? Type636 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefProvider? Type636 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefUpdateProvider? Type637 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefDiscriminator? Type637 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefUpdateDiscriminator? Type638 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefDiscriminatorProvider? Type638 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBaseIntegrationDefUpdateDiscriminatorProvider? Type639 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefUpdateProvider? Type639 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBash20241022Def? Type640 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefUpdateDiscriminator? Type640 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBash20241022DefType? Type641 { get; set; }
+        public global::Julep.ToolsBaseIntegrationDefUpdateDiscriminatorProvider? Type641 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBash20241022DefUpdate? Type642 { get; set; }
+        public global::Julep.ToolsBash20241022Def? Type642 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBash20241022DefUpdateType? Type643 { get; set; }
+        public global::Julep.ToolsBash20241022DefType? Type643 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveIntegrationDef? Type644 { get; set; }
+        public global::Julep.ToolsBash20241022DefUpdate? Type644 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveIntegrationDefProvider? Type645 { get; set; }
+        public global::Julep.ToolsBash20241022DefUpdateType? Type645 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveSearchSetup? Type646 { get; set; }
+        public global::Julep.ToolsBraveIntegrationDef? Type646 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveSearchArguments? Type647 { get; set; }
+        public global::Julep.ToolsBraveIntegrationDefProvider? Type647 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveIntegrationDefUpdate? Type648 { get; set; }
+        public global::Julep.ToolsBraveSearchSetup? Type648 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveIntegrationDefUpdateProvider? Type649 { get; set; }
+        public global::Julep.ToolsBraveSearchArguments? Type649 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveSearchSetupUpdate? Type650 { get; set; }
+        public global::Julep.ToolsBraveIntegrationDefUpdate? Type650 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBraveSearchArgumentsUpdate? Type651 { get; set; }
+        public global::Julep.ToolsBraveIntegrationDefUpdateProvider? Type651 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionArguments? Type652 { get; set; }
+        public global::Julep.ToolsBraveSearchSetupUpdate? Type652 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsStatus? Type653 { get; set; }
+        public global::Julep.ToolsBraveSearchArgumentsUpdate? Type653 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdate? Type654 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionArguments? Type654 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus? Type655 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsStatus? Type655 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef? Type656 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdate? Type656 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefMethod? Type657 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionArgumentsUpdateStatus? Type657 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdate? Type658 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDef? Type658 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod? Type659 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefMethod? Type659 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseContextArguments? Type660 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdate? Type660 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseContextArgumentsUpdate? Type661 { get; set; }
+        public global::Julep.ToolsBrowserbaseCompleteSessionIntegrationDefUpdateMethod? Type661 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseContextIntegrationDef? Type662 { get; set; }
+        public global::Julep.ToolsBrowserbaseContextArguments? Type662 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseContextIntegrationDefMethod? Type663 { get; set; }
+        public global::Julep.ToolsBrowserbaseContextArgumentsUpdate? Type663 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseContextIntegrationDefUpdate? Type664 { get; set; }
+        public global::Julep.ToolsBrowserbaseContextIntegrationDef? Type664 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseContextIntegrationDefUpdateMethod? Type665 { get; set; }
+        public global::Julep.ToolsBrowserbaseContextIntegrationDefMethod? Type665 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCreateSessionArguments? Type666 { get; set; }
+        public global::Julep.ToolsBrowserbaseContextIntegrationDefUpdate? Type666 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<bool?, global::System.Collections.Generic.IList<object>>? Type667 { get; set; }
+        public global::Julep.ToolsBrowserbaseContextIntegrationDefUpdateMethod? Type667 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<object>? Type668 { get; set; }
+        public global::Julep.ToolsBrowserbaseCreateSessionArguments? Type668 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef? Type669 { get; set; }
+        public global::Julep.AnyOf<bool?, global::System.Collections.Generic.IList<object>>? Type669 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefMethod? Type670 { get; set; }
+        public global::System.Collections.Generic.IList<object>? Type670 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdate? Type671 { get; set; }
+        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDef? Type671 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethod? Type672 { get; set; }
+        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefMethod? Type672 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseExtensionArguments? Type673 { get; set; }
+        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdate? Type673 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseExtensionArgumentsUpdate? Type674 { get; set; }
+        public global::Julep.ToolsBrowserbaseCreateSessionIntegrationDefUpdateMethod? Type674 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseExtensionIntegrationDef? Type675 { get; set; }
+        public global::Julep.ToolsBrowserbaseExtensionArguments? Type675 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseExtensionIntegrationDefMethod? Type676 { get; set; }
+        public global::Julep.ToolsBrowserbaseExtensionArgumentsUpdate? Type676 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdate? Type677 { get; set; }
+        public global::Julep.ToolsBrowserbaseExtensionIntegrationDef? Type677 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdateMethod? Type678 { get; set; }
+        public global::Julep.ToolsBrowserbaseExtensionIntegrationDefMethod? Type678 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionArguments? Type679 { get; set; }
+        public global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdate? Type679 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionArgumentsUpdate? Type680 { get; set; }
+        public global::Julep.ToolsBrowserbaseExtensionIntegrationDefUpdateMethod? Type680 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDef? Type681 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionArguments? Type681 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod? Type682 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionArgumentsUpdate? Type682 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdate? Type683 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDef? Type683 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethod? Type684 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefMethod? Type684 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsArguments? Type685 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdate? Type685 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsArgumentsUpdate? Type686 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionIntegrationDefUpdateMethod? Type686 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef? Type687 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsArguments? Type687 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod? Type688 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsArgumentsUpdate? Type688 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdate? Type689 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDef? Type689 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethod? Type690 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefMethod? Type690 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseListSessionsArguments? Type691 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdate? Type691 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseListSessionsArgumentsStatus? Type692 { get; set; }
+        public global::Julep.ToolsBrowserbaseGetSessionLiveUrlsIntegrationDefUpdateMethod? Type692 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDef? Type693 { get; set; }
+        public global::Julep.ToolsBrowserbaseListSessionsArguments? Type693 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDefMethod? Type694 { get; set; }
+        public global::Julep.ToolsBrowserbaseListSessionsArgumentsStatus? Type694 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdate? Type695 { get; set; }
+        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDef? Type695 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethod? Type696 { get; set; }
+        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDefMethod? Type696 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsComputer20241022Action? Type697 { get; set; }
+        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdate? Type697 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsChosenFunctionCallType? Type698 { get; set; }
+        public global::Julep.ToolsBrowserbaseListSessionsIntegrationDefUpdateMethod? Type698 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsChosenTextEditor20241022Command? Type699 { get; set; }
+        public global::Julep.ToolsComputer20241022Action? Type699 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryEditArguments? Type700 { get; set; }
+        public global::Julep.ToolsChosenFunctionCallType? Type700 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryEditArgumentsUpdate? Type701 { get; set; }
+        public global::Julep.ToolsChosenTextEditor20241022Command? Type701 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryEditIntegrationDef? Type702 { get; set; }
+        public global::Julep.ToolsCloudinaryEditArguments? Type702 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryEditIntegrationDefMethod? Type703 { get; set; }
+        public global::Julep.ToolsCloudinaryEditArgumentsUpdate? Type703 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryEditIntegrationDefUpdate? Type704 { get; set; }
+        public global::Julep.ToolsCloudinaryEditIntegrationDef? Type704 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryEditIntegrationDefUpdateMethod? Type705 { get; set; }
+        public global::Julep.ToolsCloudinaryEditIntegrationDefMethod? Type705 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryUploadArguments? Type706 { get; set; }
+        public global::Julep.ToolsCloudinaryEditIntegrationDefUpdate? Type706 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryUploadArgumentsUpdate? Type707 { get; set; }
+        public global::Julep.ToolsCloudinaryEditIntegrationDefUpdateMethod? Type707 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryUploadIntegrationDef? Type708 { get; set; }
+        public global::Julep.ToolsCloudinaryUploadArguments? Type708 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryUploadIntegrationDefMethod? Type709 { get; set; }
+        public global::Julep.ToolsCloudinaryUploadArgumentsUpdate? Type709 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate? Type710 { get; set; }
+        public global::Julep.ToolsCloudinaryUploadIntegrationDef? Type710 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod? Type711 { get; set; }
+        public global::Julep.ToolsCloudinaryUploadIntegrationDefMethod? Type711 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsComputer20241022Def? Type712 { get; set; }
+        public global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate? Type712 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsComputer20241022DefType? Type713 { get; set; }
+        public global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod? Type713 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsComputer20241022DefUpdate? Type714 { get; set; }
+        public global::Julep.ToolsComputer20241022Def? Type714 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsComputer20241022DefUpdateType? Type715 { get; set; }
+        public global::Julep.ToolsComputer20241022DefType? Type715 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFunctionDef? Type716 { get; set; }
+        public global::Julep.ToolsComputer20241022DefUpdate? Type716 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsDummyIntegrationDef? Type717 { get; set; }
+        public global::Julep.ToolsComputer20241022DefUpdateType? Type717 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailIntegrationDef? Type718 { get; set; }
+        public global::Julep.ToolsFunctionDef? Type718 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderIntegrationDef? Type719 { get; set; }
+        public global::Julep.ToolsDummyIntegrationDef? Type719 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWikipediaIntegrationDef? Type720 { get; set; }
+        public global::Julep.ToolsEmailIntegrationDef? Type720 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherIntegrationDef? Type721 { get; set; }
+        public global::Julep.ToolsSpiderIntegrationDef? Type721 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunIntegrationDef? Type722 { get; set; }
+        public global::Julep.ToolsWikipediaIntegrationDef? Type722 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserIntegrationDef? Type723 { get; set; }
+        public global::Julep.ToolsWeatherIntegrationDef? Type723 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseIntegrationDef? Type724 { get; set; }
+        public global::Julep.ToolsMailgunIntegrationDef? Type724 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFfmpegIntegrationDef? Type725 { get; set; }
+        public global::Julep.ToolsRemoteBrowserIntegrationDef? Type725 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredIntegrationDef? Type726 { get; set; }
+        public global::Julep.ToolsLlamaParseIntegrationDef? Type726 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpIntegrationDef? Type727 { get; set; }
+        public global::Julep.ToolsFfmpegIntegrationDef? Type727 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsIntegrationDef? Type728 { get; set; }
+        public global::Julep.ToolsUnstructuredIntegrationDef? Type728 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDef? Type729 { get; set; }
+        public global::Julep.ToolsMcpIntegrationDef? Type729 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsTextEditor20241022Def? Type730 { get; set; }
+        public global::Julep.ToolsGoogleSheetsIntegrationDef? Type730 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsDummyIntegrationDefProvider? Type731 { get; set; }
+        public global::Julep.ToolsSystemDef? Type731 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsDummyIntegrationDefUpdate? Type732 { get; set; }
+        public global::Julep.ToolsTextEditor20241022Def? Type732 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsDummyIntegrationDefUpdateProvider? Type733 { get; set; }
+        public global::Julep.ToolsDummyIntegrationDefProvider? Type733 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailArguments? Type734 { get; set; }
+        public global::Julep.ToolsDummyIntegrationDefUpdate? Type734 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailArgumentsUpdate? Type735 { get; set; }
+        public global::Julep.ToolsDummyIntegrationDefUpdateProvider? Type735 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailIntegrationDefProvider? Type736 { get; set; }
+        public global::Julep.ToolsEmailArguments? Type736 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailSetup? Type737 { get; set; }
+        public global::Julep.ToolsEmailArgumentsUpdate? Type737 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailIntegrationDefUpdate? Type738 { get; set; }
+        public global::Julep.ToolsEmailIntegrationDefProvider? Type738 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailIntegrationDefUpdateProvider? Type739 { get; set; }
+        public global::Julep.ToolsEmailSetup? Type739 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsEmailSetupUpdate? Type740 { get; set; }
+        public global::Julep.ToolsEmailIntegrationDefUpdate? Type740 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFfmpegIntegrationDefProvider? Type741 { get; set; }
+        public global::Julep.ToolsEmailIntegrationDefUpdateProvider? Type741 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFfmpegSearchArguments? Type742 { get; set; }
+        public global::Julep.ToolsEmailSetupUpdate? Type742 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFfmpegIntegrationDefUpdate? Type743 { get; set; }
+        public global::Julep.ToolsFfmpegIntegrationDefProvider? Type743 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFfmpegIntegrationDefUpdateProvider? Type744 { get; set; }
+        public global::Julep.ToolsFfmpegSearchArguments? Type744 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsFfmpegSearchArgumentsUpdate? Type745 { get; set; }
+        public global::Julep.ToolsFfmpegIntegrationDefUpdate? Type745 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsAppendArguments? Type746 { get; set; }
+        public global::Julep.ToolsFfmpegIntegrationDefUpdateProvider? Type746 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<object>>? Type747 { get; set; }
+        public global::Julep.ToolsFfmpegSearchArgumentsUpdate? Type747 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsAppendArgumentsValueInputOption? Type748 { get; set; }
+        public global::Julep.ToolsGoogleSheetsAppendArguments? Type748 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsAppendArgumentsInsertDataOption? Type749 { get; set; }
+        public global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<object>>? Type749 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsAppendArgumentsUpdate? Type750 { get; set; }
+        public global::Julep.ToolsGoogleSheetsAppendArgumentsValueInputOption? Type750 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOption? Type751 { get; set; }
+        public global::Julep.ToolsGoogleSheetsAppendArgumentsInsertDataOption? Type751 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOption? Type752 { get; set; }
+        public global::Julep.ToolsGoogleSheetsAppendArgumentsUpdate? Type752 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArguments? Type753 { get; set; }
+        public global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateValueInputOption? Type753 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsMajorDimension? Type754 { get; set; }
+        public global::Julep.ToolsGoogleSheetsAppendArgumentsUpdateInsertDataOption? Type754 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsValueRenderOption? Type755 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArguments? Type755 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOption? Type756 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsMajorDimension? Type756 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdate? Type757 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsValueRenderOption? Type757 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension? Type758 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsDateTimeRenderOption? Type758 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOption? Type759 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdate? Type759 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOption? Type760 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateMajorDimension? Type760 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchWriteArguments? Type761 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateValueRenderOption? Type761 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ToolsGoogleSheetsValueRange>? Type762 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchReadArgumentsUpdateDateTimeRenderOption? Type762 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsValueRange? Type763 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchWriteArguments? Type763 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchWriteArgumentsValueInputOption? Type764 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ToolsGoogleSheetsValueRange>? Type764 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdate? Type765 { get; set; }
+        public global::Julep.ToolsGoogleSheetsValueRange? Type765 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOption? Type766 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchWriteArgumentsValueInputOption? Type766 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsClearArguments? Type767 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdate? Type767 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsClearArgumentsUpdate? Type768 { get; set; }
+        public global::Julep.ToolsGoogleSheetsBatchWriteArgumentsUpdateValueInputOption? Type768 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsIntegrationDefProvider? Type769 { get; set; }
+        public global::Julep.ToolsGoogleSheetsClearArguments? Type769 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsIntegrationDefMethod? Type770 { get; set; }
+        public global::Julep.ToolsGoogleSheetsClearArgumentsUpdate? Type770 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsSetup? Type771 { get; set; }
+        public global::Julep.ToolsGoogleSheetsIntegrationDefProvider? Type771 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArguments? Type772 { get; set; }
+        public global::Julep.ToolsGoogleSheetsIntegrationDefMethod? Type772 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsWriteArguments? Type773 { get; set; }
+        public global::Julep.ToolsGoogleSheetsSetup? Type773 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsIntegrationDefUpdate? Type774 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArguments? Type774 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsIntegrationDefUpdateProvider? Type775 { get; set; }
+        public global::Julep.ToolsGoogleSheetsWriteArguments? Type775 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsIntegrationDefUpdateMethod? Type776 { get; set; }
+        public global::Julep.ToolsGoogleSheetsIntegrationDefUpdate? Type776 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsSetupUpdate? Type777 { get; set; }
+        public global::Julep.ToolsGoogleSheetsIntegrationDefUpdateProvider? Type777 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdate? Type778 { get; set; }
+        public global::Julep.ToolsGoogleSheetsIntegrationDefUpdateMethod? Type778 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsWriteArgumentsUpdate? Type779 { get; set; }
+        public global::Julep.ToolsGoogleSheetsSetupUpdate? Type779 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsMajorDimension? Type780 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdate? Type780 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsValueRenderOption? Type781 { get; set; }
+        public global::Julep.ToolsGoogleSheetsWriteArgumentsUpdate? Type781 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsDateTimeRenderOption? Type782 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsMajorDimension? Type782 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdateMajorDimension? Type783 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsValueRenderOption? Type783 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOption? Type784 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsDateTimeRenderOption? Type784 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOption? Type785 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdateMajorDimension? Type785 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsValueRangeMajorDimension? Type786 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdateValueRenderOption? Type786 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsWriteArgumentsValueInputOption? Type787 { get; set; }
+        public global::Julep.ToolsGoogleSheetsReadArgumentsUpdateDateTimeRenderOption? Type787 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsWriteArgumentsInsertDataOption? Type788 { get; set; }
+        public global::Julep.ToolsGoogleSheetsValueRangeMajorDimension? Type788 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOption? Type789 { get; set; }
+        public global::Julep.ToolsGoogleSheetsWriteArgumentsValueInputOption? Type789 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOption? Type790 { get; set; }
+        public global::Julep.ToolsGoogleSheetsWriteArgumentsInsertDataOption? Type790 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseFetchArguments? Type791 { get; set; }
+        public global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateValueInputOption? Type791 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseFetchArgumentsUpdate? Type792 { get; set; }
+        public global::Julep.ToolsGoogleSheetsWriteArgumentsUpdateInsertDataOption? Type792 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseIntegrationDefProvider? Type793 { get; set; }
+        public global::Julep.ToolsLlamaParseFetchArguments? Type793 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseSetup? Type794 { get; set; }
+        public global::Julep.ToolsLlamaParseFetchArgumentsUpdate? Type794 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseIntegrationDefUpdate? Type795 { get; set; }
+        public global::Julep.ToolsLlamaParseIntegrationDefProvider? Type795 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseIntegrationDefUpdateProvider? Type796 { get; set; }
+        public global::Julep.ToolsLlamaParseSetup? Type796 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsLlamaParseSetupUpdate? Type797 { get; set; }
+        public global::Julep.ToolsLlamaParseIntegrationDefUpdate? Type797 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunIntegrationDefProvider? Type798 { get; set; }
+        public global::Julep.ToolsLlamaParseIntegrationDefUpdateProvider? Type798 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunIntegrationDefMethod? Type799 { get; set; }
+        public global::Julep.ToolsLlamaParseSetupUpdate? Type799 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunSetup? Type800 { get; set; }
+        public global::Julep.ToolsMailgunIntegrationDefProvider? Type800 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunSendEmailArguments? Type801 { get; set; }
+        public global::Julep.ToolsMailgunIntegrationDefMethod? Type801 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunIntegrationDefUpdate? Type802 { get; set; }
+        public global::Julep.ToolsMailgunSetup? Type802 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunIntegrationDefUpdateProvider? Type803 { get; set; }
+        public global::Julep.ToolsMailgunSendEmailArguments? Type803 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunIntegrationDefUpdateMethod? Type804 { get; set; }
+        public global::Julep.ToolsMailgunIntegrationDefUpdate? Type804 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunSetupUpdate? Type805 { get; set; }
+        public global::Julep.ToolsMailgunIntegrationDefUpdateProvider? Type805 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMailgunSendEmailArgumentsUpdate? Type806 { get; set; }
+        public global::Julep.ToolsMailgunIntegrationDefUpdateMethod? Type806 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpCallToolArguments? Type807 { get; set; }
+        public global::Julep.ToolsMailgunSetupUpdate? Type807 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpCallToolArgumentsUpdate? Type808 { get; set; }
+        public global::Julep.ToolsMailgunSendEmailArgumentsUpdate? Type808 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpIntegrationDefProvider? Type809 { get; set; }
+        public global::Julep.ToolsMcpCallToolArguments? Type809 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpSetup? Type810 { get; set; }
+        public global::Julep.ToolsMcpCallToolArgumentsUpdate? Type810 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ToolsMcpCallToolArguments, global::Julep.ToolsMcpListToolsArguments>? Type811 { get; set; }
+        public global::Julep.ToolsMcpIntegrationDefProvider? Type811 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpListToolsArguments? Type812 { get; set; }
+        public global::Julep.ToolsMcpSetup? Type812 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpIntegrationDefUpdate? Type813 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ToolsMcpCallToolArguments, global::Julep.ToolsMcpListToolsArguments>? Type813 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpIntegrationDefUpdateProvider? Type814 { get; set; }
+        public global::Julep.ToolsMcpListToolsArguments? Type814 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpSetupUpdate? Type815 { get; set; }
+        public global::Julep.ToolsMcpIntegrationDefUpdate? Type815 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ToolsMcpCallToolArgumentsUpdate, global::Julep.ToolsMcpListToolsArgumentsUpdate>? Type816 { get; set; }
+        public global::Julep.ToolsMcpIntegrationDefUpdateProvider? Type816 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpListToolsArgumentsUpdate? Type817 { get; set; }
+        public global::Julep.ToolsMcpSetupUpdate? Type817 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpSetupTransport? Type818 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ToolsMcpCallToolArgumentsUpdate, global::Julep.ToolsMcpListToolsArgumentsUpdate>? Type818 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsMcpSetupUpdateTransport? Type819 { get; set; }
+        public global::Julep.ToolsMcpListToolsArgumentsUpdate? Type819 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsPropertyDefinition>? Type820 { get; set; }
+        public global::Julep.ToolsMcpSetupTransport? Type820 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsPropertyDefinition? Type821 { get; set; }
+        public global::Julep.ToolsMcpSetupUpdateTransport? Type821 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsPropertyDefinitionUpdate>? Type822 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsPropertyDefinition>? Type822 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsPropertyDefinitionUpdate? Type823 { get; set; }
+        public global::Julep.ToolsPropertyDefinition? Type823 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsPatchToolRequest? Type824 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, global::Julep.ToolsPropertyDefinitionUpdate>? Type824 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderIntegrationDefUpdate? Type825 { get; set; }
+        public global::Julep.ToolsPropertyDefinitionUpdate? Type825 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWikipediaIntegrationDefUpdate? Type826 { get; set; }
+        public global::Julep.ToolsPatchToolRequest? Type826 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherIntegrationDefUpdate? Type827 { get; set; }
+        public global::Julep.ToolsSpiderIntegrationDefUpdate? Type827 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserIntegrationDefUpdate? Type828 { get; set; }
+        public global::Julep.ToolsWikipediaIntegrationDefUpdate? Type828 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredIntegrationDefUpdate? Type829 { get; set; }
+        public global::Julep.ToolsWeatherIntegrationDefUpdate? Type829 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefUpdate? Type830 { get; set; }
+        public global::Julep.ToolsRemoteBrowserIntegrationDefUpdate? Type830 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsTextEditor20241022DefUpdate? Type831 { get; set; }
+        public global::Julep.ToolsUnstructuredIntegrationDefUpdate? Type831 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserArguments? Type832 { get; set; }
+        public global::Julep.ToolsSystemDefUpdate? Type832 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserArgumentsAction? Type833 { get; set; }
+        public global::Julep.ToolsTextEditor20241022DefUpdate? Type833 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserArgumentsUpdate? Type834 { get; set; }
+        public global::Julep.ToolsRemoteBrowserArguments? Type834 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserArgumentsUpdateAction? Type835 { get; set; }
+        public global::Julep.ToolsRemoteBrowserArgumentsAction? Type835 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserIntegrationDefProvider? Type836 { get; set; }
+        public global::Julep.ToolsRemoteBrowserArgumentsUpdate? Type836 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserSetup? Type837 { get; set; }
+        public global::Julep.ToolsRemoteBrowserArgumentsUpdateAction? Type837 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserIntegrationDefMethod? Type838 { get; set; }
+        public global::Julep.ToolsRemoteBrowserIntegrationDefProvider? Type838 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider? Type839 { get; set; }
+        public global::Julep.ToolsRemoteBrowserSetup? Type839 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsRemoteBrowserIntegrationDefUpdateMethod? Type840 { get; set; }
+        public global::Julep.ToolsRemoteBrowserIntegrationDefMethod? Type840 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderFetchArguments? Type841 { get; set; }
+        public global::Julep.ToolsRemoteBrowserIntegrationDefUpdateProvider? Type841 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderFetchArgumentsContentType? Type842 { get; set; }
+        public global::Julep.ToolsRemoteBrowserIntegrationDefUpdateMethod? Type842 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderFetchArgumentsUpdate? Type843 { get; set; }
+        public global::Julep.ToolsSpiderFetchArguments? Type843 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderFetchArgumentsUpdateContentType? Type844 { get; set; }
+        public global::Julep.ToolsSpiderFetchArgumentsContentType? Type844 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderIntegrationDefProvider? Type845 { get; set; }
+        public global::Julep.ToolsSpiderFetchArgumentsUpdate? Type845 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderIntegrationDefMethod? Type846 { get; set; }
+        public global::Julep.ToolsSpiderFetchArgumentsUpdateContentType? Type846 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderSetup? Type847 { get; set; }
+        public global::Julep.ToolsSpiderIntegrationDefProvider? Type847 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderIntegrationDefUpdateProvider? Type848 { get; set; }
+        public global::Julep.ToolsSpiderIntegrationDefMethod? Type848 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderIntegrationDefUpdateMethod? Type849 { get; set; }
+        public global::Julep.ToolsSpiderSetup? Type849 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSpiderSetupUpdate? Type850 { get; set; }
+        public global::Julep.ToolsSpiderIntegrationDefUpdateProvider? Type850 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefResource? Type851 { get; set; }
+        public global::Julep.ToolsSpiderIntegrationDefUpdateMethod? Type851 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefOperation? Type852 { get; set; }
+        public global::Julep.ToolsSpiderSetupUpdate? Type852 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefSubresource? Type853 { get; set; }
+        public global::Julep.ToolsSystemDefResource? Type853 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefUpdateResource? Type854 { get; set; }
+        public global::Julep.ToolsSystemDefOperation? Type854 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefUpdateOperation? Type855 { get; set; }
+        public global::Julep.ToolsSystemDefSubresource? Type855 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsSystemDefUpdateSubresource? Type856 { get; set; }
+        public global::Julep.ToolsSystemDefUpdateResource? Type856 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsTextEditor20241022DefType? Type857 { get; set; }
+        public global::Julep.ToolsSystemDefUpdateOperation? Type857 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsTextEditor20241022DefUpdateType? Type858 { get; set; }
+        public global::Julep.ToolsSystemDefUpdateSubresource? Type858 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredIntegrationDefProvider? Type859 { get; set; }
+        public global::Julep.ToolsTextEditor20241022DefType? Type859 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredSetup? Type860 { get; set; }
+        public global::Julep.ToolsTextEditor20241022DefUpdateType? Type860 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredPartitionArguments? Type861 { get; set; }
+        public global::Julep.ToolsUnstructuredIntegrationDefProvider? Type861 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredIntegrationDefUpdateProvider? Type862 { get; set; }
+        public global::Julep.ToolsUnstructuredSetup? Type862 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredSetupUpdate? Type863 { get; set; }
+        public global::Julep.ToolsUnstructuredPartitionArguments? Type863 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUnstructuredPartitionArgumentsUpdate? Type864 { get; set; }
+        public global::Julep.ToolsUnstructuredIntegrationDefUpdateProvider? Type864 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsUpdateToolRequest? Type865 { get; set; }
+        public global::Julep.ToolsUnstructuredSetupUpdate? Type865 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherGetArguments? Type866 { get; set; }
+        public global::Julep.ToolsUnstructuredPartitionArgumentsUpdate? Type866 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherGetArgumentsUpdate? Type867 { get; set; }
+        public global::Julep.ToolsUpdateToolRequest? Type867 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherIntegrationDefProvider? Type868 { get; set; }
+        public global::Julep.ToolsWeatherGetArguments? Type868 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherSetup? Type869 { get; set; }
+        public global::Julep.ToolsWeatherGetArgumentsUpdate? Type869 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherIntegrationDefUpdateProvider? Type870 { get; set; }
+        public global::Julep.ToolsWeatherIntegrationDefProvider? Type870 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWeatherSetupUpdate? Type871 { get; set; }
+        public global::Julep.ToolsWeatherSetup? Type871 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWikipediaIntegrationDefProvider? Type872 { get; set; }
+        public global::Julep.ToolsWeatherIntegrationDefUpdateProvider? Type872 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWikipediaSearchArguments? Type873 { get; set; }
+        public global::Julep.ToolsWeatherSetupUpdate? Type873 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWikipediaIntegrationDefUpdateProvider? Type874 { get; set; }
+        public global::Julep.ToolsWikipediaIntegrationDefProvider? Type874 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ToolsWikipediaSearchArgumentsUpdate? Type875 { get; set; }
+        public global::Julep.ToolsWikipediaSearchArguments? Type875 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersCreateOrUpdateUserRequest? Type876 { get; set; }
+        public global::Julep.ToolsWikipediaIntegrationDefUpdateProvider? Type876 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersCreateUserRequest? Type877 { get; set; }
+        public global::Julep.ToolsWikipediaSearchArgumentsUpdate? Type877 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersPatchUserRequest? Type878 { get; set; }
+        public global::Julep.UsersCreateOrUpdateUserRequest? Type878 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersUpdateUserRequest? Type879 { get; set; }
+        public global::Julep.UsersCreateUserRequest? Type879 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersUser? Type880 { get; set; }
+        public global::Julep.UsersPatchUserRequest? Type880 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentsDocsSearchRouteSearchRequest? Type881 { get; set; }
+        public global::Julep.UsersUpdateUserRequest? Type881 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>? Type882 { get; set; }
+        public global::Julep.UsersUser? Type882 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.EmbedRouteEmbedRequest? Type883 { get; set; }
+        public global::Julep.AgentsDocsSearchRouteSearchRequest? Type883 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest>? Type884 { get; set; }
+        public global::Julep.AnyOf<global::Julep.DocsVectorDocSearchRequest, global::Julep.DocsTextOnlyDocSearchRequest, global::Julep.DocsHybridDocSearchRequest>? Type884 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UserDocsSearchRouteSearchRequest? Type885 { get; set; }
+        public global::Julep.EmbedRouteEmbedRequest? Type885 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentsRouteListSortBy? Type886 { get; set; }
+        public global::Julep.AnyOf<global::Julep.DocsSingleEmbedQueryRequest, global::Julep.DocsMultipleEmbedQueryRequest>? Type886 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentsRouteListDirection? Type887 { get; set; }
+        public global::Julep.UserDocsSearchRouteSearchRequest? Type887 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentDocsRouteListSortBy? Type888 { get; set; }
+        public global::Julep.AgentsRouteListSortBy? Type888 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentDocsRouteListDirection? Type889 { get; set; }
+        public global::Julep.AgentsRouteListDirection? Type889 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentSecretsRouteListSortBy? Type890 { get; set; }
+        public global::Julep.AgentDocsRouteListSortBy? Type890 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentSecretsRouteListDirection? Type891 { get; set; }
+        public global::Julep.AgentDocsRouteListDirection? Type891 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksRouteListSortBy? Type892 { get; set; }
+        public global::Julep.AgentSecretsRouteListSortBy? Type892 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksRouteListDirection? Type893 { get; set; }
+        public global::Julep.AgentSecretsRouteListDirection? Type893 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentToolsRouteListSortBy? Type894 { get; set; }
+        public global::Julep.TasksRouteListSortBy? Type894 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentToolsRouteListDirection? Type895 { get; set; }
+        public global::Julep.TasksRouteListDirection? Type895 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionTransitionsRouteListSortBy? Type896 { get; set; }
+        public global::Julep.AgentToolsRouteListSortBy? Type896 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionTransitionsRouteListDirection? Type897 { get; set; }
+        public global::Julep.AgentToolsRouteListDirection? Type897 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsRouteListSortBy? Type898 { get; set; }
+        public global::Julep.ExecutionTransitionsRouteListSortBy? Type898 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsRouteListDirection? Type899 { get; set; }
+        public global::Julep.ExecutionTransitionsRouteListDirection? Type899 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DeveloperSecretsRouteListSortBy? Type900 { get; set; }
+        public global::Julep.ProjectsRouteListSortBy? Type900 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DeveloperSecretsRouteListDirection? Type901 { get; set; }
+        public global::Julep.ProjectsRouteListDirection? Type901 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsRouteListSortBy? Type902 { get; set; }
+        public global::Julep.DeveloperSecretsRouteListSortBy? Type902 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsRouteListDirection? Type903 { get; set; }
+        public global::Julep.DeveloperSecretsRouteListDirection? Type903 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TaskExecutionsRouteListSortBy? Type904 { get; set; }
+        public global::Julep.SessionsRouteListSortBy? Type904 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TaskExecutionsRouteListDirection? Type905 { get; set; }
+        public global::Julep.SessionsRouteListDirection? Type905 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersRouteListSortBy? Type906 { get; set; }
+        public global::Julep.TaskExecutionsRouteListSortBy? Type906 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersRouteListDirection? Type907 { get; set; }
+        public global::Julep.TaskExecutionsRouteListDirection? Type907 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UserDocsRouteListSortBy? Type908 { get; set; }
+        public global::Julep.UsersRouteListSortBy? Type908 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UserDocsRouteListDirection? Type909 { get; set; }
+        public global::Julep.UsersRouteListDirection? Type909 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentsRouteListResponse? Type910 { get; set; }
+        public global::Julep.UserDocsRouteListSortBy? Type910 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.AgentsAgent>? Type911 { get; set; }
+        public global::Julep.UserDocsRouteListDirection? Type911 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentDocsRouteListResponse? Type912 { get; set; }
+        public global::Julep.AgentsRouteListResponse? Type912 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.DocsDoc>? Type913 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.AgentsAgent>? Type913 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.CommonResourceDeletedResponse>? Type914 { get; set; }
+        public global::Julep.AgentDocsRouteListResponse? Type914 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentSecretsRouteListResponse? Type915 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.DocsDoc>? Type915 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.SecretsSecret>? Type916 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.CommonResourceDeletedResponse>? Type916 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TasksRouteListResponse? Type917 { get; set; }
+        public global::Julep.AgentSecretsRouteListResponse? Type917 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.TasksTask>? Type918 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.SecretsSecret>? Type918 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AgentToolsRouteListResponse? Type919 { get; set; }
+        public global::Julep.TasksRouteListResponse? Type919 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ToolsTool>? Type920 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.TasksTask>? Type920 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionTransitionsRouteListResponse? Type921 { get; set; }
+        public global::Julep.AgentToolsRouteListResponse? Type921 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ExecutionTransitionsRouteListResponseItem>? Type922 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ToolsTool>? Type922 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ExecutionTransitionsRouteListResponseItem? Type923 { get; set; }
+        public global::Julep.ExecutionTransitionsRouteListResponse? Type923 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ExecutionsTransition>? Type924 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ExecutionTransitionsRouteListResponseItem>? Type924 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.ProjectsRouteListResponse? Type925 { get; set; }
+        public global::Julep.ExecutionTransitionsRouteListResponseItem? Type925 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ProjectsProject>? Type926 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ExecutionsTransition>? Type926 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.DeveloperSecretsRouteListResponse? Type927 { get; set; }
+        public global::Julep.ProjectsRouteListResponse? Type927 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.SessionsRouteListResponse? Type928 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ProjectsProject>? Type928 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.SessionsSession>? Type929 { get; set; }
+        public global::Julep.DeveloperSecretsRouteListResponse? Type929 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.AnyOf<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>? Type930 { get; set; }
+        public global::Julep.SessionsRouteListResponse? Type930 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.TaskExecutionsRouteListResponse? Type931 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.SessionsSession>? Type931 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.ExecutionsExecution>? Type932 { get; set; }
+        public global::Julep.AnyOf<global::Julep.ChatChunkChatResponse, global::Julep.ChatMessageChatResponse>? Type932 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UsersRouteListResponse? Type933 { get; set; }
+        public global::Julep.TaskExecutionsRouteListResponse? Type933 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Julep.UsersUser>? Type934 { get; set; }
+        public global::System.Collections.Generic.IList<global::Julep.ExecutionsExecution>? Type934 { get; set; }
         /// <summary>
         ///
         /// </summary>
-        public global::Julep.UserDocsRouteListResponse? Type935 { get; set; }
+        public global::Julep.UsersRouteListResponse? Type935 { get; set; }
+        /// <summary>
+        ///
+        /// </summary>
+        public global::System.Collections.Generic.IList<global::Julep.UsersUser>? Type936 { get; set; }
+        /// <summary>
+        ///
+        /// </summary>
+        public global::Julep.UserDocsRouteListResponse? Type937 { get; set; }
 
         /// <summary>
         ///

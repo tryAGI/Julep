@@ -170,7 +170,7 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AgentsPatchAgentRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AgentsUpdateAgentRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ChatBaseChatOutput))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(int))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(long))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ChatFinishReason), TypeInfoPropertyName = "ChatFinishReason2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ChatLogProbResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>>))]
@@ -187,6 +187,7 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ChatBaseTokenLogProb))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(float))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<int>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(int))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ChatChatInput))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(bool))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(short))]
@@ -298,6 +299,7 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<double>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<double>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.DocsHybridDocSearchRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(sbyte))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.DocsMultipleEmbedQueryRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.DocsSingleEmbedQueryRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.DocsTextOnlyDocSearchRequest))]
@@ -507,8 +509,6 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesToolChoiceFunctionType), TypeInfoPropertyName = "ResponsesToolChoiceFunctionType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesToolChoiceTypesType), TypeInfoPropertyName = "ResponsesToolChoiceTypesType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesTypeType), TypeInfoPropertyName = "ResponsesTypeType2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesUrlCitationType), TypeInfoPropertyName = "ResponsesUrlCitationType2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, bool?, double?>), TypeInfoPropertyName = "AnyOfStringBooleanDouble2")]
     internal sealed partial class SourceGenerationContextChunk0 : global::System.Text.Json.Serialization.JsonSerializerContext
     {
     }
@@ -660,6 +660,8 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>>), TypeInfoPropertyName = "TasksTaskMainItem_05055981c84ab342")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>>), TypeInfoPropertyName = "TasksUpdateTaskRequestItem2_7c9fca459c1f8fb4")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>>), TypeInfoPropertyName = "TasksUpdateTaskRequestMainItem_bf38c2848ba71a34")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesUrlCitationType), TypeInfoPropertyName = "ResponsesUrlCitationType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, bool?, double?>), TypeInfoPropertyName = "AnyOfStringBooleanDouble2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesWaitType), TypeInfoPropertyName = "ResponsesWaitType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesWebSearchStatus), TypeInfoPropertyName = "ResponsesWebSearchStatus2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesWebSearchToolType), TypeInfoPropertyName = "ResponsesWebSearchToolType2")]
@@ -1017,8 +1019,6 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadArgumentsUpdate))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadIntegrationDef))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefMethod), TypeInfoPropertyName = "ToolsCloudinaryUploadIntegrationDefMethod2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod), TypeInfoPropertyName = "ToolsCloudinaryUploadIntegrationDefUpdateMethod2")]
     internal sealed partial class SourceGenerationContextChunk1 : global::System.Text.Json.Serialization.JsonSerializerContext
     {
     }
@@ -1170,6 +1170,8 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>>), TypeInfoPropertyName = "TasksTaskMainItem_05055981c84ab342")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>>), TypeInfoPropertyName = "TasksUpdateTaskRequestItem2_7c9fca459c1f8fb4")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>>), TypeInfoPropertyName = "TasksUpdateTaskRequestMainItem_bf38c2848ba71a34")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdate))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsCloudinaryUploadIntegrationDefUpdateMethod), TypeInfoPropertyName = "ToolsCloudinaryUploadIntegrationDefUpdateMethod2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsComputer20241022Def))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsComputer20241022DefType), TypeInfoPropertyName = "ToolsComputer20241022DefType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ToolsComputer20241022DefUpdate))]
@@ -1397,10 +1399,11 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Guid?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.DateTime?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, global::System.Collections.Generic.IList<string>>?), TypeInfoPropertyName = "NullableAnyOfStringIListString2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(int?))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(long?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ChatFinishReason?), TypeInfoPropertyName = "NullableChatFinishReason2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>?), TypeInfoPropertyName = "NullableAnyOfToolsChosenFunctionCallToolsChosenComputer20241022ToolsChosenTextEditor20241022ToolsChosenBash202410222")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(float?))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(int?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(bool?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(short?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>?), TypeInfoPropertyName = "NullableAnyOfChatSimpleCompletionResponseFormatChatSchemaCompletionResponseFormat2")]
@@ -1438,6 +1441,7 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<global::System.Collections.Generic.IList<float>, global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<float>>>?), TypeInfoPropertyName = "NullableAnyOfIListSingleIListIListSingle2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.DocsDocOwnerRole?), TypeInfoPropertyName = "NullableDocsDocOwnerRole2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(double?))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(sbyte?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant1Type?), TypeInfoPropertyName = "NullableEntriesBaseEntryContentVariant1ItemVariant1Type2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant2Type?), TypeInfoPropertyName = "NullableEntriesBaseEntryContentVariant1ItemVariant2Type2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.EntriesBaseEntryContentVariant1ItemVariant3Type?), TypeInfoPropertyName = "NullableEntriesBaseEntryContentVariant1ItemVariant3Type2")]
@@ -1525,10 +1529,6 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesScreenshotType?), TypeInfoPropertyName = "NullableResponsesScreenshotType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesScrollType?), TypeInfoPropertyName = "NullableResponsesScrollType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesTextResponseFormatJsonSchemaType?), TypeInfoPropertyName = "NullableResponsesTextResponseFormatJsonSchemaType2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesToolChoiceFunctionType?), TypeInfoPropertyName = "NullableResponsesToolChoiceFunctionType2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesToolChoiceTypesType?), TypeInfoPropertyName = "NullableResponsesToolChoiceTypesType2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesTypeType?), TypeInfoPropertyName = "NullableResponsesTypeType2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesUrlCitationType?), TypeInfoPropertyName = "NullableResponsesUrlCitationType2")]
     internal sealed partial class SourceGenerationContextChunk2 : global::System.Text.Json.Serialization.JsonSerializerContext
     {
     }
@@ -1680,6 +1680,10 @@ namespace Julep
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksTaskMainItem>>), TypeInfoPropertyName = "TasksTaskMainItem_05055981c84ab342")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestItem2>>), TypeInfoPropertyName = "TasksUpdateTaskRequestItem2_7c9fca459c1f8fb4")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Julep.AnyOf<global::Julep.TasksEvaluateStep, global::Julep.TasksToolCallStep, global::Julep.TasksPromptStep, global::Julep.TasksGetStep, global::Julep.TasksSetStep, global::Julep.TasksLogStep, global::Julep.TasksYieldStep, global::Julep.TasksReturnStep, global::Julep.TasksSleepStep, global::Julep.TasksErrorWorkflowStep, global::Julep.TasksWaitForInputStep, global::Julep.TasksIfElseWorkflowStep, global::Julep.TasksSwitchStep, global::Julep.TasksForeachStep, global::Julep.TasksParallelStep, global::Julep.TasksUpdateTaskRequestMainItem>>), TypeInfoPropertyName = "TasksUpdateTaskRequestMainItem_bf38c2848ba71a34")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesToolChoiceFunctionType?), TypeInfoPropertyName = "NullableResponsesToolChoiceFunctionType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesToolChoiceTypesType?), TypeInfoPropertyName = "NullableResponsesToolChoiceTypesType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesTypeType?), TypeInfoPropertyName = "NullableResponsesTypeType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesUrlCitationType?), TypeInfoPropertyName = "NullableResponsesUrlCitationType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.AnyOf<string, bool?, double?>?), TypeInfoPropertyName = "NullableAnyOfStringBooleanDouble2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesWaitType?), TypeInfoPropertyName = "NullableResponsesWaitType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Julep.ResponsesWebSearchStatus?), TypeInfoPropertyName = "NullableResponsesWebSearchStatus2")]

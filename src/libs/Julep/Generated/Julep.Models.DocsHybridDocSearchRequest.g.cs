@@ -91,7 +91,7 @@ namespace Julep
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("k_multiplier")]
         [global::System.Text.Json.Serialization.JsonRequired]
-        public required int KMultiplier { get; set; }
+        public required sbyte KMultiplier { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -156,7 +156,7 @@ namespace Julep
             global::System.Collections.Generic.IList<double> vector,
             double confidence,
             double alpha,
-            int kMultiplier,
+            sbyte kMultiplier,
             double? trigramSimilarityThreshold,
             double? mmrStrength)
         {

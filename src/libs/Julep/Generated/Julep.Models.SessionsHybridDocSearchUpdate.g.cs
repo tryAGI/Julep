@@ -49,7 +49,7 @@ namespace Julep
         /// Default Value: 7
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("k_multiplier")]
-        public int? KMultiplier { get; set; }
+        public sbyte? KMultiplier { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -93,7 +93,7 @@ namespace Julep
             double? alpha,
             double? mmrStrength,
             double? trigramSimilarityThreshold,
-            int? kMultiplier)
+            sbyte? kMultiplier)
         {
             this.Mode = mode;
             this.Confidence = confidence;
