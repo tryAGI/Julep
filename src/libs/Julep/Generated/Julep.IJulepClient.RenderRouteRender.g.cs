@@ -113,7 +113,7 @@ namespace Julep
             bool recallTools,
             string? model = default,
             short? seed = default,
-            int? maxTokens = default,
+            long? maxTokens = default,
             global::System.Collections.Generic.Dictionary<string, float>? logitBias = default,
             global::Julep.AnyOf<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>? responseFormat = default,
             global::System.Guid? agent = default,

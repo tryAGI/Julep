@@ -29,7 +29,7 @@ namespace Julep
         global::System.Threading.Tasks.Task<global::Julep.TaskExecutionsRouteListResponse> TaskExecutionsRouteListAsync(
             global::System.Guid id,
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.TaskExecutionsRouteListSortBy sortBy = global::Julep.TaskExecutionsRouteListSortBy.CreatedAt,
             global::Julep.TaskExecutionsRouteListDirection direction = global::Julep.TaskExecutionsRouteListDirection.Asc,
@@ -60,7 +60,7 @@ namespace Julep
         global::System.Threading.Tasks.Task<global::Julep.AutoSDKHttpResponse<global::Julep.TaskExecutionsRouteListResponse>> TaskExecutionsRouteListAsResponseAsync(
             global::System.Guid id,
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.TaskExecutionsRouteListSortBy sortBy = global::Julep.TaskExecutionsRouteListSortBy.CreatedAt,
             global::Julep.TaskExecutionsRouteListDirection direction = global::Julep.TaskExecutionsRouteListDirection.Asc,

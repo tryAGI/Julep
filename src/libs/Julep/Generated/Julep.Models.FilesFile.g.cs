@@ -63,7 +63,7 @@ namespace Julep
         /// </summary>
         /// <default>default!</default>
         [global::System.Text.Json.Serialization.JsonPropertyName("size")]
-        public int Size { get; set; } = default!;
+        public long Size { get; set; } = default!;
 
         /// <summary>
         /// Hash of the file<br/>
@@ -124,7 +124,7 @@ namespace Julep
             string? project,
             global::System.Guid id = default!,
             global::System.DateTime createdAt = default!,
-            int size = default!,
+            long size = default!,
             string hash = default!)
         {
             this.Id = id;

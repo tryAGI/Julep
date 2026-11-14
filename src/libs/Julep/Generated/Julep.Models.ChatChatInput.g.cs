@@ -65,7 +65,7 @@ namespace Julep
         /// The maximum number of tokens to generate in the chat completion
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("max_tokens")]
-        public int? MaxTokens { get; set; }
+        public long? MaxTokens { get; set; }
 
         /// <summary>
         /// Modify the likelihood of specified tokens appearing in the completion
@@ -240,7 +240,7 @@ namespace Julep
             bool recallTools,
             string? model,
             short? seed,
-            int? maxTokens,
+            long? maxTokens,
             global::System.Collections.Generic.Dictionary<string, float>? logitBias,
             global::Julep.AnyOf<global::Julep.ChatSimpleCompletionResponseFormat, global::Julep.ChatSchemaCompletionResponseFormat>? responseFormat,
             global::System.Guid? agent,
