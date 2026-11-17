@@ -3,7 +3,20 @@
 ## Overview
 
 Auto-generated C# SDK for [Julep](https://julep.ai/) — a stateful AI agent workflow platform with persistent memory, multi-step tasks, and tool integrations ("Firebase for AI agents").
-OpenAPI spec from `https://raw.githubusercontent.com/julep-ai/julep/dev/src/typespec/tsp-output/@typespec/openapi3/openapi-1.0.0.yaml` (TypeSpec-generated, OpenAPI 3.0.0).
+OpenAPI spec from `https://raw.githubusercontent.com/julep-ai/julep/v1/src/typespec/tsp-output/@typespec/openapi3/openapi-1.0.0.yaml` (TypeSpec-generated, OpenAPI 3.0.0).
+
+## Never point the spec fetch at the default branch
+
+`main` is **Julep 3**, which upstream's own README calls "a ground-up rewrite; there is no migration
+path - v1 and v3 are different products", and it carries no OpenAPI document anywhere in the
+repository. Switching the fetch there would not update this SDK, it would replace it with a
+different API's. This SDK is for **Julep v1**, preserved on the `v1` branch - the same commit the
+fetch used to read as `dev`, with a byte-identical document, under a name that states the intent.
+The workspace audit (`scripts/audit_spec_source_branches.py`) carries that reason in its
+`DELIBERATE` table, so it does not flag this ref.
+
+Also worth knowing: `api.julep.ai` is retired. Every path, existing or not, answers with an HTML
+redirect to `memory.store`, so this SDK's remaining use is against a self-hosted v1.
 
 ## Build & Test
 
@@ -52,6 +65,14 @@ var client = new JulepClient(apiKey); // JULEP_API_KEY env var
 2. **Servers**: Replaces templated server URL with fixed `https://api.julep.ai/api`
 3. **Multiline defaults**: Removes multiline Jinja template default values that break C# string constants
 4. **Enum responses**: Converts string enum response schemas to plain string type (avoids missing `FromJson` on enum types)
+5. **`format: int8`**: Dropped on three fields, leaving `type: integer` and an `int`. AutoSDK maps
+   `int8` faithfully to `sbyte`, which is not CLS-compliant, and `src/libs/Directory.Build.props`
+   declares this assembly `[CLSCompliant(true)]` - so the library stopped compiling with three
+   `CS3001`s. The declared `minimum`/`maximum` (1..10 on `k_multiplier`) survive the widening.
+   `uint8` needs nothing: AutoSDK widens every unsigned format into a signed type on purpose, so it
+   maps to `byte`, which is also why the 46 `format: uint16` fields here generate a plain `int`.
+   `Tests.SpecFixContract.cs` asserts no `sbyte` reaches a public signature, because this broke on a
+   *released* generator change with the spec byte-identical - nothing in the repository had moved.
 
 ## MEAI Integration
 
