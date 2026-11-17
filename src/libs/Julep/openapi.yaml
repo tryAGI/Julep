@@ -3584,7 +3584,6 @@ components:
           default: 0.5
         k_multiplier:
           type: integer
-          format: int8
           minimum: 1
           maximum: 10
           description: The k_multiplier to control how many intermediate results to
@@ -6281,7 +6280,6 @@ components:
           default: null
         k_multiplier:
           type: integer
-          format: int8
           minimum: 0
           description: The k_multiplier cutoff level to control how many intermediate
             results to fetch before final scoring
@@ -6326,7 +6324,6 @@ components:
           default: null
         k_multiplier:
           type: integer
-          format: int8
           minimum: 0
           description: The k_multiplier cutoff level to control how many intermediate
             results to fetch before final scoring

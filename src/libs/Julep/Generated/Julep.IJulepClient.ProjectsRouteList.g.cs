@@ -27,7 +27,7 @@ namespace Julep
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.ProjectsRouteListResponse> ProjectsRouteListAsync(
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.ProjectsRouteListSortBy sortBy = global::Julep.ProjectsRouteListSortBy.CreatedAt,
             global::Julep.ProjectsRouteListDirection direction = global::Julep.ProjectsRouteListDirection.Asc,
@@ -56,7 +56,7 @@ namespace Julep
         /// <exception cref="global::Julep.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Julep.AutoSDKHttpResponse<global::Julep.ProjectsRouteListResponse>> ProjectsRouteListAsResponseAsync(
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.ProjectsRouteListSortBy sortBy = global::Julep.ProjectsRouteListSortBy.CreatedAt,
             global::Julep.ProjectsRouteListDirection direction = global::Julep.ProjectsRouteListDirection.Asc,

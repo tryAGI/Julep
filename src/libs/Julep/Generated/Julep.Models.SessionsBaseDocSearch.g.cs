@@ -39,7 +39,7 @@ namespace Julep
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("num_search_messages")]
         [global::System.Text.Json.Serialization.JsonRequired]
-        public required int NumSearchMessages { get; set; }
+        public required long NumSearchMessages { get; set; }
 
         /// <summary>
         /// The maximum query length to use for the search.<br/>
@@ -47,7 +47,7 @@ namespace Julep
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("max_query_length")]
         [global::System.Text.Json.Serialization.JsonRequired]
-        public required int MaxQueryLength { get; set; }
+        public required long MaxQueryLength { get; set; }
 
         /// <summary>
         /// Whether to include embeddings in the response<br/>
@@ -97,8 +97,8 @@ namespace Julep
             int limit,
             string lang,
             object metadataFilter,
-            int numSearchMessages,
-            int maxQueryLength,
+            long numSearchMessages,
+            long maxQueryLength,
             bool includeEmbeddings)
         {
             this.Limit = limit;

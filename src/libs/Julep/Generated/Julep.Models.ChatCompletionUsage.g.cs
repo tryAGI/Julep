@@ -13,21 +13,21 @@ namespace Julep
         /// Included only in responses
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("completion_tokens")]
-        public int? CompletionTokens { get; set; }
+        public long? CompletionTokens { get; set; }
 
         /// <summary>
         /// Number of tokens in the prompt<br/>
         /// Included only in responses
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("prompt_tokens")]
-        public int? PromptTokens { get; set; }
+        public long? PromptTokens { get; set; }
 
         /// <summary>
         /// Total number of tokens used in the request (prompt + completion)<br/>
         /// Included only in responses
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("total_tokens")]
-        public int? TotalTokens { get; set; }
+        public long? TotalTokens { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -54,9 +54,9 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
 #endif
         public ChatCompletionUsage(
-            int? completionTokens,
-            int? promptTokens,
-            int? totalTokens)
+            long? completionTokens,
+            long? promptTokens,
+            long? totalTokens)
         {
             this.CompletionTokens = completionTokens;
             this.PromptTokens = promptTokens;

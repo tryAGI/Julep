@@ -34,14 +34,14 @@ namespace Julep
         /// Default Value: 4
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("num_search_messages")]
-        public int? NumSearchMessages { get; set; }
+        public long? NumSearchMessages { get; set; }
 
         /// <summary>
         /// The maximum query length to use for the search.<br/>
         /// Default Value: 1000
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("max_query_length")]
-        public int? MaxQueryLength { get; set; }
+        public long? MaxQueryLength { get; set; }
 
         /// <summary>
         /// Whether to include embeddings in the response<br/>
@@ -90,8 +90,8 @@ namespace Julep
             int? limit,
             string? lang,
             object? metadataFilter,
-            int? numSearchMessages,
-            int? maxQueryLength,
+            long? numSearchMessages,
+            long? maxQueryLength,
             bool? includeEmbeddings)
         {
             this.Limit = limit;

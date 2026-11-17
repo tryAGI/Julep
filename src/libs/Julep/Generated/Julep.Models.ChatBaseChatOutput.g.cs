@@ -13,7 +13,7 @@ namespace Julep
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("index")]
         [global::System.Text.Json.Serialization.JsonRequired]
-        public required int Index { get; set; }
+        public required long Index { get; set; }
 
         /// <summary>
         /// The reason the model stopped generating tokens<br/>
@@ -61,7 +61,7 @@ namespace Julep
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
 #endif
         public ChatBaseChatOutput(
-            int index,
+            long index,
             global::Julep.ChatFinishReason finishReason,
             global::Julep.ChatLogProbResponse? logprobs,
             global::System.Collections.Generic.IList<global::Julep.AnyOf<global::Julep.ToolsChosenFunctionCall, global::Julep.ToolsChosenComputer20241022, global::Julep.ToolsChosenTextEditor20241022, global::Julep.ToolsChosenBash20241022>>? toolCalls)

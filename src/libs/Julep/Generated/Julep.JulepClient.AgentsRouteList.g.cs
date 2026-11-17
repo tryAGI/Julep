@@ -28,7 +28,7 @@ namespace Julep
         partial void PrepareAgentsRouteListArguments(
             global::System.Net.Http.HttpClient httpClient,
             ref int limit,
-            ref int offset,
+            ref long offset,
             ref global::Julep.AgentsRouteListSortBy sortBy,
             ref global::Julep.AgentsRouteListDirection direction,
             object metadataFilter);
@@ -36,7 +36,7 @@ namespace Julep
             global::System.Net.Http.HttpClient httpClient,
             global::System.Net.Http.HttpRequestMessage httpRequestMessage,
             int limit,
-            int offset,
+            long offset,
             global::Julep.AgentsRouteListSortBy sortBy,
             global::Julep.AgentsRouteListDirection direction,
             object metadataFilter);
@@ -72,7 +72,7 @@ namespace Julep
         /// <exception cref="global::Julep.ApiException"></exception>
         public async global::System.Threading.Tasks.Task<global::Julep.AgentsRouteListResponse> AgentsRouteListAsync(
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.AgentsRouteListSortBy sortBy = global::Julep.AgentsRouteListSortBy.CreatedAt,
             global::Julep.AgentsRouteListDirection direction = global::Julep.AgentsRouteListDirection.Asc,
@@ -114,7 +114,7 @@ namespace Julep
         /// <exception cref="global::Julep.ApiException"></exception>
         public async global::System.Threading.Tasks.Task<global::Julep.AutoSDKHttpResponse<global::Julep.AgentsRouteListResponse>> AgentsRouteListAsResponseAsync(
             int limit,
-            int offset,
+            long offset,
             object metadataFilter,
             global::Julep.AgentsRouteListSortBy sortBy = global::Julep.AgentsRouteListSortBy.CreatedAt,
             global::Julep.AgentsRouteListDirection direction = global::Julep.AgentsRouteListDirection.Asc,
